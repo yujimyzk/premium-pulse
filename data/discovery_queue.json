@@ -1,5 +1,486 @@
 {
   "status": "pending_review",
-  "updated_at": null,
-  "candidates": []
+  "updated_at": "2026-11-13T12:29:19+09:00",
+  "candidates": [
+    {
+      "sku": "DM7866-202",
+      "first_seen": "2026-11-13T12:29:19+09:00",
+      "last_seen": "2026-11-13T12:29:19+09:00",
+      "matching_listings": 4,
+      "sample_name": "NIKE Travis Scott ナイキ トラヴィススコット スニーカー シューズ エアジョーダン1 ロー DM7866-202 メンズ 29cm ブラウン 靴 DF20842■",
+      "sample_url": "https://store.shopping.yahoo.co.jp/sunstep/1-240001715681.html",
+      "status": "pending_review",
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+    },
+    {
+      "sku": "DH0690-200",
+      "first_seen": "2026-11-13T12:29:19+09:00",
+      "last_seen": "2026-11-13T12:29:19+09:00",
+      "matching_listings": 3,
+      "sample_name": "NIKE Travis Scott ナイキ トラヴィススコット スニーカー AIR JORDAN 6 SP DH0690-200 メンズ 26cm 靴 DF20685■",
+      "sample_url": "https://store.shopping.yahoo.co.jp/sunstep/1-240001714884.html",
+      "status": "pending_review",
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+    },
+    {
+      "sku": "IM9113-300",
+      "first_seen": "2026-11-13T12:29:19+09:00",
+      "last_seen": "2026-11-13T12:29:19+09:00",
+      "matching_listings": 3,
+      "sample_name": "ナイキ×トラヴィススコット NIKE×Travis Scott Jordan Jumpman Jack スニーカー IM9113-300 グリーン サ",
+      "sample_url": "https://store.shopping.yahoo.co.jp/kindal/8015001086351.html",
+      "status": "pending_review",
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+    },
+    {
+      "sku": "CT0856-100",
+      "first_seen": "2026-11-13T12:29:19+09:00",
+      "last_seen": "2026-11-13T12:29:19+09:00",
+      "matching_listings": 2,
+      "sample_name": "ナイキ NIKE DUNK LOW LTHR OW OFF-WHITE 2019 24cm PINE GREEN CT0856-100 オフホワイト コラボ ダンク ロー レザー パイン グリーン ●▲",
+      "sample_url": "https://store.shopping.yahoo.co.jp/vectorpremium/037-902410040009.html",
+      "status": "pending_review",
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+    },
+    {
+      "sku": "CZ8455-100",
+      "first_seen": "2026-11-13T12:29:19+09:00",
+      "last_seen": "2026-11-13T12:29:19+09:00",
+      "matching_listings": 2,
+      "sample_name": "ナイキ エアジョーダン 1 ロー SE NIKE AIR JORDAN 1 LOW SE WASHED DENIM wht/wht-midnight navy cz8455-100 ウォッシュドデニム AJ1 海外限定",
+      "sample_url": "https://store.shopping.yahoo.co.jp/ltd-online/cz8455-100.html",
+      "status": "pending_review",
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+    },
+    {
+      "sku": "DJ0950-115",
+      "first_seen": "2026-11-13T12:29:19+09:00",
+      "last_seen": "2026-11-13T12:29:19+09:00",
+      "matching_listings": 2,
+      "sample_name": "未使用品 NIKE ナイキ スニーカー ダンク ロー 1 OF 50 \"\"20\"\" コラボ DJ0950-115 23.5cm クリーム系 グリーン 靴 レディース",
+      "sample_url": "https://store.shopping.yahoo.co.jp/brand-bills/n12221000ont.html",
+      "status": "pending_review",
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+    },
+    {
+      "sku": "DZ4137-700",
+      "first_seen": "2026-11-13T12:29:19+09:00",
+      "last_seen": "2026-11-13T12:29:19+09:00",
+      "matching_listings": 2,
+      "sample_name": "美品 ナイキ トラヴィス・スコット ローカットスニーカー AIR JORDAN 1 RETRO LOW OG CANARY DZ4137-700 レディース SIZE 24.0 NIKE Travis Scott 中古",
+      "sample_url": "https://store.shopping.yahoo.co.jp/hugall/rc-itweu08cglog-o8po.html",
+      "status": "pending_review",
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+    },
+    {
+      "sku": "HF6061-400",
+      "first_seen": "2026-11-13T12:29:19+09:00",
+      "last_seen": "2026-11-13T12:29:19+09:00",
+      "matching_listings": 2,
+      "sample_name": "ナイキ NIKE SB DUNK LOW OG QS FUTURA 2024 27.5cm HF6061-400 エスビー ダンク ロー フューチュラ コラボ ブリーチド アクア ▲■260511",
+      "sample_url": "https://store.shopping.yahoo.co.jp/vectorpremium/037-902605040013.html",
+      "status": "pending_review",
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+    },
+    {
+      "sku": "HF8022-300",
+      "first_seen": "2026-11-13T12:29:19+09:00",
+      "last_seen": "2026-11-13T12:29:19+09:00",
+      "matching_listings": 2,
+      "sample_name": "ナイキ SB ダンク ロー プロ 堀米雄斗 アスパラガス レギオングリーン NIKE SB DUNK LOW PRO YUTO HORIGOME asparagus/legion green hf8022-300",
+      "sample_url": "https://store.shopping.yahoo.co.jp/ltd-online/hf8022-300.html",
+      "status": "pending_review",
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+    },
+    {
+      "sku": "HQ3073-100",
+      "first_seen": "2026-11-13T12:29:19+09:00",
+      "last_seen": "2026-11-13T12:29:19+09:00",
+      "matching_listings": 2,
+      "sample_name": "NIKE TRAVIS SCOTT ナイキ トラヴィススコット スニーカー シューズ Zoom Field Jaxx HQ3073-100 25.5cm ホワイト 靴 DF20687■",
+      "sample_url": "https://store.shopping.yahoo.co.jp/sunstep/1-240001714787.html",
+      "status": "pending_review",
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+    },
+    {
+      "sku": "HQ8487-001",
+      "first_seen": "2026-11-13T12:29:19+09:00",
+      "last_seen": "2026-11-13T12:29:19+09:00",
+      "matching_listings": 2,
+      "sample_name": "ナイキ × シュプリーム SB ダンク ロー OG QS ブラック NIKE SB DUNK LOW OG QS SUPREME blk/blk-blk hq8487-001",
+      "sample_url": "https://store.shopping.yahoo.co.jp/ltd-online/hq8487-001.html",
+      "status": "pending_review",
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+    },
+    {
+      "sku": "HQ8487-100",
+      "first_seen": "2026-11-13T12:29:19+09:00",
+      "last_seen": "2026-11-13T12:29:19+09:00",
+      "matching_listings": 2,
+      "sample_name": "ナイキ × シュプリーム SB ダンク ロー OG QS ホワイト メタリックシルバー NIKE SB DUNK LOW OG QS SUPREME wht/metallic silver-wht hq8487-100",
+      "sample_url": "https://store.shopping.yahoo.co.jp/ltd-online/hq8487-100.html",
+      "status": "pending_review",
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+    },
+    {
+      "sku": "HQ8487-400",
+      "first_seen": "2026-11-13T12:29:19+09:00",
+      "last_seen": "2026-11-13T12:29:19+09:00",
+      "matching_listings": 2,
+      "sample_name": "ナイキ × シュプリーム SB ダンク ロー OG QS オーシャンフォグ ブラック NIKE SB DUNK LOW OG QS SUPREME ocean fog/ocean fog-blk hq8487-400",
+      "sample_url": "https://store.shopping.yahoo.co.jp/ltd-online/hq8487-400.html",
+      "status": "pending_review",
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+    },
+    {
+      "sku": "HQ8487-500",
+      "first_seen": "2026-11-13T12:29:19+09:00",
+      "last_seen": "2026-11-13T12:29:19+09:00",
+      "matching_listings": 2,
+      "sample_name": "NIKE SB DUNK LOW OG QS SUPREME ink/blk-iron grey hq8487-500 ナイキ × シュプリーム SB ダンクロー QS インク ブラック アイアングレー",
+      "sample_url": "https://store.shopping.yahoo.co.jp/limited-edition/hq8487-500.html",
+      "status": "pending_review",
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+    },
+    {
+      "sku": "AV5354-611",
+      "first_seen": "2026-11-13T12:29:19+09:00",
+      "last_seen": "2026-11-13T12:29:19+09:00",
+      "matching_listings": 1,
+      "sample_name": "交換無料 NIKE ナイキ 野球 スパイク ポイント ナイキ エア ジョーダン1 レトロ ハイ Air Jordan 1 Retro MCS スタッド 並行輸入 日本未発売 AV5354-611",
+      "sample_url": "https://store.shopping.yahoo.co.jp/bbtown/av5354-611.html",
+      "status": "pending_review",
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+    },
+    {
+      "sku": "BQ4422-600",
+      "first_seen": "2026-11-13T12:29:19+09:00",
+      "last_seen": "2026-11-13T12:29:19+09:00",
+      "matching_listings": 1,
+      "sample_name": "NIKE AIR JORDAN 1 HIGH ‘85 ナイキ エア ジョーダン 1 ハイ 85 VARSITY RED/VARSITY RED/SUMMIT WHITE/BLACK bq4422-600",
+      "sample_url": "https://store.shopping.yahoo.co.jp/lowtex/bq4422-600.html",
+      "status": "pending_review",
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+    },
+    {
+      "sku": "BQ6931-802",
+      "first_seen": "2026-11-13T12:29:19+09:00",
+      "last_seen": "2026-11-13T12:29:19+09:00",
+      "matching_listings": 1,
+      "sample_name": "【9,000円均一SALE】 NIKE AIR JORDAN 1 MID SE GS ナイキ エア ジョーダン 1 ミッド SE GS 海外限定 日本未発売 TURF ORANGE/BLACK/WHITE BQ6931-802",
+      "sample_url": "https://store.shopping.yahoo.co.jp/lowtex/bq6931-802.html",
+      "status": "pending_review",
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+    },
+    {
+      "sku": "CN1084-200",
+      "first_seen": "2026-11-13T12:29:19+09:00",
+      "last_seen": "2026-11-13T12:29:19+09:00",
+      "matching_listings": 1,
+      "sample_name": "ナイキ スニーカー トラヴィススコット 28cm CN1084-200 Air Jordan 6 Retro ハイカットスニーカー 中古 BS99",
+      "sample_url": "https://store.shopping.yahoo.co.jp/rinkan/15379-251205-0158.html",
+      "status": "pending_review",
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+    },
+    {
+      "sku": "CT8529-063",
+      "first_seen": "2026-11-13T12:29:19+09:00",
+      "last_seen": "2026-11-13T12:29:19+09:00",
+      "matching_listings": 1,
+      "sample_name": "NIKE AIR JORDAN 6 RETRO 【BORDEAUX】 ナイキ エアジョーダン 6 海外限定 日本未発売 BLACK/LIGHT GRAPHITE/DARK GREY/BORDEAUX CT8529-063",
+      "sample_url": "https://store.shopping.yahoo.co.jp/lowtex/ct8529-063.html",
+      "status": "pending_review",
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+    },
+    {
+      "sku": "CZ5127-001",
+      "first_seen": "2026-11-13T12:29:19+09:00",
+      "last_seen": "2026-11-13T12:29:19+09:00",
+      "matching_listings": 1,
+      "sample_name": "NIKE SB ナイキエスビー メディコムトイ ベアブリック コラボ ダンク ロー スニーカー 26 ブラック x BE@RBRICK CZ5127-001 メンズ 古着 中古",
+      "sample_url": "https://store.shopping.yahoo.co.jp/carmak-2nd/shu-1119.html",
+      "status": "pending_review",
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+    },
+    {
+      "sku": "DC0774-101",
+      "first_seen": "2026-11-13T12:29:19+09:00",
+      "last_seen": "2026-11-13T12:29:19+09:00",
+      "matching_listings": 1,
+      "sample_name": "ナイキ NIKE ウィメンズ エアジョーダン1 ロー スニーカー メンズ レディース WMNS AIR JORDAN 1 LOW ブラック 黒 DC0774-101",
+      "sample_url": "https://store.shopping.yahoo.co.jp/sneak/nike-dc0774-101.html",
+      "status": "pending_review",
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+    },
+    {
+      "sku": "DC1788-100",
+      "first_seen": "2026-11-13T12:29:19+09:00",
+      "last_seen": "2026-11-13T12:29:19+09:00",
+      "matching_listings": 1,
+      "sample_name": "【23,000円均一SALE】 NIKE AIR JORDAN 1 RETRO HIGH OG CO.JP ナイキ エア ジョーダン 1 レトロ ハイ OG WHITE/MIDNIGHT NAVY/METALLIC SILVER dc1788-100",
+      "sample_url": "https://store.shopping.yahoo.co.jp/lowtex/dc1788-100.html",
+      "status": "pending_review",
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+    },
+    {
+      "sku": "DD8386-001",
+      "first_seen": "2026-11-13T12:29:19+09:00",
+      "last_seen": "2026-11-13T12:29:19+09:00",
+      "matching_listings": 1,
+      "sample_name": "ナイキ NIKE SB DUNK LOW PRO QS WASTED YOUTH 2021 28cm DD8386-001 エスビー ダンク ロー プロ ウェイステッドユース コラボ ▲■260703",
+      "sample_url": "https://store.shopping.yahoo.co.jp/vectorpremium/037-902606220007.html",
+      "status": "pending_review",
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+    },
+    {
+      "sku": "DM1602-107",
+      "first_seen": "2026-11-13T12:29:19+09:00",
+      "last_seen": "2026-11-13T12:29:19+09:00",
+      "matching_listings": 1,
+      "sample_name": "NIKE ナイキ オフホワイト コラボ ダンク ロー セイル スニーカー 26.5 ホワイト 他 x Off-White  DM1602-107 1 OF 50 48 メンズ 古着 中古",
+      "sample_url": "https://store.shopping.yahoo.co.jp/carmak-2nd/shu-1114.html",
+      "status": "pending_review",
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+    },
+    {
+      "sku": "DM7866-140",
+      "first_seen": "2026-11-13T12:29:19+09:00",
+      "last_seen": "2026-11-13T12:29:19+09:00",
+      "matching_listings": 1,
+      "sample_name": "ナイキ トラヴィススコット 27cm AIR JORDAN 1 LOW OG SP FRAGMENT DM7866-140 エアジョーダン1ローミリタリーブルースニーカー 中古 BS99",
+      "sample_url": "https://store.shopping.yahoo.co.jp/rinkan/15379-260831-0210.html",
+      "status": "pending_review",
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+    },
+    {
+      "sku": "DM7866-162",
+      "first_seen": "2026-11-13T12:29:19+09:00",
+      "last_seen": "2026-11-13T12:29:19+09:00",
+      "matching_listings": 1,
+      "sample_name": "ナイキ トラヴィススコット 27cm AIR JORDAN 1 LOW OG REVERSE MOCHA DM7866-162 エアジョーダン1レトロロウオージースニーカー 中古 BS99",
+      "sample_url": "https://store.shopping.yahoo.co.jp/rinkan/15379-260831-0424.html",
+      "status": "pending_review",
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+    },
+    {
+      "sku": "DN3400-001",
+      "first_seen": "2026-11-13T12:29:19+09:00",
+      "last_seen": "2026-11-13T12:29:19+09:00",
+      "matching_listings": 1,
+      "sample_name": "ナイキ エア ジョーダン 1 ロー x ソールフライ NIKE AIR JORDAN 1 LOW x Sole Fly メンズ スニーカー DN3400-001",
+      "sample_url": "https://store.shopping.yahoo.co.jp/greening/dn3400-001.html",
+      "status": "pending_review",
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+    },
+    {
+      "sku": "DO9392-700",
+      "first_seen": "2026-11-13T12:29:19+09:00",
+      "last_seen": "2026-11-13T12:29:19+09:00",
+      "matching_listings": 1,
+      "sample_name": "ナイキ トラヴィススコット サイズ:28.5cm AIR MAX 1 DO9392-700 エアマックス1スニーカー 中古 BS99",
+      "sample_url": "https://store.shopping.yahoo.co.jp/rinkan/15379-260929-0161.html",
+      "status": "pending_review",
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+    },
+    {
+      "sku": "DQ5130-400",
+      "first_seen": "2026-11-13T12:29:19+09:00",
+      "last_seen": "2026-11-13T12:29:19+09:00",
+      "matching_listings": 1,
+      "sample_name": "【30,000円均一SALE】 NIKE SB DUNK LOW × FLY STREETWEAR Gardenia ナイキ SB ダンク ロー × フライ ストリートウェア GAME ROYAL/SAIL/G.FOG DQ5130-400",
+      "sample_url": "https://store.shopping.yahoo.co.jp/lowtex/dq5130-400.html",
+      "status": "pending_review",
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+    },
+    {
+      "sku": "DQ8426-007",
+      "first_seen": "2026-11-13T12:29:19+09:00",
+      "last_seen": "2026-11-13T12:29:19+09:00",
+      "matching_listings": 1,
+      "sample_name": "NIKE AIR JORDAN 1 MID ナイキ エア ジョーダン 1 ミッド メンズ BLACK/PALOMINO/UNIVERSITY RED/PHANTOM ブラック DQ8426-007",
+      "sample_url": "https://store.shopping.yahoo.co.jp/lowtex/dq8426-007.html",
+      "status": "pending_review",
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+    },
+    {
+      "sku": "DQ8426-132",
+      "first_seen": "2026-11-13T12:29:19+09:00",
+      "last_seen": "2026-11-13T12:29:19+09:00",
+      "matching_listings": 1,
+      "sample_name": "NIKE AIR JORDAN 1 MID ナイキ エア ジョーダン 1 ミッド メンズ WHITE/BLACK/WHITE ホワイト DQ8426-132",
+      "sample_url": "https://store.shopping.yahoo.co.jp/lowtex/dq8426-132.html",
+      "status": "pending_review",
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+    },
+    {
+      "sku": "FD1437-008",
+      "first_seen": "2026-11-13T12:29:19+09:00",
+      "last_seen": "2026-11-13T12:29:19+09:00",
+      "matching_listings": 1,
+      "sample_name": "NIKE AIR JORDAN 1 RETRO HIGH OG GS ナイキ エア ジョーダン 1 レトロ ハイ OG GS レディース BLACK/BLACK/SAIL/STARFISH オレンジ FD1437-008",
+      "sample_url": "https://store.shopping.yahoo.co.jp/lowtex/fd1437-008.html",
+      "status": "pending_review",
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+    },
+    {
+      "sku": "FD8779-100",
+      "first_seen": "2026-11-13T12:29:19+09:00",
+      "last_seen": "2026-11-13T12:29:19+09:00",
+      "matching_listings": 1,
+      "sample_name": "NIKE ナイキ  FD8779-100   ラメルジー SB ダンクハイOG QS シュプリーム コラボ  Supreme スニーカー ホワイト メンズ【中古】",
+      "sample_url": "https://store.shopping.yahoo.co.jp/reference/mo-260906-6.html",
+      "status": "pending_review",
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+    },
+    {
+      "sku": "FJ0445-001",
+      "first_seen": "2026-11-13T12:29:19+09:00",
+      "last_seen": "2026-11-13T12:29:19+09:00",
+      "matching_listings": 1,
+      "sample_name": "ポーンショップ ナイキ SB ダンク ハイ Pawnshop Nike SB Dunk High OG QS Old Soul メンズ スニーカー FJ0445-001",
+      "sample_url": "https://store.shopping.yahoo.co.jp/greening/fj0445-001.html",
+      "status": "pending_review",
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+    },
+    {
+      "sku": "FJ3460-012",
+      "first_seen": "2026-11-13T12:29:19+09:00",
+      "last_seen": "2026-11-13T12:29:19+09:00",
+      "matching_listings": 1,
+      "sample_name": "【30,000円均一SALE】 NIKE AIR JORDAN 14 RETRO SE ナイキ エア ジョーダン 14 SE レトロ 海外限定 日本未発売 FLINT GREY/STEALTH GREY/WHITE FJ3460-012",
+      "sample_url": "https://store.shopping.yahoo.co.jp/lowtex/fj3460-012.html",
+      "status": "pending_review",
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+    },
+    {
+      "sku": "FJ5737-001",
+      "first_seen": "2026-11-13T12:29:19+09:00",
+      "last_seen": "2026-11-13T12:29:19+09:00",
+      "matching_listings": 1,
+      "sample_name": "NIKE WMNS AIR JORDAN 1 BROOKLYN ナイキ ウィメンズ エア ジョーダン 1 ブルックリン レディース BLACK/FLAT PEWTER/BLACK ブラック FJ5737-001",
+      "sample_url": "https://store.shopping.yahoo.co.jp/lowtex/fj5737-001.html",
+      "status": "pending_review",
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+    },
+    {
+      "sku": "FZ4811-001",
+      "first_seen": "2026-11-13T12:29:19+09:00",
+      "last_seen": "2026-11-13T12:29:19+09:00",
+      "matching_listings": 1,
+      "sample_name": "【23,000円均一SALE】 NIKE WMNS AIR JORDAN 3 RETRO OG SP × A MA MANIERE ナイキ ウィエア ジョーダン 3 レトロ OG × ア マ マニエール BLACK FZ4811-001",
+      "sample_url": "https://store.shopping.yahoo.co.jp/lowtex/fz4811-001.html",
+      "status": "pending_review",
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+    },
+    {
+      "sku": "FZ8117-204",
+      "first_seen": "2026-11-13T12:29:19+09:00",
+      "last_seen": "2026-11-13T12:29:19+09:00",
+      "matching_listings": 1,
+      "sample_name": "ナイキ トラヴィススコット サイズ:24.5cm JUMPMAN JACK TR FZ8117-204 ジャンプマンジャックトレーナースニーカー 中古 BS99",
+      "sample_url": "https://store.shopping.yahoo.co.jp/rinkan/15379-261028-0310.html",
+      "status": "pending_review",
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+    },
+    {
+      "sku": "HF3148-106",
+      "first_seen": "2026-11-13T12:29:19+09:00",
+      "last_seen": "2026-11-13T12:29:19+09:00",
+      "matching_listings": 1,
+      "sample_name": "ナイキ エアジョーダン 1 ロー SE ホワイト ファイヤーレッド ブラック NIKE AIR JORDAN 1 LOW SE wht/fire red-blk hf3148-106",
+      "sample_url": "https://store.shopping.yahoo.co.jp/ltd-online/hf3148-106.html",
+      "status": "pending_review",
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+    },
+    {
+      "sku": "HF3188-106",
+      "first_seen": "2026-11-13T12:29:19+09:00",
+      "last_seen": "2026-11-13T12:29:19+09:00",
+      "matching_listings": 1,
+      "sample_name": "NIKE AIR JORDAN 1 LOW GS 【PANDA TOE】 ナイキ エア ジョーダン 1 ロー GS 【パンダ トゥ】 海外限定 日本未発売モデル WHITE/BLACK ホワイト HF3188-106",
+      "sample_url": "https://store.shopping.yahoo.co.jp/lowtex/hf3188-106.html",
+      "status": "pending_review",
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+    },
+    {
+      "sku": "HJ5958-206",
+      "first_seen": "2026-11-13T12:29:19+09:00",
+      "last_seen": "2026-11-13T12:29:19+09:00",
+      "matching_listings": 1,
+      "sample_name": "【10,000円均一SALE】 NIKE AIR JORDAN 1 MID SE GS ナイキ エアジョーダン 1 ミッド SE GS 海外限定 日本未発売 DESERT/PALE IVORY/FUSION RED HJ5958-206",
+      "sample_url": "https://store.shopping.yahoo.co.jp/lowtex/hj5958-206.html",
+      "status": "pending_review",
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+    },
+    {
+      "sku": "HM5837-100",
+      "first_seen": "2026-11-13T12:29:19+09:00",
+      "last_seen": "2026-11-13T12:29:19+09:00",
+      "matching_listings": 1,
+      "sample_name": "Nike SB ナイキエスビー ANTIHERO アンタイヒーロー スニーカー ダンク ハイ QS HM5837-100 シューズ メンズ 25.5cm ホワイト 靴 DF20684■",
+      "sample_url": "https://store.shopping.yahoo.co.jp/sunstep/1-240001714788.html",
+      "status": "pending_review",
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+    },
+    {
+      "sku": "HQ3072-400",
+      "first_seen": "2026-11-13T12:29:19+09:00",
+      "last_seen": "2026-11-13T12:29:19+09:00",
+      "matching_listings": 1,
+      "sample_name": "NIKE Travis Scott ナイキ トラヴィススコット スニーカー Zoom Field Jaxx HQ3072-400 メンズ 28cm ブルー 靴 DF20309■",
+      "sample_url": "https://store.shopping.yahoo.co.jp/sunstep/1-240001711655.html",
+      "status": "pending_review",
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+    },
+    {
+      "sku": "HV4091-006",
+      "first_seen": "2026-11-13T12:29:19+09:00",
+      "last_seen": "2026-11-13T12:29:19+09:00",
+      "matching_listings": 1,
+      "sample_name": "【14,000円均一SALE】 NIKE AIR JORDAN 1 MID SE ナイキ エア ジョーダン 1 ミッド SE メンズ BLACK/WHITE/VARSITY RED レッド HV4091-006",
+      "sample_url": "https://store.shopping.yahoo.co.jp/lowtex/hv4091-006.html",
+      "status": "pending_review",
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+    },
+    {
+      "sku": "HV4091-102",
+      "first_seen": "2026-11-13T12:29:19+09:00",
+      "last_seen": "2026-11-13T12:29:19+09:00",
+      "matching_listings": 1,
+      "sample_name": "【14,000円均一SALE】 NIKE AIR JORDAN 1 MID SE ナイキ エア ジョーダン 1 ミッド SE LIGHT OREWOOD BROWN/MEDIUM OLIVE/SAIL/OFF NOIR ベージュ HV4091-102",
+      "sample_url": "https://store.shopping.yahoo.co.jp/lowtex/hv4091-102.html",
+      "status": "pending_review",
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+    },
+    {
+      "sku": "IH4363-100",
+      "first_seen": "2026-11-13T12:29:19+09:00",
+      "last_seen": "2026-11-13T12:29:19+09:00",
+      "matching_listings": 1,
+      "sample_name": "NIKE AIR JORDAN 1 RETRO HIGH OG ナイキ エア ジョーダン 1 レトロ ハイ OG メンズ SAIL/UNIVERSITY RED/PALE IVORY/COCONUT MILK ベージュ IH4363-100",
+      "sample_url": "https://store.shopping.yahoo.co.jp/lowtex/ih4363-100.html",
+      "status": "pending_review",
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+    },
+    {
+      "sku": "IQ5321-121",
+      "first_seen": "2026-11-13T12:29:19+09:00",
+      "last_seen": "2026-11-13T12:29:19+09:00",
+      "matching_listings": 1,
+      "sample_name": "NIKE AIR JORDAN 1 LOW SE -YEAR OF THE HORSE- ナイキ エア ジョーダン 1 ロー SE -イヤー オブ ザ ホース- 海外限定 日本未発売 SAIL ブラウン IQ5321-121",
+      "sample_url": "https://store.shopping.yahoo.co.jp/lowtex/iq5321-121.html",
+      "status": "pending_review",
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+    },
+    {
+      "sku": "IQ7604-100",
+      "first_seen": "2026-11-13T12:29:19+09:00",
+      "last_seen": "2026-11-13T12:29:19+09:00",
+      "matching_listings": 1,
+      "sample_name": "ナイキ トラヴィススコット 27.5cm AIR JORDAN1 LOW OG SP MUSLIN  IQ7604-100 エアジョーダン1ローシャイピンクスニーカー 中古 BS99",
+      "sample_url": "https://store.shopping.yahoo.co.jp/rinkan/15379-261029-0302.html",
+      "status": "pending_review",
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+    }
+  ]
 }
