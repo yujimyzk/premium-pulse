@@ -1,1 +1,1 @@
-id,name,brand,category,sku,retail,listing,prior,source,checked,note
+id,name,brand,category,sku,size_cm,condition,price_type,tax_basis,retail,observed_price,prior_price,prior_checked,retail_source,source,checked,note
