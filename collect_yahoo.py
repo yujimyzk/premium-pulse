@@ -11,9 +11,17 @@ def collect(key,queries,request=None):
                 return json.loads(resp.read(4000000).decode("utf-8"))
         except urllib.error.HTTPError as e:
             # Never print the request URL because it contains the Client ID.
-            print(f"Yahoo Shopping API returned HTTP {e.code}. Verify Shopping API-compatible Client ID and permissions.")
-            if e.code == 403:
-                print("Official FAQ: missing/invalid Client ID or Client ID not authorized for this API.")
+            print(f"Yahoo Shopping API returned HTTP {e.code}.")
+            # Inspect only a structured error code, never print URL or raw response/Client ID.
+            try:
+                body=json.loads(e.read(4096).decode("utf-8"))
+                code=body.get("Error",{}).get("Code") or body.get("error",{}).get("code")
+                if isinstance(code,str) and re.fullmatch(r"[A-Za-z0-9_-]{1,32}",code):
+                    print(f"Yahoo API error code: {code}")
+            except (ValueError,AttributeError,TypeError,UnicodeError):
+                pass
+            if e.code==403:
+                print("Possible causes: wrong/unauthorized Client ID. Check the value in GitHub Actions Secret and official API access status.")
             raise SystemExit(1) from None
     request=request or fetch
     now=dt.datetime.now(dt.timezone(dt.timedelta(hours=9))).replace(microsecond=0).isoformat()
