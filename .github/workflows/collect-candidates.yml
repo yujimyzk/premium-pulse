@@ -20,6 +20,7 @@ jobs:
           YAHOO_SHOPPING_APP_ID: ${{ secrets.YAHOO_SHOPPING_APP_ID }}
         run: python collect_yahoo.py
       - name: Collect Rakuten official API listings (if credentials configured)
+        continue-on-error: true # Keep Yahoo collection running if optional Rakuten endpoint fails.
         env:
           RAKUTEN_APP_ID: ${{ secrets.RAKUTEN_APP_ID }}
           RAKUTEN_ACCESS_KEY: ${{ secrets.RAKUTEN_ACCESS_KEY }}
