@@ -2,7 +2,7 @@ name: Weekly Yahoo Shopping candidate collection
 on:
   workflow_dispatch:
   schedule:
-    - cron: '35 0 * * 1'
+    - cron: '0 22 * * *' # Every day at 07:00 JST (22:00 UTC previous day)
 permissions:
   contents: write
 jobs:
