@@ -2,12 +2,15 @@
   "generated_at": "2026-11-13T12:14:14+09:00",
   "data_status": "review_required",
   "observed_candidates": 19,
-  "unique_listing_urls": null,
-  "possibly_size_labeled": null,
-  "size_not_determined": null,
-  "api_condition_unknown": null,
-  "duplicate_urls_excluded": null,
-  "by_sku": {},
+  "unique_listing_urls": 19,
+  "possibly_size_labeled": 12,
+  "size_not_determined": 7,
+  "api_condition_unknown": 0,
+  "duplicate_urls_excluded": 0,
+  "by_sku": {
+    "DZ4137-106": 10,
+    "DM7866-200": 9
+  },
   "published_as_market_price": 0,
-  "note": "この集計は後続の自動処理で更新されます。価格は未検証のため公開ランキングには反映しません。"
+  "note": "商品名中のcm表記は参考値で、型番・サイズ・状態・実物・税込区分・定価・成約の確認は未実施。ランキングへの自動公開はしません。"
 }
