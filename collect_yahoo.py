@@ -1,13 +1,20 @@
 #!/usr/bin/env python3
 """Collect unverified Yahoo! Shopping listing candidates via official V3 API."""
 import datetime as dt
-import json,os,pathlib,re,urllib.parse,urllib.request
+import json,os,pathlib,re,urllib.parse,urllib.request,urllib.error
 ROOT=pathlib.Path(__file__).resolve().parent
 API="https://shopping.yahooapis.jp/ShoppingWebService/V3/itemSearch"
 def collect(key,queries,request=None):
     def fetch(url):
-        with urllib.request.urlopen(urllib.request.Request(url,headers={"User-Agent":"PremiumPulse/1.0"}),timeout=20) as resp:
-            return json.loads(resp.read(4000000).decode("utf-8"))
+        try:
+            with urllib.request.urlopen(urllib.request.Request(url,headers={"User-Agent":"PremiumPulse/1.0"}),timeout=20) as resp:
+                return json.loads(resp.read(4000000).decode("utf-8"))
+        except urllib.error.HTTPError as e:
+            # Never print the request URL because it contains the Client ID.
+            print(f"Yahoo Shopping API returned HTTP {e.code}. Verify Shopping API-compatible Client ID and permissions.")
+            if e.code == 403:
+                print("Official FAQ: missing/invalid Client ID or Client ID not authorized for this API.")
+            raise SystemExit(1) from None
     request=request or fetch
     now=dt.datetime.now(dt.timezone(dt.timedelta(hours=9))).replace(microsecond=0).isoformat()
     result=[]
@@ -29,8 +36,8 @@ def collect(key,queries,request=None):
 def main():
     key=os.environ.get("YAHOO_SHOPPING_APP_ID","").strip()
     if not key:
-        print("Missing YAHOO_SHOPPING_APP_ID: skip")
-        return
+        print("ERROR: YAHOO_SHOPPING_APP_ID secret missing or empty. Configure repository Actions secret.")
+        raise SystemExit(1)
     queries=json.loads((ROOT/"data/watch_queries.json").read_text(encoding="utf-8"))
     result=collect(key,queries)
     (ROOT/"data/review_candidates.json").write_text(json.dumps(result,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
