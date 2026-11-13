@@ -1,1 +1,9 @@
-{"last_collection":null,"observation_count":0,"new_observations":0,"unique_urls":0,"observed_listing_changes":[],"status":"unverified_listing_history"}
+{
+  "last_collection": "2026-11-13T12:14:14+09:00",
+  "observation_count": 19,
+  "new_observations": 19,
+  "unique_urls": 19,
+  "observed_listing_changes": [],
+  "status": "unverified_listing_history",
+  "warning": "出品価格の履歴であり、成約相場ではありません。サイズ・状態・商品の同一性を確認していません。"
+}
