@@ -1,8 +1,11 @@
 import unittest
-from discover_skus import extract_skus, discover
+from discover_skus import extract_skus, discover, official_image
 class Tests(unittest.TestCase):
     def test_extract_rejects_accessory(self):
         self.assertEqual(extract_skus("Nike AB1234-100 ステッカー"),[])
+    def test_official_image_only(self):
+        self.assertEqual(official_image({"image":{"medium":"https://item-shopping.c.yimg.jp/i/g/sample"}}),"https://item-shopping.c.yimg.jp/i/g/sample")
+        self.assertIsNone(official_image({"image":{"medium":"https://image.example/photo.jpg"}}))
     def test_extract_sku(self):
         self.assertEqual(extract_skus("NIKE DZ4137-106 27cm"),["DZ4137-106"])
     def test_only_untracked_review_queue(self):
