@@ -20,7 +20,12 @@ SKU = re.compile(r"(?<![A-Z0-9])([A-Z]{1,3}[0-9]{4}-[0-9]{3})(?![0-9])", re.I)
 SEEDS = [
     "ナイキ エアジョーダン 限定",
     "ナイキ トラヴィススコット スニーカー",
-    "ナイキ ダンク コラボ"
+    "ナイキ ダンク コラボ",
+    "NIKE SB DUNK LOW 限定",
+    "ナイキ エアジョーダン1 コラボ",
+    "NIKE OFF-WHITE DUNK LOW",
+    "NIKE KOBE PROTRO",
+    "NIKE AIR MAX 限定"
 ]
 def official_image(hit):
     img=hit.get("exImage") or {}
