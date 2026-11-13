@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://yujimyzk.github.io/premium-pulse/sitemap.xml
