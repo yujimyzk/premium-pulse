@@ -20,6 +20,7 @@ function card(r){
  top.append(sku,badge);article.append(top);
  const name=document.createElement('p');name.className='name';name.textContent=r.sample_name||'商品名未登録';article.append(name);
  const meta=document.createElement('div');meta.className='meta';meta.textContent='検索結果内の一致候補：'+Number(r.matching_listings||0)+'件';article.append(meta);
+ const detail=document.createElement('a');detail.className='view';detail.href='./product.html?sku='+encodeURIComponent(r.sku);detail.textContent='型番の詳細を見る';article.append(detail);article.append(document.createElement('br'));
  try{const u=new URL(r.sample_url);if(u.protocol==='https:'){const a=document.createElement('a');a.className='view';a.href=u.href;a.target='_blank';a.rel='noopener noreferrer';a.textContent='出典の商品ページを見る';article.append(a)}}catch{}
  return article
 }
