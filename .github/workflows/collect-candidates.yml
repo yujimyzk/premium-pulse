@@ -14,11 +14,16 @@ jobs:
         with:
           python-version: '3.12'
       - name: Check candidate filtering tests
-        run: python -m unittest test_collector.py test_price_history.py test_discover_skus.py
+        run: python -m unittest test_collector.py test_price_history.py test_discover_skus.py test_rakuten.py
       - name: Collect candidates
         env:
           YAHOO_SHOPPING_APP_ID: ${{ secrets.YAHOO_SHOPPING_APP_ID }}
         run: python collect_yahoo.py
+      - name: Collect Rakuten official API listings (if credentials configured)
+        env:
+          RAKUTEN_APP_ID: ${{ secrets.RAKUTEN_APP_ID }}
+          RAKUTEN_ACCESS_KEY: ${{ secrets.RAKUTEN_ACCESS_KEY }}
+        run: python collect_rakuten.py
       - name: Discover possible new sneaker model SKUs (review-only)
         env:
           YAHOO_SHOPPING_APP_ID: ${{ secrets.YAHOO_SHOPPING_APP_ID }}
@@ -29,10 +34,10 @@ jobs:
         run: python price_history.py
       - name: Save review candidates
         run: |
-          if ! git diff --quiet -- data/review_candidates.json data/review_summary.json data/price_history.json data/history_summary.json data/discovery_queue.json; then
+          if ! git diff --quiet -- data/review_candidates.json data/review_summary.json data/price_history.json data/history_summary.json data/discovery_queue.json data/rakuten_candidates.json; then
             git config user.name 'github-actions[bot]'
             git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-            git add data/review_candidates.json data/review_summary.json data/price_history.json data/history_summary.json data/discovery_queue.json
+            git add data/review_candidates.json data/review_summary.json data/price_history.json data/history_summary.json data/discovery_queue.json data/rakuten_candidates.json
             git commit -m "Collect review-only listing candidates"
             git push
           fi
