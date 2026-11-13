@@ -4,6 +4,18 @@ import datetime as dt
 import json,os,pathlib,re,urllib.parse,urllib.request,urllib.error
 ROOT=pathlib.Path(__file__).resolve().parent
 API="https://shopping.yahooapis.jp/ShoppingWebService/V3/itemSearch"
+def official_image(hit):
+    """Choose an HTTPS image supplied by the official API, never scrape or guess."""
+    large=(hit.get("exImage") or {}).get("url") if isinstance(hit.get("exImage"),dict) else None
+    medium=(hit.get("image") or {}).get("medium") if isinstance(hit.get("image"),dict) else None
+    small=(hit.get("image") or {}).get("small") if isinstance(hit.get("image"),dict) else None
+    for candidate in (large,medium,small):
+        if isinstance(candidate,str):
+            p=urllib.parse.urlsplit(candidate)
+            if p.scheme=="https" and p.hostname and (p.hostname=="yimg.jp" or p.hostname.endswith(".yimg.jp")):
+                return candidate
+    return None
+
 def collect(key,queries,request=None):
     def fetch(url):
         try:
@@ -29,7 +41,7 @@ def collect(key,queries,request=None):
     for item in queries:
         sku=str(item["sku"]).strip();query=str(item["query"]).strip()
         if not re.fullmatch(r"[A-Za-z0-9_.-]{4,32}",sku) or not 0<len(query)<=120:raise ValueError("Invalid watch query")
-        url=API+"?"+urllib.parse.urlencode({"appid":key,"query":query,"results":10,"in_stock":"true"})
+        url=API+"?"+urllib.parse.urlencode({"appid":key,"query":query,"results":10,"in_stock":"true","image_size":300})
         for hit in request(url).get("hits",[]):
             name=str(hit.get("name") or "")
             price=hit.get("price")
@@ -38,7 +50,7 @@ def collect(key,queries,request=None):
             if sku.lower() not in name.lower() or not isinstance(price,int) or price<=0 or parsed.scheme!="https" or not parsed.netloc:continue
             result.append({"watch_sku":sku,"name":name[:240],"price_jpy":price,"price_kind":"listing",
               "verification":"pending","condition_hint":hit.get("condition"),"seller":(hit.get("seller") or {}).get("name"),
-              "url":link,"observed_at":now,"source":"Yahoo! Shopping API v3",
+              "url":link,"image_url":official_image(hit),"observed_at":now,"source":"Yahoo! Shopping API v3",
               "warning":"未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"})
     return {"generated_at":now,"status":"unverified_candidates","source":"Yahoo! Shopping API v3","count":len(result),"candidates":result}
 def main():
