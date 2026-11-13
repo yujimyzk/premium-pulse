@@ -16,7 +16,13 @@ class CandidateTests(unittest.TestCase):
         self.assertEqual(res["count"],1)
         self.assertEqual(res["candidates"][0]["verification"],"pending")
         self.assertEqual(res["candidates"][0]["price_kind"],"listing")
+        self.assertEqual(res["candidates"][0]["size_cm_hint"],27.0)
         self.assertEqual(res["candidates"][0]["image_url"],"https://item-shopping.c.yimg.jp/i/n/example_300")
+    def test_size_hints_only_when_centimeters_explicit(self):
+        self.assertEqual(collect_yahoo.listing_size_hint("Nike DZ4137-106 SIZE 26.5cm"),26.5)
+        self.assertEqual(collect_yahoo.listing_size_hint("Nike 27センチ 未使用"),27.0)
+        self.assertIsNone(collect_yahoo.listing_size_hint("Nike 27 US 9"))
+        self.assertIsNone(collect_yahoo.listing_size_hint("Nike 2026cm トレンド"))
     def test_reject_external_images(self):
         self.assertIsNone(collect_yahoo.official_image({"image":{"medium":"https://attacker.example/img.jpg"}}))
         self.assertIsNone(collect_yahoo.official_image({"image":{"medium":"javascript:alert(1)"}}))
