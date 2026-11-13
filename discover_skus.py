@@ -22,6 +22,19 @@ SEEDS = [
     "ナイキ トラヴィススコット スニーカー",
     "ナイキ ダンク コラボ"
 ]
+def official_image(hit):
+    img=hit.get("exImage") or {}
+    medium=hit.get("image") or {}
+    urls=[img.get("url") if isinstance(img,dict) else None,
+          medium.get("medium") if isinstance(medium,dict) else None,
+          medium.get("small") if isinstance(medium,dict) else None]
+    for url in urls:
+        if isinstance(url,str):
+            p=urllib.parse.urlsplit(url)
+            if p.scheme=="https" and p.hostname and (p.hostname=="yimg.jp" or p.hostname.endswith(".yimg.jp")):
+                return url
+    return None
+
 BLOCKED = ("靴紐", "シューレース", "キーホルダー", "ステッカー", "カバー", "ソックス", "インソール")
 
 def extract_skus(name):
@@ -43,13 +56,15 @@ def discover(payloads, existing, previous, observed_at):
                     continue
                 row = counts.setdefault(sku, {"sku": sku, "first_seen":observed_at,
                     "last_seen":observed_at,"matching_listings":0,"sample_name":name[:180],
-                    "sample_url":url, "status":"pending_review",
+                    "sample_url":url, "sample_image_url":official_image(hit), "status":"pending_review",
                     "note":"型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"})
                 row["matching_listings"] += 1
     previous_map={x["sku"]:x for x in previous.get("candidates", []) if x.get("sku")}
     for sku,row in counts.items():
         if sku in previous_map:
             row["first_seen"]=previous_map[sku].get("first_seen",observed_at)
+            if not row.get("sample_image_url"):
+                row["sample_image_url"]=previous_map[sku].get("sample_image_url")
     # Retain prior unreviewed candidates, even if a subsequent search does not return them.
     for sku,row in previous_map.items():
         if sku not in counts and sku not in existing and row.get("status")=="pending_review":
@@ -58,7 +73,7 @@ def discover(payloads, existing, previous, observed_at):
             "candidates":sorted(counts.values(),key=lambda x:(-int(x.get("matching_listings",0)),x["sku"]))[:200]}
 
 def fetch(key, query):
-    url=API+"?"+urllib.parse.urlencode({"appid":key,"query":query,"results":30,"in_stock":"true"})
+    url=API+"?"+urllib.parse.urlencode({"appid":key,"query":query,"results":30,"in_stock":"true","image_size":300"})
     req=urllib.request.Request(url,headers={"User-Agent":"PremiumPulse/1.0"})
     try:
         with urllib.request.urlopen(req,timeout=20) as resp:
