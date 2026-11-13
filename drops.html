@@ -1,0 +1,19 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>値下がり発見 | PREMIUM PULSE</title>
+<style>*{box-sizing:border-box}body{margin:0;background:#091321;color:#f3f7ff;font:15px/1.75 system-ui,-apple-system,sans-serif}main{max-width:1050px;margin:auto;padding:20px}a{color:#79e9d5}header{display:flex;justify-content:space-between;flex-wrap:wrap}h1{font-size:clamp(29px,5vw,45px);margin:28px 0 10px}.muted{color:#b2c8da}.notice{border:1px solid #456979;background:#193449;padding:15px;border-radius:13px;margin:20px 0}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px}.card{border:1px solid #35566d;border-radius:13px;padding:17px;background:#142a3d}.sku{font-weight:850;color:#7aedd6}.price{font-size:24px;font-weight:800}.drop{color:#82edc9;font-size:21px;font-weight:800}.empty{padding:24px;border:1px dashed #58768b;border-radius:12px}footer{color:#a7bfce;margin:35px 0}</style></head>
+<body><main><header><b>PREMIUM PULSE</b><a href="./">トップへ戻る</a></header><h1>値下がりした出品を発見</h1>
+<p class="muted">同じ出品URLで、過去の掲載価格より値下がりした商品だけを表示。毎日の観測結果をもとに更新します。</p>
+<div class="notice"><b>仕入れの利益を保証する情報ではありません。</b> 商品の掲載価格が下がった記録であり、成約価格・再販利益・在庫を意味しません。価格が変わっていない出品や、確認が取れない出品は値下がりとは判定しません。</div>
+<p class="muted" id="info">価格履歴を読み込み中…</p><div id="items" class="grid"><div class="empty">読み込み中…</div></div>
+<footer><a href="./compare.html">サイト横断の出品価格比較へ</a> ／ <a href="./status.html">収集状況</a></footer></main>
+<script>
+const el=id=>document.getElementById(id),yen=n=>'¥'+Number(n).toLocaleString('ja-JP');
+function safe(s){try{let u=new URL(s);return u.protocol==='https:'?u.href:null}catch{return null}}
+fetch('./data/price_history.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('history');return r.json()}).then(data=>{
+const groups=new Map();for(const r of data.observations||[]){if(!r.url||!Number.isSafeInteger(r.price_jpy)||r.price_jpy<=0||!r.observed_at)continue;const key=r.watch_sku+'|'+r.url;if(!groups.has(key))groups.set(key,[]);groups.get(key).push(r)}
+const drops=[];for(const rows of groups.values()){rows.sort((a,b)=>String(a.observed_at).localeCompare(String(b.observed_at)));const unique=[];for(const row of rows){if(!unique.length||row.observed_at!==unique[unique.length-1].observed_at)unique.push(row)}
+if(unique.length<2)continue;let previous=unique[unique.length-2],latest=unique[unique.length-1];if(latest.price_jpy>=previous.price_jpy)continue;drops.push({previous,latest,drop:previous.price_jpy-latest.price_jpy,pct:(1-latest.price_jpy/previous.price_jpy)*100})}
+drops.sort((a,b)=>b.pct-a.pct);el('info').textContent='値下がりが観測された出品：'+drops.length+'件 / 同一出品ページを比較（最後の2回の観測）。';el('items').replaceChildren();
+if(!drops.length){const d=document.createElement('div');d.className='empty';d.textContent='値下がりを確認できた商品はまだありません。観測が蓄積されると自動的に表示されます。';el('items').append(d);return}
+for(const d of drops){const c=document.createElement('article');c.className='card';const texts=[['div','sku',d.latest.watch_sku],['h3','',d.latest.name||'商品名未登録'],['div','price',yen(d.latest.price_jpy)],['div','drop','値下がり '+yen(d.drop)+'（'+d.pct.toFixed(1)+'%）'],['p','muted','前回 '+yen(d.previous.price_jpy)+' → 最新 '+yen(d.latest.price_jpy)],['div','muted','前回：'+d.previous.observed_at+' / 最新：'+d.latest.observed_at]];for(const [tag,cls,value] of texts){const e=document.createElement(tag);e.className=cls;e.textContent=value;c.append(e)}const url=safe(d.latest.url);if(url){const a=document.createElement('a');a.href=url;a.textContent='元の出品情報を見る';a.target='_blank';a.rel='noopener noreferrer';c.append(a)}el('items').append(c)}
+}).catch(()=>{el('info').textContent='観測データの読み込みに失敗しました。';el('items').replaceChildren()});
+</script></body></html>
