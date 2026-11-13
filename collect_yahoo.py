@@ -19,7 +19,7 @@ def official_image(hit):
 def listing_size_hint(name):
     """Extract only explicitly labeled Japanese/English centimeter shoe sizes."""
     # Not a verified product attribute: merchant titles can be inaccurate.
-    match=re.search(r"(?<![\\d.])((?:2[0-9]|30)(?:\\.[05])?)\\s*(?:cm|センチ)(?![a-z])", name, re.I)
+    match=re.search(r"(?<![\d.])((?:2[0-9]|30)(?:\.[05])?)\s*(?:cm|センチ)(?![a-z])", name, re.I)
     if not match:
         return None
     value=float(match.group(1))
