@@ -14,19 +14,21 @@ jobs:
         with:
           python-version: '3.12'
       - name: Check candidate filtering tests
-        run: python -m unittest test_collector.py
+        run: python -m unittest test_collector.py test_price_history.py
       - name: Collect candidates
         env:
           YAHOO_SHOPPING_APP_ID: ${{ secrets.YAHOO_SHOPPING_APP_ID }}
         run: python collect_yahoo.py
       - name: Summarize review requirements
         run: python summarize_candidates.py
+      - name: Append unverified price history
+        run: python price_history.py
       - name: Save review candidates
         run: |
-          if ! git diff --quiet -- data/review_candidates.json data/review_summary.json; then
+          if ! git diff --quiet -- data/review_candidates.json data/review_summary.json data/price_history.json data/history_summary.json; then
             git config user.name 'github-actions[bot]'
             git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-            git add data/review_candidates.json data/review_summary.json
+            git add data/review_candidates.json data/review_summary.json data/price_history.json data/history_summary.json
             git commit -m "Collect review-only listing candidates"
             git push
           fi
