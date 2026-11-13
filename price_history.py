@@ -17,7 +17,7 @@ def append_history(current, history):
         price=row.get("price_jpy")
         if p.scheme!="https" or not p.netloc or not isinstance(price,int) or price<=0:
             continue
-        rec={k:row.get(k) for k in ("watch_sku","name","price_jpy","condition_hint","url","observed_at")}
+        rec={k:row.get(k) for k in ("watch_sku","name","price_jpy","condition_hint","url","observed_at","size_cm_hint","image_url")}
         rec["price_type"]="listing"
         rec["verified"]=False
         key=(rec["observed_at"],rec["url"],price)
