@@ -78,7 +78,7 @@ def discover(payloads, existing, previous, observed_at):
             "candidates":sorted(counts.values(),key=lambda x:(-int(x.get("matching_listings",0)),x["sku"]))[:200]}
 
 def fetch(key, query):
-    url=API+"?"+urllib.parse.urlencode({"appid":key,"query":query,"results":30,"in_stock":"true","image_size":300"})
+    url=API+"?"+urllib.parse.urlencode({"appid":key,"query":query,"results":30,"in_stock":"true","image_size":300})
     req=urllib.request.Request(url,headers={"User-Agent":"PremiumPulse/1.0"})
     try:
         with urllib.request.urlopen(req,timeout=20) as resp:
