@@ -1,9 +1,20 @@
 {
-  "last_collection": "2026-11-13T12:29:16+09:00",
-  "observation_count": 38,
-  "new_observations": 19,
-  "unique_urls": 19,
-  "observed_listing_changes": [],
+  "last_collection": "2026-11-14T11:09:36+09:00",
+  "observation_count": 138,
+  "new_observations": 100,
+  "unique_urls": 101,
+  "observed_listing_changes": [
+    {
+      "watch_sku": "DM7866-200",
+      "url": "https://store.shopping.yahoo.co.jp/vectorpremium/002-902608220030.html",
+      "from_jpy": 53500,
+      "to_jpy": 51500,
+      "change_percent": -3.74,
+      "from_date": "2026-11-13T12:29:16+09:00",
+      "to_date": "2026-11-14T11:09:36+09:00",
+      "note": "同一URLの出品希望価格の変動。成約や市場全体の変動ではありません。"
+    }
+  ],
   "status": "unverified_listing_history",
   "warning": "出品価格の履歴であり、成約相場ではありません。サイズ・状態・商品の同一性を確認していません。"
 }

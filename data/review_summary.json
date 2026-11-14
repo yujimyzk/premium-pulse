@@ -1,15 +1,25 @@
 {
-  "generated_at": "2026-11-13T12:29:16+09:00",
+  "generated_at": "2026-11-14T11:09:36+09:00",
   "data_status": "review_required",
-  "observed_candidates": 19,
-  "unique_listing_urls": 19,
-  "possibly_size_labeled": 12,
-  "size_not_determined": 7,
+  "observed_candidates": 100,
+  "unique_listing_urls": 100,
+  "possibly_size_labeled": 57,
+  "size_not_determined": 43,
   "api_condition_unknown": 0,
   "duplicate_urls_excluded": 0,
   "by_sku": {
+    "CT0856-100": 10,
+    "DH0690-200": 9,
     "DM7866-200": 9,
-    "DZ4137-106": 10
+    "DM7866-202": 10,
+    "DZ4137-106": 10,
+    "DZ4137-700": 10,
+    "HF6061-400": 10,
+    "HF8022-300": 9,
+    "HQ8487-001": 6,
+    "HQ8487-100": 4,
+    "HQ8487-400": 3,
+    "IM9113-300": 10
   },
   "published_as_market_price": 0,
   "note": "商品名中のcm表記は参考値で、型番・サイズ・状態・実物・税込区分・定価・成約の確認は未実施。ランキングへの自動公開はしません。"
