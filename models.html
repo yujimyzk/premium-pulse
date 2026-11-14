@@ -13,7 +13,7 @@
 const q=document.getElementById('q'),sort=document.getElementById('sort'),list=document.getElementById('list');
 let rows=[];
 function card(r){
- const article=document.createElement('article');article.className='card';const pic=document.createElement('div');pic.className='photo';pic.textContent='NO IMAGE';try{const u=new URL(r.sample_image_url);if(u.protocol==='https:'&&/(^|\.)yimg\.jp$/.test(u.hostname)){const img=document.createElement('img');img.src=u.href;img.loading='lazy';img.alt=(r.sample_name||'スニーカー')+'の参考商品画像';img.referrerPolicy='no-referrer';img.onerror=()=>{pic.replaceChildren();pic.textContent='NO IMAGE'};pic.replaceChildren(img)}}catch{}article.append(pic);
+ const article=document.createElement('article');article.className='card';const pic=document.createElement('div');pic.className='photo';pic.textContent='NO IMAGE';try{const u=new URL(r.sample_image_url);if(u.protocol==='https:'&&((host)=>host==="yimg.jp"||host.endsWith(".yimg.jp"))(u.hostname)){const img=document.createElement('img');img.src=u.href;img.loading='lazy';img.alt=(r.sample_name||'スニーカー')+'の参考商品画像';img.referrerPolicy='no-referrer';img.onerror=()=>{pic.replaceChildren();pic.textContent='NO IMAGE'};pic.replaceChildren(img)}}catch{}article.append(pic);
  const top=document.createElement('div');top.className='top';
  const sku=document.createElement('span');sku.className='sku';sku.textContent=r.sku||'型番不明';
  const badge=document.createElement('span');badge.className='badge';badge.textContent='確認待ち';
