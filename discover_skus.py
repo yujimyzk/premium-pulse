@@ -96,7 +96,19 @@ def main():
     target=ROOT/"data/discovery_queue.json"
     previous=json.loads(target.read_text(encoding="utf-8")) if target.exists() else {"candidates":[]}
     now=dt.datetime.now(dt.timezone(dt.timedelta(hours=9))).isoformat(timespec="seconds")
-    payloads=[fetch(key,q) for q in SEEDS]
+    # Rotate search topics to reduce daily API calls and handle rate limits.
+    # Keep earlier discoveries when some/all new topic requests fail.
+    day_index=dt.datetime.fromisoformat(now).date().toordinal()
+    topics=[SEEDS[(day_index*2+i)%len(SEEDS)] for i in range(min(2,len(SEEDS)))]
+    payloads=[]
+    for topic in topics:
+        try:
+            payloads.append(fetch(key,topic))
+        except SystemExit:
+            print("Discovery skipped one topic due to API rejection; preserving previous candidates.")
+    if not payloads:
+        print("All discovery queries failed; leaving existing discovery file untouched.")
+        return
     result=discover(payloads,existing,previous,now)
     target.write_text(json.dumps(result,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     print(f"Discovered {len(result['candidates'])} potential new SKUs; all require approval.")
