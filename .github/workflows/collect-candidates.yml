@@ -26,6 +26,7 @@ jobs:
           RAKUTEN_ACCESS_KEY: ${{ secrets.RAKUTEN_ACCESS_KEY }}
         run: python collect_rakuten.py
       - name: Discover possible new sneaker model SKUs (review-only)
+        continue-on-error: true # Discovery is optional: always save successfully collected listing prices.
         env:
           YAHOO_SHOPPING_APP_ID: ${{ secrets.YAHOO_SHOPPING_APP_ID }}
         run: python discover_skus.py
