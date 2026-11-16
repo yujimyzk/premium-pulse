@@ -2,6 +2,7 @@
 """Summarize unverified shopping results; do not assert market prices."""
 import collections, datetime, json, pathlib, re, urllib.parse
 from collect_yahoo import jan_code_hint, canonical_listing_url
+from discover_skus import classify_brand
 ROOT=pathlib.Path(__file__).resolve().parent
 source=ROOT/"data/review_candidates.json"
 raw=json.loads(source.read_text(encoding="utf-8"))
@@ -47,7 +48,7 @@ for x in rows:
     url=canonical_listing_url(x.get("url"))
     if not sku or not url:
         continue
-    brand=x.get("brand_hint") or "未分類"
+    brand=x.get("brand_hint") or classify_brand(str(x.get("name") or "")) or "未分類"
     brand_listing_counts[brand]+=1
     jan=x.get("jan_code")
     if isinstance(jan,str) and jan_code_hint({"janCode":jan})==jan:
