@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>仕入れ利益シミュレーター｜PREMIUM PULSE</title>
+<meta name="description" content="スニーカーの仕入れ価格、想定売価、手数料、送料を入力して税引前の想定利益と損益分岐点を試算。">
+<link rel="stylesheet" href="./site-nav.css">
+<style>
+:root{background:#091321;color:#eef7ff;font-family:system-ui,-apple-system,sans-serif}*{box-sizing:border-box}body{margin:0}main{max-width:950px;margin:auto;padding:20px}
+h1{font-size:clamp(29px,5vw,48px);line-height:1.3;margin:25px 0 10px}h2{font-size:20px;margin:0 0 15px}p{line-height:1.75;color:#adc6d6}a{color:#79ead5}
+.eyebrow{font-size:12px;color:#8aeeda;font-weight:800;letter-spacing:.14em}.layout{display:grid;grid-template-columns:1.1fr .9fr;gap:18px;margin-top:25px}
+.panel{padding:22px;border-radius:18px;background:#152b3d;border:1px solid #38546c}.fields{display:grid;grid-template-columns:1fr 1fr;gap:15px}
+.field label{display:block;color:#bfd5e2;font-size:13px;margin-bottom:7px}.field input{width:100%;border:1px solid #628398;border-radius:10px;padding:13px;background:#091b2a;color:#f1fdff;font-size:17px;min-height:48px}
+.field small{font-size:11px;color:#9db6c8}.field.wide{grid-column:1/-1}
+.warning{background:#203948;border:1px solid #506e80;border-radius:13px;padding:16px;color:#d2e5ed;font-size:13px;line-height:1.8;margin:17px 0}
+.result .main-number{font-size:clamp(36px,6vw,54px);font-weight:900;font-variant-numeric:tabular-nums;letter-spacing:-.04em}.result .main-number.positive{color:#83f1d8}.result .main-number.negative{color:#ff9f9f}
+.metrics{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin-top:18px}
+.metric{border-radius:12px;background:#0d2031;padding:13px}.metric small{display:block;color:#a9c5d6}.metric strong{font-size:21px;display:block;font-variant-numeric:tabular-nums}
+.detail{margin-top:20px;border-top:1px solid #35526a;padding-top:14px}.detail div{display:flex;justify-content:space-between;gap:10px;padding:5px 0;color:#c3d5e0;font-size:14px}.detail strong{color:#fff}
+.links{display:flex;flex-wrap:wrap;gap:13px;margin:24px 0}.links a,.action{border-radius:10px;padding:12px 17px;background:#1d4556;border:1px solid #4d8590;color:#e9fff9;text-decoration:none;cursor:pointer;font-size:14px}
+.action:hover,.links a:hover{background:#286074}
+.context{border-radius:12px;background:#112c3b;border:1px solid #446778;padding:15px;margin:16px 0}.context strong{display:block;overflow-wrap:anywhere}
+.sub{font-size:12px;color:#a8bdcb}.footer{border-top:1px solid #30495d;margin:35px 0 0;padding:23px 0;font-size:13px;color:#aac4d4}
+@media(max-width:700px){main{padding:15px}.layout{grid-template-columns:1fr}.panel{padding:17px}}
+@media(max-width:390px){.fields{grid-template-columns:1fr}.field.wide{grid-column:auto}}
+</style>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8F23HQRW4W"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-8F23HQRW4W');</script>
+<script src="./site-nav.js" defer></script>
+</head><body><main>
+<div class="eyebrow">SNEAKER PROFIT ESTIMATOR</div>
+<h1>仕入れ利益シミュレーター</h1>
+<p>仕入れ価格と売却予定価格を入力するだけで、手数料や送料を差し引いた<strong>税引前の想定利益</strong>を試算できます。</p>
+<div id="context" class="context" hidden><strong id="contextSku"></strong><span class="sub">仕入れ価格は出品ページの未確認の掲載価格を仮入力しています。送料・商品状態・在庫などを必ず確認してください。</span></div>
+<div class="layout"><section class="panel" aria-labelledby="inputTitle"><h2 id="inputTitle">条件を入力</h2>
+<div class="fields">
+<div class="field"><label for="buy">仕入れ価格（円）</label><input id="buy" type="number" min="0" max="100000000" step="1" inputmode="numeric" value="25000"></div>
+<div class="field"><label for="sell">想定販売価格（円）</label><input id="sell" type="number" min="0" max="100000000" step="1" inputmode="numeric" value="35000"><small>実際の成約価格ではありません</small></div>
+<div class="field"><label for="fee">販売手数料（％）</label><input id="fee" type="number" min="0" max="100" step="0.1" inputmode="decimal" value="10"></div>
+<div class="field"><label for="shipping">送料（円）</label><input id="shipping" type="number" min="0" max="100000000" step="1" inputmode="numeric" value="1000"></div>
+<div class="field wide"><label for="other">その他の費用（円）</label><input id="other" type="number" min="0" max="100000000" step="1" inputmode="numeric" value="0"><small>購入時の送料・梱包費・決済手数料などを必要に応じて入力</small></div>
+</div>
+<div class="links"><button class="action" id="reset" type="button">例の数値に戻す</button><a href="./compare.html">価格比較から探す →</a></div>
+</section>
+<section class="panel result" aria-labelledby="outputTitle" aria-live="polite"><h2 id="outputTitle">計算結果</h2><div class="sub">想定利益（税引前）</div><div class="main-number" id="profit">—</div><p class="sub" id="interpretation">入力条件をもとに計算しています。</p>
+<div class="metrics"><div class="metric"><small>投下資金に対する利益率</small><strong id="roi">—</strong></div><div class="metric"><small>損益分岐の売価</small><strong id="breakeven">—</strong></div></div>
+<div class="detail">
+<div><span>想定販売価格</span><strong id="sellOut">—</strong></div>
+<div><span>仕入れ価格</span><strong id="buyOut">—</strong></div>
+<div><span>販売手数料</span><strong id="feeOut">—</strong></div>
+<div><span>送料</span><strong id="shipOut">—</strong></div>
+<div><span>その他の費用</span><strong id="otherOut">—</strong></div>
+</div></section></div>
+<div class="warning"><strong>ご利用上の注意</strong><br>
+この機能は入力した売価を前提にした単純な損益計算です。販売できる確率、成約相場、仕入れ商品の真贋、在庫、返品、税金・所得税などは予測・反映していません。手数料は「販売予定価格×手数料率」で計算し、円未満は最終表示時に四捨五入します。実際の利益を保証するものではありません。</div>
+<div class="footer"><a href="./">PREMIUM PULSEへ戻る</a> ／ <a href="./research.html">価格情報の見方</a></div>
+</main>
+<script>
+(()=>{'use strict';const el=id=>document.getElementById(id),ids=['buy','sell','fee','shipping','other'];
+const money=x=>'¥'+Math.round(x).toLocaleString('ja-JP');
+const defaults={buy:'25000',sell:'35000',fee:'10',shipping:'1000',other:'0'};
+const params=new URLSearchParams(location.search);const buyParam=params.get('buy'),skuParam=params.get('sku');
+if(buyParam!==null&&/^\d{1,9}(?:\.\d{1,2})?$/.test(buyParam)&&Number(buyParam)<=100000000)el('buy').value=buyParam;
+if(skuParam&&skuParam.length<=60&&/^[A-Za-z0-9_.-]+$/.test(skuParam)){el('context').hidden=false;el('contextSku').textContent='検討中の型番：'+skuParam.toUpperCase()}
+function parse(id){const input=el(id);const s=input.value.trim(),v=Number(s),max=id==='fee'?100:100000000;if(!s||!Number.isFinite(v)||v<0||v>max||!input.validity.valid)return null;return v}
+function render(){const nums=ids.map(parse);const valid=nums.every(x=>x!==null);if(!valid){el('profit').textContent='—';el('profit').className='main-number';el('interpretation').textContent='0以上の有効な数値を入力してください（販売手数料は0～100％）。';for(const id of ['roi','breakeven','sellOut','buyOut','feeOut','shipOut','otherOut'])el(id).textContent='—';return}
+const [buy,sell,fee,shipping,other]=nums,feeCost=sell*fee/100,profit=sell-buy-feeCost-shipping-other;
+el('profit').className='main-number '+(profit>=0?'positive':'negative');el('profit').textContent=(profit<0?'−':'')+money(Math.abs(profit));
+el('interpretation').textContent=profit>=0?'入力した条件では税引前の利益が見込まれる計算です。':'入力した条件では税引前の損失になる計算です。';
+el('roi').textContent=buy>0?(profit/buy*100).toFixed(1)+'%':'—';
+el('breakeven').textContent=fee>=100?'算出不可':money(Math.ceil((buy+shipping+other)/(1-fee/100)));
+for(const [id,value] of [['sellOut',sell],['buyOut',buy],['feeOut',feeCost],['shipOut',shipping],['otherOut',other]])el(id).textContent=money(value);
+}
+for(const id of ids)el(id).addEventListener('input',render);
+el('reset').addEventListener('click',()=>{for(const [k,v] of Object.entries(defaults))el(k).value=v;render()});render();
+})();
+</script></body></html>
