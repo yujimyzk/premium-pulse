@@ -1,0 +1,19 @@
+/* PREMIUM PULSE shared navigation and mobile usability */
+:root{color-scheme:dark}
+body{overflow-x:hidden}
+.pp-nav{position:sticky;top:0;z-index:30;background:rgba(9,19,33,.97);border-bottom:1px solid #29455d;backdrop-filter:blur(12px);font:500 14px/1.5 system-ui,-apple-system,sans-serif}
+.pp-nav-inner{max-width:1120px;margin:auto;padding:12px 18px;display:flex;align-items:center;justify-content:space-between;gap:16px}
+.pp-brand{font-size:17px;font-weight:900;letter-spacing:.08em;color:#fff!important;text-decoration:none;white-space:nowrap}
+.pp-brand span{color:#67e8cf}
+.pp-links{display:flex;align-items:center;flex-wrap:wrap;gap:8px}
+.pp-links a,.pp-mobile a{color:#c5d6e6!important;text-decoration:none;border-radius:9px;padding:8px 12px;display:block}
+.pp-links a[aria-current="page"],.pp-links a:hover,.pp-mobile a[aria-current="page"]{background:#1d4052;color:#8af6df!important}
+.pp-menu{display:none;position:relative}
+.pp-menu>summary{list-style:none;cursor:pointer;border:1px solid #3c6075;border-radius:10px;padding:9px 13px;color:#e1f7f2}
+.pp-menu>summary::-webkit-details-marker{display:none}
+.pp-mobile{position:absolute;right:0;top:calc(100% + 10px);width:min(290px,88vw);background:#11283b;border:1px solid #46687e;border-radius:12px;box-shadow:0 12px 28px #0008;padding:8px}
+.pp-mobile a{padding:12px 13px}
+body.pp-nav-loaded main>header{display:none!important}
+.pp-visually-hidden{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,summary:focus-visible{outline:3px solid #73e8d7;outline-offset:2px}
+@media(max-width:780px){.pp-links{display:none}.pp-menu{display:block}.pp-nav-inner{padding:11px 15px}}
