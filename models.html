@@ -11,7 +11,7 @@
 <footer>データ取得元：Yahoo!ショッピング 商品検索API。外部出品ページに移動した際の価格・内容は予告なく変更される場合があります。<p><a href="./status.html">データ収集状況を見る</a></p></footer></main>
 <script>
 const q=document.getElementById('q'),brand=document.getElementById('brand'),sort=document.getElementById('sort'),list=document.getElementById('list');
-let rows=[];
+let rows=[];const initialBrand=new URLSearchParams(location.search).get('brand');if(['Nike','adidas','New Balance','ASICS','PUMA'].includes(initialBrand))brand.value=initialBrand;
 function inferBrand(name){const n=String(name||'').toUpperCase();if(/NEW BALANCE|ニューバランス/.test(n))return 'New Balance';if(/ADIDAS|アディダス|YEEZY/.test(n))return 'adidas';if(/ASICS|アシックス/.test(n))return 'ASICS';if(/PUMA|プーマ/.test(n))return 'PUMA';if(/NIKE|ナイキ|JORDAN|ジョーダン/.test(n))return 'Nike';return ''}
 function card(r){
  const article=document.createElement('article');article.className='card';const pic=document.createElement('div');pic.className='photo';pic.textContent='NO IMAGE';try{const u=new URL(r.sample_image_url);if(u.protocol==='https:'&&((host)=>host==="yimg.jp"||host.endsWith(".yimg.jp"))(u.hostname)){const img=document.createElement('img');img.src=u.href;img.loading='lazy';img.alt=(r.sample_name||'スニーカー')+'の参考商品画像';img.referrerPolicy='no-referrer';img.onerror=()=>{pic.replaceChildren();pic.textContent='NO IMAGE'};pic.replaceChildren(img)}}catch{}article.append(pic);
