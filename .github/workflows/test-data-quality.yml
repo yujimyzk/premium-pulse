@@ -1,0 +1,37 @@
+name: Validate sneaker collection and JAN metrics
+on:
+  push:
+    paths:
+      - 'collect_yahoo.py'
+      - 'summarize_candidates.py'
+      - 'discover_skus.py'
+      - 'test_collector.py'
+      - 'test_discover_skus.py'
+      - 'test_price_history.py'
+      - 'test_rakuten.py'
+      - 'data/expansion_queries.json'
+      - '.github/workflows/test-data-quality.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Check all collector regression tests
+        run: python -m unittest test_collector.py test_discover_skus.py test_price_history.py test_rakuten.py
+      - name: Validate metrics script with committed data
+        run: python summarize_candidates.py
+      - name: Validate expansion topic JSON
+        run: |
+          python - <<'PY'
+          import json
+          with open("data/expansion_queries.json", encoding="utf-8") as f:
+              topics=json.load(f)
+          assert isinstance(topics,list) and len(topics)>=5
+          assert {'Nike','adidas','New Balance','ASICS','PUMA'} <= {x['brand'] for x in topics}
+          PY
