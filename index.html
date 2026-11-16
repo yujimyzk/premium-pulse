@@ -18,7 +18,7 @@ h2{font-size:clamp(22px,3.3vw,30px);margin:0}
 .search-form button,.primary-link{border:0;border-radius:12px;background:#70e9d0;color:#09262b;font-weight:850;padding:13px 23px;cursor:pointer;text-align:center;text-decoration:none;font-size:15px;white-space:nowrap}
 .search-form button:hover,.primary-link:hover{background:#9cf8e5}
 .hint{font-size:12px;color:#b6cbdd}
-.quick{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin:20px 0 32px}
+.quick{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px;margin:20px 0 32px}
 .quick a{padding:18px;border:1px solid #33546c;border-radius:15px;background:#13283c;text-decoration:none;color:#eef7ff;min-width:0}
 .quick a:hover,.product:hover{border-color:#78dfcb}
 .quick strong{display:block;font-size:17px}.quick small{display:block;margin-top:7px;color:#aac3d5;font-size:12px}
@@ -48,7 +48,7 @@ h2{font-size:clamp(22px,3.3vw,30px);margin:0}
 footer{border-top:1px solid #304a62;padding:28px 0;margin-top:30px;font-size:13px;color:#aec2d3}
 .footer-links{display:flex;flex-wrap:wrap;gap:14px;margin-top:10px}
 .empty{border:1px dashed #60758a;border-radius:13px;padding:26px;color:#bed0df;grid-column:1/-1}
-@media(max-width:800px){.products{grid-template-columns:repeat(2,minmax(0,1fr))}.quick{grid-template-columns:1fr 1fr}.quick a:last-child{grid-column:auto}}
+@media(max-width:800px){.products{grid-template-columns:repeat(2,minmax(0,1fr))}.quick{grid-template-columns:1fr 1fr}.quick a:last-child{grid-column:1/-1}}
 @media(max-width:540px){main{padding:14px}.hero{padding:25px 18px}.search-form{flex-direction:column}.search-form button{width:100%;min-height:48px}.products{grid-template-columns:1fr 1fr;gap:9px}.photo{height:150px}.product-body{padding:11px}.product h3{font-size:13px;min-height:55px}.price{font-size:20px}.sku{font-size:11px}.source{font-size:11px}.quick{gap:8px}.quick a{padding:12px}.quick strong{font-size:14px}.quick small{font-size:11px}.collection{gap:8px}.collection .metric{min-width:130px;padding:13px}}
 </style>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-8F23HQRW4W"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-8F23HQRW4W');</script>
@@ -69,7 +69,7 @@ footer{border-top:1px solid #304a62;padding:28px 0;margin-top:30px;font-size:13p
 <section class="quick" aria-label="便利な機能">
 <a href="./compare.html"><span class="icon" aria-hidden="true">🔎</span><strong>価格を比較する</strong><small>型番・サイズ・状態で探す</small></a>
 <a href="./drops.html"><span class="icon" aria-hidden="true">📉</span><strong>値下がりを探す</strong><small>同じ出品の価格変化を確認</small></a>
-<a href="./models.html"><span class="icon" aria-hidden="true">👟</span><strong>ブランドから探す</strong><small>人気モデルや型番候補を発見</small></a><a href="./profit.html"><span class="icon" aria-hidden="true">🧮</span><strong>仕入れ利益を計算</strong><small>手数料・送料を差し引いて試算</small></a>
+<a href="./models.html"><span class="icon" aria-hidden="true">👟</span><strong>ブランドから探す</strong><small>人気モデルや型番候補を発見</small></a><a href="./profit.html"><span class="icon" aria-hidden="true">🧮</span><strong>仕入れ利益を計算</strong><small>手数料・送料を差し引いて試算</small></a><a href="./my-watchlist.html"><span class="icon" aria-hidden="true">♡</span><strong>お気に入りを確認</strong><small>希望価格との比較をチェック</small></a>
 </section>
 <section aria-labelledby="featuredTitle"><div class="section-head"><div><h2 id="featuredTitle">写真で探すスニーカー</h2><p>最近収集された出品候補から紹介。掲載価格は販売希望価格です。</p></div><a class="link-more" href="./compare.html">すべての出品価格を見る →</a></div>
 <div class="products" id="featured" aria-live="polite"><div class="empty">商品情報を読み込み中…</div></div>
