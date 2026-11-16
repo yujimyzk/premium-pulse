@@ -15,17 +15,41 @@ import urllib.request
 
 ROOT = pathlib.Path(__file__).resolve().parent
 API = "https://shopping.yahooapis.jp/ShoppingWebService/V3/itemSearch"
-# Restrict to Nike-style SKU format until model-specific verification is possible.
-SKU = re.compile(r"(?<![A-Z0-9])([A-Z]{1,3}[0-9]{4}-[0-9]{3})(?![0-9])", re.I)
+# Model code formats differ by brand. These are *candidate extraction* patterns only.
+# Names and SKU-like strings are never treated as authenticated product identities.
+NIKE_SKU = re.compile(r"(?<![A-Z0-9])([A-Z]{1,3}[0-9]{4}-[0-9]{3})(?![A-Z0-9])", re.I)
+ADIDAS_SKU = re.compile(r"(?<![A-Z0-9])([A-Z]{1,2}[0-9]{4,5})(?![A-Z0-9])", re.I)
+NB_SKU = re.compile(r"(?<![A-Z0-9])([A-Z]{1,3}[0-9]{3,4}[A-Z0-9]{2,5})(?![A-Z0-9])", re.I)
+ASICS_SKU = re.compile(r"(?<![A-Z0-9])([0-9]{4}[A-Z][0-9]{3}-[0-9]{3})(?![A-Z0-9])", re.I)
+PUMA_SKU = re.compile(r"(?<![A-Z0-9])([0-9]{6}-[0-9]{2})(?![A-Z0-9])", re.I)
+BRAND_PATTERNS = {
+    "Nike": NIKE_SKU,
+    "adidas": ADIDAS_SKU,
+    "New Balance": NB_SKU,
+    "ASICS": ASICS_SKU,
+    "PUMA": PUMA_SKU,
+}
+BRAND_TERMS = {
+    "Nike": ("NIKE", "ナイキ", "JORDAN", "ジョーダン"),
+    "adidas": ("ADIDAS", "アディダス", "YEEZY", "イージー"),
+    "New Balance": ("NEW BALANCE", "ニューバランス"),
+    "ASICS": ("ASICS", "アシックス", "GEL-KAYANO", "GEL-NYC"),
+    "PUMA": ("PUMA", "プーマ"),
+}
+# Rotated in two queries/day to avoid multiplying API usage and HTTP 429 risk.
 SEEDS = [
-    "ナイキ エアジョーダン 限定",
-    "ナイキ トラヴィススコット スニーカー",
-    "ナイキ ダンク コラボ",
-    "NIKE SB DUNK LOW 限定",
-    "ナイキ エアジョーダン1 コラボ",
-    "NIKE OFF-WHITE DUNK LOW",
-    "NIKE KOBE PROTRO",
-    "NIKE AIR MAX 限定"
+    ("Nike", "ナイキ エアジョーダン 限定"),
+    ("adidas", "アディダス サンバ スペツィアル コラボ"),
+    ("New Balance", "ニューバランス 990 9060 限定"),
+    ("ASICS", "アシックス GEL-KAYANO GEL-NYC スニーカー"),
+    ("PUMA", "プーマ スピードキャット コラボ スニーカー"),
+    ("Nike", "ナイキ トラヴィススコット スニーカー"),
+    ("adidas", "adidas YEEZY スニーカー 型番"),
+    ("New Balance", "New Balance 2002R 1906R スニーカー"),
+    ("ASICS", "ASICS GEL-LYTE 3 コラボ"),
+    ("PUMA", "PUMA スウェード 限定 スニーカー"),
+    ("Nike", "NIKE SB DUNK LOW 限定"),
+    ("Nike", "NIKE AIR MAX 限定"),
 ]
 def official_image(hit):
     img=hit.get("exImage") or {}
@@ -42,40 +66,66 @@ def official_image(hit):
 
 BLOCKED = ("靴紐", "シューレース", "キーホルダー", "ステッカー", "カバー", "ソックス", "インソール")
 
-def extract_skus(name):
+def classify_brand(name):
+    upper = name.upper()
+    for brand, tokens in BRAND_TERMS.items():
+        if any(token.upper() in upper for token in tokens):
+            return brand
+    return None
+
+def extract_skus(name, brand=None):
     if any(token in name for token in BLOCKED):
         return []
-    return sorted(set(m.group(1).upper() for m in SKU.finditer(name)))
+    brand = brand or classify_brand(name)
+    if not brand:
+        return []
+    # The item title itself must identify the intended brand, regardless of
+    # the search term, to reduce cross-brand model code contamination.
+    if classify_brand(name) != brand:
+        return []
+    return sorted(set(m.group(1).upper() for m in BRAND_PATTERNS[brand].finditer(name)))
 
 def discover(payloads, existing, previous, observed_at):
     counts = {}
-    for payload in payloads:
+    for entry in payloads:
+        # Legacy tests supply a raw payload. New data includes a targeted brand.
+        expected_brand = entry.get("target_brand")
+        payload = entry.get("payload", entry)
         for hit in payload.get("hits", []):
             name = str(hit.get("name") or "")
             url = str(hit.get("url") or "")
             parsed = urllib.parse.urlsplit(url)
             if parsed.scheme != "https" or not parsed.netloc:
                 continue
-            for sku in extract_skus(name):
+            brand = classify_brand(name)
+            if expected_brand and brand != expected_brand:
+                continue
+            for sku in extract_skus(name, brand):
                 if sku in existing:
                     continue
-                row = counts.setdefault(sku, {"sku": sku, "first_seen":observed_at,
-                    "last_seen":observed_at,"matching_listings":0,"sample_name":name[:180],
-                    "sample_url":url, "sample_image_url":official_image(hit), "status":"pending_review",
-                    "note":"型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"})
+                key = (brand, sku)
+                row = counts.setdefault(key, {"sku": sku, "brand": brand,
+                    "first_seen": observed_at, "last_seen": observed_at,
+                    "matching_listings": 0, "sample_name": name[:180],
+                    "sample_url": url, "sample_image_url": official_image(hit),
+                    "status": "pending_review",
+                    "note": "未確認の型番候補。商品種別・型番・サイズ・真贋を要確認。"})
                 row["matching_listings"] += 1
-    previous_map={x["sku"]:x for x in previous.get("candidates", []) if x.get("sku")}
-    for sku,row in counts.items():
-        if sku in previous_map:
-            row["first_seen"]=previous_map[sku].get("first_seen",observed_at)
+    prev_map = {(x.get("brand") or classify_brand(x.get("sample_name", "")), x["sku"]): x
+                for x in previous.get("candidates", []) if x.get("sku")}
+    for key, row in counts.items():
+        if key in prev_map:
+            prior = prev_map[key]
+            row["first_seen"] = prior.get("first_seen", observed_at)
             if not row.get("sample_image_url"):
-                row["sample_image_url"]=previous_map[sku].get("sample_image_url")
-    # Retain prior unreviewed candidates, even if a subsequent search does not return them.
-    for sku,row in previous_map.items():
-        if sku not in counts and sku not in existing and row.get("status")=="pending_review":
-            counts[sku]=row
-    return {"status":"pending_review","updated_at":observed_at,
-            "candidates":sorted(counts.values(),key=lambda x:(-int(x.get("matching_listings",0)),x["sku"]))[:200]}
+                row["sample_image_url"] = prior.get("sample_image_url")
+    # Keep pending models discovered on previous days, even when query rotates.
+    for key, prior in prev_map.items():
+        if key not in counts and prior.get("sku") not in existing and prior.get("status") == "pending_review":
+            counts[key] = dict(prior, brand=prior.get("brand") or key[0] or "Unknown")
+    return {"status": "pending_review", "updated_at": observed_at,
+        "candidates": sorted(counts.values(), key=lambda x:
+            (-int(x.get("matching_listings", 0)), x.get("brand", ""), x["sku"]))[:500]}
 
 def fetch(key, query):
     url=API+"?"+urllib.parse.urlencode({"appid":key,"query":query,"results":30,"in_stock":"true","image_size":300})
@@ -101,9 +151,9 @@ def main():
     day_index=dt.datetime.fromisoformat(now).date().toordinal()
     topics=[SEEDS[(day_index*2+i)%len(SEEDS)] for i in range(min(2,len(SEEDS)))]
     payloads=[]
-    for topic in topics:
+    for brand, topic in topics:
         try:
-            payloads.append(fetch(key,topic))
+            payloads.append({"target_brand": brand, "payload": fetch(key, topic)})
         except SystemExit:
             print("Discovery skipped one topic due to API rejection; preserving previous candidates.")
     if not payloads:
