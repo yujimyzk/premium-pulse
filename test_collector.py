@@ -4,7 +4,7 @@ import collect_yahoo
 class CandidateTests(unittest.TestCase):
     def test_collect_uses_only_sku_matches_and_https_urls(self):
         data={"hits":[
-            {"name":"NIKE DZ4137-106 27cm","price":80000,"url":"https://shop.example/item/1","condition":"used","seller":{"name":"Shop"},"image":{"medium":"https://item-shopping.c.yimg.jp/i/g/example"},"exImage":{"url":"https://item-shopping.c.yimg.jp/i/n/example_300"}},
+            {"name":"NIKE DZ4137-106 27cm","price":80000,"url":"https://shop.example/item/1","condition":"used","janCode":"4905524535815","seller":{"name":"Shop"},"image":{"medium":"https://item-shopping.c.yimg.jp/i/g/example"},"exImage":{"url":"https://item-shopping.c.yimg.jp/i/n/example_300"}},
             {"name":"NIKE DIFFERENT SKU","price":10000,"url":"https://shop.example/item/2"},
             {"name":"NIKE DZ4137-106","price":10000,"url":"http://shop.example/item/3"},
             {"name":"NIKE DZ4137-106","price":"12000","url":"https://shop.example/item/4"}
@@ -16,8 +16,15 @@ class CandidateTests(unittest.TestCase):
         self.assertEqual(res["count"],1)
         self.assertEqual(res["candidates"][0]["verification"],"pending")
         self.assertEqual(res["candidates"][0]["price_kind"],"listing")
+        self.assertEqual(res["candidates"][0]["jan_code"],"4905524535815")
         self.assertEqual(res["candidates"][0]["size_cm_hint"],27.0)
         self.assertEqual(res["candidates"][0]["image_url"],"https://item-shopping.c.yimg.jp/i/n/example_300")
+    def test_jan_rejects_missing_invalid_or_fabricated_values(self):
+        self.assertIsNone(collect_yahoo.jan_code_hint({}))
+        self.assertIsNone(collect_yahoo.jan_code_hint({"janCode":"4905524535816"}))
+        self.assertIsNone(collect_yahoo.jan_code_hint({"janCode":"490552453581"}))
+        self.assertIsNone(collect_yahoo.jan_code_hint({"janCode":"4905524535815;123"}))
+        self.assertEqual(collect_yahoo.jan_code_hint({"janCode":"4905524535815"}),"4905524535815")
     def test_size_hints_only_when_centimeters_explicit(self):
         self.assertEqual(collect_yahoo.listing_size_hint("Nike DZ4137-106 SIZE 26.5cm"),26.5)
         self.assertEqual(collect_yahoo.listing_size_hint("Nike 27センチ 未使用"),27.0)
