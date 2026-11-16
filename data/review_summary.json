@@ -40,5 +40,13 @@
     "IQ7604-101": 9
   },
   "published_as_market_price": 0,
-  "note": "商品名中のcm表記は参考値で、型番・サイズ・状態・実物・税込区分・定価・成約の確認は未実施。ランキングへの自動公開はしません。"
+  "note": "商品名中のcm表記は参考値で、型番・サイズ・状態・実物・税込区分・定価・成約の確認は未実施。ランキングへの自動公開はしません。",
+  "distinct_skus_in_listings": 30,
+  "valid_jan_listing_urls": 0,
+  "jan_coverage_pct": 0,
+  "jan_by_brand": {},
+  "listing_candidates_by_brand": {
+    "Nike": 246
+  },
+  "collector_duplicates_removed": 0
 }
