@@ -1,8 +1,8 @@
 <!doctype html>
 <html lang="ja"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>PREMIUM PULSE｜スニーカーの出品価格・値下がり情報を検索</title>
-<meta name="description" content="スニーカーの型番から出品価格・商品写真・サイズ・値下がり履歴を検索。Nike、adidas、New Balanceなどの候補情報を掲載。">
+<title>PREMIUM PULSE｜スニーカーの価格比較・モデル検索</title>
+<meta name="description" content="スニーカーの写真からモデルを探し、ブランド別検索・出品価格比較・値下がり情報・利益計算をチェック。未検証の掲載価格は明確に表示。">
 <link rel="stylesheet" href="./site-nav.css">
 <style>
 :root{font-family:system-ui,-apple-system,"Hiragino Kaku Gothic ProN",Meiryo,sans-serif;background:#081321;color:#f1f7ff}
@@ -50,36 +50,73 @@ footer{border-top:1px solid #304a62;padding:28px 0;margin-top:30px;font-size:13p
 .empty{border:1px dashed #60758a;border-radius:13px;padding:26px;color:#bed0df;grid-column:1/-1}
 @media(max-width:800px){.products{grid-template-columns:repeat(2,minmax(0,1fr))}.quick{grid-template-columns:1fr 1fr}.quick a:last-child{grid-column:1/-1}}
 @media(max-width:540px){main{padding:14px}.hero{padding:25px 18px}.search-form{flex-direction:column}.search-form button{width:100%;min-height:48px}.products{grid-template-columns:1fr 1fr;gap:9px}.photo{height:150px}.product-body{padding:11px}.product h3{font-size:13px;min-height:55px}.price{font-size:20px}.sku{font-size:11px}.source{font-size:11px}.quick{gap:8px}.quick a{padding:12px}.quick strong{font-size:14px}.quick small{font-size:11px}.collection{gap:8px}.collection .metric{min-width:130px;padding:13px}}
+
+/* Sneaker-first visual system */
+:root{background:#080e16;color:#f7fbff}
+main{max-width:1200px}h1,h2,h3{letter-spacing:-.035em}
+.hero{position:relative;display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);align-items:center;gap:28px;background:linear-gradient(125deg,#101b28 0%,#0b2429 60%,#123a3b 100%);min-height:410px;overflow:hidden;padding:clamp(23px,4.5vw,52px)}
+.hero:before{content:'SNEAKERS';position:absolute;right:-12px;bottom:-46px;color:#ffffff08;font-size:clamp(80px,13vw,160px);font-weight:1000;letter-spacing:-.1em;pointer-events:none}
+.hero-copy{position:relative;z-index:2}.hero h1{font-size:clamp(31px,4.7vw,58px);line-height:1.18;margin:12px 0 17px}.hero h1 em{font-style:normal;color:#91f6d7}
+.hero .eyebrow{color:#9bf6dc}.hero .intro{color:#d1e1e9;max-width:570px;font-size:15px}.hero .search-form{margin:19px 0 10px}
+.hero-gallery{display:grid;grid-template-columns:1.4fr .9fr;gap:10px;height:330px;position:relative;z-index:1;min-width:0}
+.hero-gallery .hero-shoe{background:#ecf1f0;border-radius:18px;display:flex;align-items:center;justify-content:center;overflow:hidden;position:relative;min-width:0}
+.hero-gallery .hero-shoe:first-child{grid-row:span 2;background:linear-gradient(155deg,#f8f8f1,#d6e5e1)}
+.hero-gallery .hero-shoe:not(:first-child){background:linear-gradient(140deg,#eaf0f6,#d4e5e7)}
+.hero-shoe img{display:block;width:100%;height:100%;object-fit:contain;transform:scale(1.03)}
+.hero-shoe small{position:absolute;bottom:9px;left:9px;border-radius:6px;padding:4px 7px;background:#071f27df;color:#fff;font-size:10px}
+.hero-gallery .hero-shoe:nth-child(2) img,.hero-gallery .hero-shoe:nth-child(3) img{transform:scale(1.11)}
+.intro-strip{display:flex;flex-wrap:wrap;align-items:center;gap:12px;color:#bcd5d7;font-size:13px;margin:5px 0 22px}
+.intro-strip span{padding:7px 0}.intro-strip b{color:#94f4da}
+.brand-showcase{margin:10px 0 29px;background:#111d2a;border:1px solid #314758;border-radius:20px;padding:22px}
+.brand-showcase .section-head{margin:0 0 17px}
+.brands{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:10px;margin:0}
+.brands a{display:flex;align-items:center;justify-content:center;min-height:77px;padding:12px 8px;border-radius:12px;background:#1d2e3c;border:1px solid #3a5261;color:#f4f7fb;font-size:clamp(13px,1.5vw,18px);font-weight:900;text-align:center;letter-spacing:-.02em}
+.brands a:hover{border-color:#8ef4da;background:#264a51;transform:translateY(-2px)}
+.section-head h2{font-size:clamp(24px,3.3vw,32px);font-weight:900}
+.quick{grid-template-columns:repeat(5,minmax(0,1fr));gap:10px;margin:20px 0 29px}.quick a{border:1px solid #2b4657;background:#101d2b;border-radius:12px;padding:15px}.quick strong{font-size:15px}
+.product{border-color:#314753;background:#121f2c;transition:border-color .15s}.photo{background:linear-gradient(150deg,#f5f7f7,#e2e9e9);height:240px}.photo img{background:transparent}
+.product h3{min-height:66px}.price{color:#f7fbff}.product .source{color:#9debd5}
+.product .product-body .mini-link{color:#83ead9;text-decoration:none}
+.product .product-body .mini-link:hover{text-decoration:underline}
+.disclaimer-label{display:inline-block;background:#25413e;color:#baf8e6;font-size:11px;border-radius:5px;padding:3px 6px;font-weight:800;margin-bottom:7px}
+.collection,.notice{max-width:100%}
+@media(max-width:930px){.hero{grid-template-columns:1fr;gap:19px}.hero-gallery{height:235px;grid-template-columns:1.3fr 1fr 1fr}.hero-gallery .hero-shoe:first-child{grid-row:auto}.hero .intro{max-width:720px}}
+@media(max-width:700px){.brands{grid-template-columns:repeat(3,minmax(0,1fr))}.brands a{min-height:62px}.quick{grid-template-columns:repeat(2,minmax(0,1fr))}.quick a:last-child{grid-column:1/-1}.hero-gallery{height:180px}.hero-gallery .hero-shoe{border-radius:11px}.hero-gallery .hero-shoe small{font-size:9px}.brand-showcase{padding:16px}.photo{height:170px}}
+@media(max-width:540px){.hero{padding:21px 16px}.hero-gallery{height:150px;gap:6px}.hero h1{font-size:33px}.hero .intro{font-size:13px}.intro-strip{gap:8px;font-size:12px}.brands{grid-template-columns:repeat(2,minmax(0,1fr))}.brands a{min-height:61px}.quick{gap:8px}.quick a:last-child{grid-column:1/-1}.photo{height:155px}.product h3{font-size:13px}.product .product-body{padding:12px}}
+@media(prefers-reduced-motion:reduce){.brands a{transition:none}.brands a:hover{transform:none}}
 </style>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-8F23HQRW4W"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-8F23HQRW4W');</script>
 <script src="./site-nav.js" defer></script>
 </head><body>
 <main>
 <section class="hero" aria-labelledby="mainTitle">
-<div class="eyebrow">SNEAKER PRICE DISCOVERY</div>
-<h1 id="mainTitle">欲しいスニーカーを、<br>名前や型番から探そう。</h1>
-<p>出品価格・商品写真・サイズ別の情報をまとめてチェック。値下がりした商品も見つけられる、スニーカー情報サイト。</p>
+<div class="hero-copy">
+<div class="eyebrow">SNEAKER PRICE WATCH · PREMIUM PULSE</div>
+<h1 id="mainTitle">スニーカーの価格を、<br><em>もっと自由に比較。</em></h1>
+<p class="intro">Nike・Jordan・adidasなど、気になる一足を写真やモデル名から発見。出品価格の比較、値下がりチェック、仕入れ利益の試算まで。</p>
 <form class="search-form" id="skuSearch" action="./compare.html" method="get">
 <label class="pp-visually-hidden" for="skuInput">スニーカーの型番または商品名</label>
 <input id="skuInput" name="q" placeholder="型番・商品名　例：Travis Scott" autocomplete="off" maxlength="40" required>
 <button type="submit">価格を検索 →</button>
 </form>
-<div class="hint">名前や型番で検索できます。 <a href="./models.html">ブランドから探す</a> ／ データは未確認の出品候補を含みます</div>
+<div class="hint">型番が分からなくてもOK。<a href="./models.html">ブランドから探す →</a></div>
+</div>
+<div class="hero-gallery" id="heroGallery" aria-label="収集済みスニーカーの商品写真"><div class="hero-shoe">👟</div><div class="hero-shoe">👟</div><div class="hero-shoe">👟</div></div>
 </section>
+<div class="intro-strip" aria-label="サイトでできること"><span><b>01</b> スニーカーを探す</span><span><b>02</b> 掲載価格を比較</span><span><b>03</b> 値下がりをチェック</span></div>
+<section class="brand-showcase" aria-labelledby="brandTitle"><div class="section-head"><div><h2 id="brandTitle">好きなブランドからスニーカーを探す</h2><p>ブランド別に新しい型番候補をチェック。未収集のブランドは今後拡充します。</p></div></div><div class="brands"><a href="./models.html?brand=Nike">NIKE / JORDAN</a><a href="./models.html?brand=adidas">adidas</a><a href="./models.html?brand=New%20Balance">New Balance</a><a href="./models.html?brand=ASICS">ASICS</a><a href="./models.html?brand=PUMA">PUMA</a></div></section>
 <section class="quick" aria-label="便利な機能">
 <a href="./compare.html"><span class="icon" aria-hidden="true">🔎</span><strong>価格を比較する</strong><small>型番・サイズ・状態で探す</small></a>
 <a href="./drops.html"><span class="icon" aria-hidden="true">📉</span><strong>値下がりを探す</strong><small>同じ出品の価格変化を確認</small></a>
 <a href="./models.html"><span class="icon" aria-hidden="true">👟</span><strong>ブランドから探す</strong><small>人気モデルや型番候補を発見</small></a><a href="./profit.html"><span class="icon" aria-hidden="true">🧮</span><strong>仕入れ利益を計算</strong><small>手数料・送料を差し引いて試算</small></a><a href="./my-watchlist.html"><span class="icon" aria-hidden="true">♡</span><strong>お気に入りを確認</strong><small>希望価格との比較をチェック</small></a>
 </section>
-<section aria-labelledby="featuredTitle"><div class="section-head"><div><h2 id="featuredTitle">写真で探すスニーカー</h2><p>最近収集された出品候補から紹介。掲載価格は販売希望価格です。</p></div><a class="link-more" href="./compare.html">すべての出品価格を見る →</a></div>
+<section aria-labelledby="featuredTitle"><div class="section-head"><div><h2 id="featuredTitle">今チェックできるスニーカーモデル</h2><p>実際の出品から収集した写真付きモデル。人気ランキングではありません。</p></div><a class="link-more" href="./compare.html">すべての出品価格を見る →</a></div>
 <div class="products" id="featured" aria-live="polite"><div class="empty">商品情報を読み込み中…</div></div>
 </section>
-<section aria-labelledby="dropsTitle"><div class="section-head"><div><h2 id="dropsTitle">最近の値下がり</h2><p>同じ商品ページで、前回の掲載価格から値下がりした記録だけを表示します。</p></div><a class="link-more" href="./drops.html">値下がり一覧へ →</a></div>
+<section aria-labelledby="dropsTitle"><div class="section-head"><div><h2 id="dropsTitle">値下がりしたスニーカーを探す</h2><p>同じ商品ページで、前回の掲載価格から値下がりした記録だけを表示します。</p></div><a class="link-more" href="./drops.html">値下がり一覧へ →</a></div>
 <div class="products" id="dropPreview" aria-live="polite"><div class="empty">価格履歴を読み込み中…</div></div>
 </section>
-<section aria-labelledby="brandTitle"><div class="section-head"><div><h2 id="brandTitle">ブランドから探す</h2><p>新ブランドは現在探索拡大中。型番候補は商品の確認前です。</p></div></div>
-<div class="brands"><a href="./models.html?brand=Nike">Nike / Jordan</a><a href="./models.html?brand=adidas">adidas</a><a href="./models.html?brand=New%20Balance">New Balance</a><a href="./models.html?brand=ASICS">ASICS</a><a href="./models.html?brand=PUMA">PUMA</a></div>
-</section>
+
 <section aria-labelledby="collectionTitle"><div class="section-head"><div><h2 id="collectionTitle">収集している情報</h2><p>毎回の取得結果を自動で表示。件数は検証済み商品数ではありません。</p></div><a class="link-more" href="./status.html">詳しい収集状況 →</a></div>
 <div class="collection"><div class="metric"><small>最新の出品候補</small><strong id="listingCount">—</strong></div><div class="metric"><small>発見した型番候補</small><strong id="modelCount">—</strong></div><div class="metric"><small>最終観測日時</small><strong id="observed" style="font-size:15px">確認中…</strong></div></div>
 </section>
@@ -97,12 +134,15 @@ if(u&&(/(^|\.)yimg\.jp$/i.test(u.hostname)||/(^|\.)(rakuten\.co\.jp|rakuten\.ne\
 function addText(root,tag,cls,value){const n=document.createElement(tag);if(cls)n.className=cls;n.textContent=value;root.append(n);return n}
 function empty(root,message){root.replaceChildren();addText(root,'div','empty',message)}
 function card(item,detail){const c=document.createElement('article');c.className='product';c.append(photo(item.image_url,item.name||item.watch_sku||'商品'));
-const b=document.createElement('div');b.className='product-body';addText(b,'div','source',detail?'値下がりを観測':'Yahoo!ショッピング・未確認');addText(b,'div','sku','型番 '+(item.watch_sku||'不明'));addText(b,'h3','',item.name||'商品名未登録');addText(b,'div','price',yen(item.price_jpy));if(detail)addText(b,'div','note','前回比 -'+yen(detail.drop)+'（'+detail.pct.toFixed(1)+'%）');
+const b=document.createElement('div');b.className='product-body';addText(b,'span','disclaimer-label','出品価格・未検証');addText(b,'div','source',detail?'値下がりを観測':'Yahoo!ショッピング');addText(b,'div','sku','型番 '+(item.watch_sku||'不明'));addText(b,'h3','',item.name||'商品名未登録');addText(b,'div','price',yen(item.price_jpy));if(detail)addText(b,'div','note','前回比 -'+yen(detail.drop)+'（'+detail.pct.toFixed(1)+'%）');
 const a=document.createElement('a');a.className='mini-link';a.textContent='商品の価格を比較する →';a.href='./compare.html?sku='+encodeURIComponent(item.watch_sku||'');b.append(a);c.append(b);return c}
 const get=path=>fetch(path,{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('fetch');return r.json()});
 get('./data/review_candidates.json').then(d=>{const rows=(d.candidates||[]).filter(x=>x.verification==='pending'&&x.image_url&&Number.isSafeInteger(x.price_jpy)&&x.price_jpy>0);
 el('listingCount').textContent=(d.candidates||[]).length.toLocaleString('ja-JP')+'件';el('observed').textContent=d.generated_at?d.generated_at.replace('T',' ').slice(0,16):'不明';
 const seen=new Set(),selected=[];for(const x of rows){if(!seen.has(x.watch_sku)){selected.push(x);seen.add(x.watch_sku)}if(selected.length>=6)break}
+const hero=el('heroGallery');hero.replaceChildren();
+for(const item of selected.slice(0,3)){const wrap=document.createElement('div');wrap.className='hero-shoe';wrap.append(photo(item.image_url,item.name));const cap=document.createElement('small');cap.textContent=item.watch_sku||'SNEAKER';wrap.append(cap);hero.append(wrap)}
+if(!selected.length){const fallback=document.createElement('div');fallback.className='hero-shoe';fallback.textContent='👟';hero.append(fallback)}
 const target=el('featured');target.replaceChildren();if(!selected.length){empty(target,'現在表示できる写真付き出品候補はありません。');return}for(const item of selected)target.append(card(item));}).catch(()=>{empty(el('featured'),'商品情報を読み込めませんでした。更新してお試しください。');el('listingCount').textContent='取得できません'});
 get('./data/discovery_queue.json').then(d=>{el('modelCount').textContent=(d.candidates||[]).length.toLocaleString('ja-JP')+'件'}).catch(()=>el('modelCount').textContent='取得できません');
 Promise.all([get('./data/price_history.json'),get('./data/review_candidates.json')]).then(([history,current])=>{
