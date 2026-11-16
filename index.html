@@ -62,7 +62,7 @@ main{max-width:1200px}h1,h2,h3{letter-spacing:-.035em}
 .hero-gallery .hero-shoe{background:#ecf1f0;border-radius:18px;display:flex;align-items:center;justify-content:center;overflow:hidden;position:relative;min-width:0}
 .hero-gallery .hero-shoe:first-child{grid-row:span 2;background:linear-gradient(155deg,#f8f8f1,#d6e5e1)}
 .hero-gallery .hero-shoe:not(:first-child){background:linear-gradient(140deg,#eaf0f6,#d4e5e7)}
-.hero-shoe img{display:block;width:100%;height:100%;object-fit:contain;transform:scale(1.03)}
+.hero-shoe img{display:block;width:100%;height:100%;object-fit:contain;transform:scale(1.03)}.hero-shoe a{display:block;width:100%;height:100%}
 .hero-shoe small{position:absolute;bottom:9px;left:9px;border-radius:6px;padding:4px 7px;background:#071f27df;color:#fff;font-size:10px}
 .hero-gallery .hero-shoe:nth-child(2) img,.hero-gallery .hero-shoe:nth-child(3) img{transform:scale(1.11)}
 .intro-strip{display:flex;flex-wrap:wrap;align-items:center;gap:12px;color:#bcd5d7;font-size:13px;margin:5px 0 22px}
@@ -141,7 +141,7 @@ get('./data/review_candidates.json').then(d=>{const rows=(d.candidates||[]).filt
 el('listingCount').textContent=(d.candidates||[]).length.toLocaleString('ja-JP')+'件';el('observed').textContent=d.generated_at?d.generated_at.replace('T',' ').slice(0,16):'不明';
 const seen=new Set(),selected=[];for(const x of rows){if(!seen.has(x.watch_sku)){selected.push(x);seen.add(x.watch_sku)}if(selected.length>=6)break}
 const hero=el('heroGallery');hero.replaceChildren();
-for(const item of selected.slice(0,3)){const wrap=document.createElement('div');wrap.className='hero-shoe';wrap.append(photo(item.image_url,item.name));const cap=document.createElement('small');cap.textContent=item.watch_sku||'SNEAKER';wrap.append(cap);hero.append(wrap)}
+for(const item of selected.slice(0,3)){const wrap=document.createElement('div');wrap.className='hero-shoe';const u=safeUrl(item.image_url);if(u&&u.hostname.endsWith('yimg.jp')){const a=document.createElement('a');a.href='./compare.html?sku='+encodeURIComponent(item.watch_sku||'');a.setAttribute('aria-label',(item.watch_sku||'スニーカー')+'の価格を見る');const im=document.createElement('img');im.src=u.href;im.alt=item.name+'の商品写真';im.loading='eager';im.referrerPolicy='no-referrer';im.onerror=()=>{a.remove();wrap.textContent='👟'};a.append(im);wrap.append(a)}else wrap.textContent='👟';const cap=document.createElement('small');cap.textContent=item.watch_sku||'SNEAKER';wrap.append(cap);hero.append(wrap)}
 if(!selected.length){const fallback=document.createElement('div');fallback.className='hero-shoe';fallback.textContent='👟';hero.append(fallback)}
 const target=el('featured');target.replaceChildren();if(!selected.length){empty(target,'現在表示できる写真付き出品候補はありません。');return}for(const item of selected)target.append(card(item));}).catch(()=>{empty(el('featured'),'商品情報を読み込めませんでした。更新してお試しください。');el('listingCount').textContent='取得できません'});
 get('./data/discovery_queue.json').then(d=>{el('modelCount').textContent=(d.candidates||[]).length.toLocaleString('ja-JP')+'件'}).catch(()=>el('modelCount').textContent='取得できません');
