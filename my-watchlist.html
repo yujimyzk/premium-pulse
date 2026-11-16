@@ -1,0 +1,66 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>マイウォッチリスト｜PREMIUM PULSE</title><meta name="description" content="気になるスニーカーの型番・サイズ・希望価格をブラウザに保存。次回アクセス時に掲載価格をチェック。">
+<link rel="stylesheet" href="./site-nav.css">
+<style>
+:root{background:#091321;color:#edf7ff;font:15px/1.65 system-ui,-apple-system,sans-serif}*{box-sizing:border-box}body{margin:0}main{max-width:1050px;margin:auto;padding:20px}a{color:#80ead8}
+h1{font-size:clamp(30px,5vw,47px);margin:25px 0 5px}h2{font-size:21px;margin:0 0 14px}p{color:#b4c9d8;line-height:1.75}
+.panel{background:#142a3d;border:1px solid #36576e;border-radius:16px;padding:19px;margin:20px 0}
+.intro{background:#193342;border:1px solid #486e7d;border-radius:12px;padding:15px;margin:17px 0;color:#d9eaf0;font-size:13px;line-height:1.75}
+.fields{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+.field label{display:block;color:#b9cedb;font-size:13px;margin-bottom:5px}.field input,.field select{width:100%;padding:12px;border:1px solid #4b7087;background:#0c2031;color:#f5feff;border-radius:10px;min-height:48px;font-size:16px}
+.actions{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-top:13px}.btn{background:#6fe7cb;color:#082c2c;border:0;border-radius:10px;padding:11px 17px;font-weight:800;font-size:14px;cursor:pointer;min-height:44px}.secondary{background:#23475a;color:#e3f7f3;border:1px solid #47768a}
+.msg{font-size:13px;color:#b2ecdc}.stats{display:flex;gap:12px;flex-wrap:wrap;margin:18px 0}.stat{border:1px solid #34586a;background:#132b3d;border-radius:12px;padding:13px 18px;min-width:130px}.stat small{color:#b2cad6}.stat strong{display:block;font-size:24px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(285px,1fr));gap:15px}.card{background:#122839;border:1px solid #33536b;border-radius:15px;overflow:hidden}.photo{height:190px;background:#263f52;display:flex;align-items:center;justify-content:center;color:#b9cbd6}.photo img{width:100%;height:100%;object-fit:contain;background:#fafafa}.card-body{padding:16px}.sku{font-size:20px;color:#82ebd5;font-weight:800}.chips{display:flex;gap:6px;flex-wrap:wrap;margin:9px 0}.chip{background:#29475a;border-radius:30px;padding:3px 9px;font-size:12px}.name{font-size:14px;line-height:1.6;margin:8px 0;color:#e8f2fb;overflow-wrap:anywhere}.price{font-size:27px;font-weight:900}.goal{color:#9af3d7;font-weight:750}.nohit{color:#bdccda}.muted{font-size:12px;color:#a8c3d3;line-height:1.7}.btnbar{display:flex;flex-wrap:wrap;gap:8px;margin-top:15px}.btnbar a,.btnbar button{background:#21465a;border:1px solid #416980;border-radius:9px;padding:9px 12px;color:#d6f7f0;text-decoration:none;font-size:13px;cursor:pointer}.empty{border:1px dashed #55788d;border-radius:13px;padding:30px;color:#bdcedc;grid-column:1/-1}
+@media(max-width:800px){.fields{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:440px){.fields{grid-template-columns:1fr}main{padding:14px}.panel{padding:15px}}
+</style>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8F23HQRW4W"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-8F23HQRW4W');</script>
+<script src="./site-nav.js" defer></script><script src="./watch-storage.js" defer></script>
+</head><body><main>
+<h1>マイウォッチリスト</h1><p>お気に入りのスニーカーを保存して、訪問するたびに価格をチェック。</p>
+<div class="intro"><strong>使い方と注意</strong>：保存内容はこの端末・ブラウザの中だけに保持されます。ログイン、複数端末同期、メールやプッシュ通知はありません。価格の判定は<strong>このページを開いた時</strong>に行い、対象は収集済みの未検証の出品希望価格です。成約相場や在庫を保証せず、送料も含みません。サイズ・状態が不明な出品を、指定条件に合う出品として扱いません。</div>
+<section class="panel" aria-labelledby="addTitle"><h2 id="addTitle">ウォッチする商品を追加</h2>
+<form id="addForm"><div class="fields">
+<div class="field"><label for="sku">型番（必須）</label><input id="sku" required maxlength="32" placeholder="DZ4137-106" autocapitalize="characters" spellcheck="false"></div>
+<div class="field"><label for="size">サイズ（cm）</label><select id="size"><option value="">指定しない</option></select></div>
+<div class="field"><label for="condition">商品の状態</label><select id="condition"><option value="">指定しない</option><option value="new">新品</option><option value="used">中古</option><option value="unknown">状態不明のみ</option></select></div>
+<div class="field"><label for="target">希望価格（円）</label><input id="target" type="number" inputmode="numeric" min="1" max="100000000" step="1" placeholder="例：25000"></div>
+</div><div class="actions"><button class="btn" type="submit">お気に入りに保存</button><span id="formStatus" class="msg" role="status"></span></div></form>
+<p class="muted">希望価格は空欄でも保存できます。同じ型番・サイズ・状態を再登録すると希望価格が更新されます。最大60件まで保存できます。</p>
+</section>
+<div class="stats"><div class="stat"><small>登録したウォッチ</small><strong id="savedCount">0</strong></div><div class="stat"><small>希望価格以下の出品あり</small><strong id="hitCount">0</strong></div><div class="stat"><small>最新データ観測日</small><strong id="updated" style="font-size:14px">読み込み中</strong></div></div>
+<section><h2>登録したスニーカー</h2><div id="list" class="grid" aria-live="polite"><div class="empty">ウォッチリストを読み込んでいます…</div></div></section>
+<p class="muted" style="margin:25px 0">データ取得元：Yahoo!ショッピング、連携設定済みの場合は楽天市場。価格が希望額以下でも購入可能とは限りません。出品元のページで条件を確認してください。</p>
+</main>
+<script>
+window.addEventListener('DOMContentLoaded',()=>{
+'use strict';const el=id=>document.getElementById(id),yen=n=>'¥'+Number(n).toLocaleString('ja-JP');let candidates=[],loaded=false;
+for(let sz=20;sz<=30.01;sz+=.5){const o=document.createElement('option');o.value=String(sz);o.textContent=sz+' cm';el('size').append(o)}
+const params=new URLSearchParams(location.search);
+const preSku=params.get('sku');if(preSku&&/^[A-Za-z0-9_.-]{4,32}$/.test(preSku))el('sku').value=preSku.toUpperCase();
+const preSize=params.get('size');if(preSize&&Array.from(el('size').options).some(x=>x.value===preSize))el('size').value=preSize;
+const preCondition=params.get('condition');if(['','new','used','unknown'].includes(preCondition))el('condition').value=preCondition;
+function sizeOf(r){if(typeof r.size_cm_hint==='number'&&r.size_cm_hint>=20&&r.size_cm_hint<=30)return r.size_cm_hint;const m=String(r.name||'').match(/(?<![\d.])((?:2[0-9]|30)(?:\.[05])?)\s*(?:cm|センチ)(?![a-z])/i);return m?Number(m[1]):null}
+function validPhoto(url){try{const p=new URL(url);return p.protocol==='https:'&&/(^|\.)(yimg\.jp|rakuten\.co\.jp|rakuten\.ne\.jp|r10s\.jp)$/i.test(p.hostname)?p.href:null}catch{return null}}
+function matching(w,r){if(r.watch_sku!==w.sku)return false;const sz=sizeOf(r);if(w.size&&String(sz)!==w.size)return false;if(w.condition&&w.condition!==(r.condition_hint||'unknown'))return false;return true}
+function make(tag,cls,text){const x=document.createElement(tag);if(cls)x.className=cls;if(text!==undefined)x.textContent=text;return x}
+function card(w){
+ const relevant=candidates.filter(r=>matching(w,r)&&Number.isSafeInteger(r.price_jpy)&&r.price_jpy>0).sort((a,b)=>a.price_jpy-b.price_jpy);
+ const cheapest=relevant[0],hit=w.target!==null&&relevant.length&&cheapest.price_jpy<=w.target;
+ const c=make('article','card');const ph=make('div','photo','NO IMAGE');const photo=cheapest&&validPhoto(cheapest.image_url);
+ if(photo){const img=make('img');img.src=photo;img.alt='出品情報の写真';img.loading='lazy';img.referrerPolicy='no-referrer';img.onerror=()=>{ph.replaceChildren();ph.textContent='NO IMAGE'};ph.replaceChildren(img)}c.append(ph);
+ const b=make('div','card-body');b.append(make('div','sku',w.sku));const chips=make('div','chips');chips.append(make('span','chip',w.size?w.size+' cm':'サイズ指定なし'),make('span','chip',w.condition==='new'?'新品':w.condition==='used'?'中古':w.condition==='unknown'?'状態不明':'状態指定なし'));b.append(chips);
+ if(cheapest){b.append(make('p','name',cheapest.name));b.append(make('div','price',yen(cheapest.price_jpy)));b.append(make('p','muted','一致した出品候補 '+relevant.length+'件（未検証・送料別）'));b.append(make('p','muted','最安掲載の観測：'+(cheapest.observed_at||'日時未取得')))}
+ else b.append(make('p','nohit',loaded?'現在、指定条件に一致する収集済みの出品はありません。':'データ読み込み中…'));
+ if(w.target!==null){b.append(make('p',hit?'goal':'muted','希望価格 '+yen(w.target)+(hit?' 以下の出品候補を検出':' ／ 条件一致・希望価格以下は未検出')))}else b.append(make('p','muted','希望価格は未設定'));
+ const actions=make('div','btnbar');const link=make('a',null,'出品価格を確認');const url=new URL('./compare.html',location.href);url.searchParams.set('q',w.sku);if(w.size)url.searchParams.set('size',w.size);if(w.condition)url.searchParams.set('condition',w.condition);link.href=url.href;actions.append(link);
+ const edit=make('button',null,'条件を編集');edit.type='button';edit.addEventListener('click',()=>{el('sku').value=w.sku;el('size').value=w.size;el('condition').value=w.condition;el('target').value=w.target??'';window.scrollTo({top:0,behavior:'smooth'});el('target').focus()});actions.append(edit);
+ const remove=make('button',null,'削除');remove.type='button';remove.addEventListener('click',()=>{if(window.PPWatch.remove(w)){render()}else el('formStatus').textContent='削除できませんでした。ブラウザの保存設定を確認してください。'});actions.append(remove);b.append(actions);c.append(b);return {node:c,hit:!!hit}}
+function render(){const ws=window.PPWatch.read(),root=el('list');root.replaceChildren();el('savedCount').textContent=ws.length;let count=0;if(!ws.length){root.append(make('div','empty','まだ登録がありません。上のフォームから型番を保存するか、価格比較ページから追加できます。'))}else for(const w of ws){const item=card(w);root.append(item.node);if(item.hit)count++}el('hitCount').textContent=count}
+el('addForm').addEventListener('submit',event=>{event.preventDefault();const result=window.PPWatch.upsert({sku:el('sku').value,size:el('size').value,condition:el('condition').value,target:el('target').value});el('formStatus').textContent=result.ok?'保存しました。このブラウザ内で次回も確認できます。':result.message;if(result.ok)render()});
+render();
+Promise.all([fetch('./data/review_candidates.json',{cache:'no-store'}).then(r=>r.ok?r.json():null).catch(()=>null),fetch('./data/rakuten_candidates.json',{cache:'no-store'}).then(r=>r.ok?r.json():null).catch(()=>null)]).then(([y,r])=>{
+candidates=[...(y?.candidates||[]),...(r?.status==='unverified_candidates'?(r.candidates||[]):[])].filter(x=>x.verification==='pending'&&x.watch_sku&&Number.isSafeInteger(x.price_jpy));
+loaded=true;el('updated').textContent=y?.generated_at?y.generated_at.replace('T',' ').slice(0,16):'未取得';render()
+});
+});
+</script></body></html>
