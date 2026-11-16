@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="ja"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>JANコードでスニーカーを探す｜PREMIUM PULSE</title>
+<meta name="description" content="JANコード13桁から、PREMIUM PULSEが収集したスニーカー出品候補を検索。掲載写真・価格・型番を確認できます。">
+<link rel="stylesheet" href="./site-nav.css">
+<style>
+:root{background:#091321;color:#eef8ff;font:15px/1.7 system-ui,-apple-system,sans-serif}*{box-sizing:border-box}body{margin:0}main{max-width:1070px;margin:auto;padding:20px}
+a{color:#77edda}h1{font-size:clamp(30px,5vw,48px);line-height:1.25;margin:13px 0}h2{font-size:22px}p{color:#afc7d7}
+.intro{max-width:720px}.eyebrow{font-size:12px;color:#83eeda;letter-spacing:.15em;font-weight:900}
+.hero{padding:clamp(22px,5vw,42px);border-radius:22px;border:1px solid #376778;background:radial-gradient(circle at 90% 10%,#235956 0,transparent 43%),#142b3f;margin:20px 0}
+.search{display:flex;gap:10px;max-width:760px;margin:24px 0 10px}
+.search input{flex:1;min-width:0;border-radius:12px;padding:13px 16px;background:#f6fcfc;color:#102b32;border:2px solid #81bbb7;font:700 18px system-ui;letter-spacing:.06em}
+.search button{background:#7df0d6;color:#052923;border:none;padding:12px 24px;border-radius:12px;font-weight:900;font-size:16px;cursor:pointer}
+.search input:focus-visible,.search button:focus-visible{outline:3px solid #f3d77d;outline-offset:2px}
+.message{min-height:26px;color:#e1f8f0;font-size:13px}
+.notice{border:1px solid #47697e;background:#1a3444;padding:16px;border-radius:13px;font-size:13px;line-height:1.75;color:#d2e3ec;margin:20px 0}
+.summary{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px;margin:20px 0 12px}.summary small{color:#b0cad8}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(265px,1fr));gap:14px}
+.card{background:#14293a;border:1px solid #315065;border-radius:15px;overflow:hidden}
+.photo{height:220px;background:#f3f7f7;display:flex;align-items:center;justify-content:center;color:#334}.photo img{height:100%;width:100%;object-fit:contain}
+.detail{padding:16px}.detail h3{font-size:16px;line-height:1.5;min-height:55px}.sku{color:#a3eadc;font-size:13px}.price{font-size:28px;font-weight:900}.muted{color:#acc4d6;font-size:12px}.card a{display:inline-block;margin:7px 12px 8px 0}
+.empty{border:1px dashed #587586;border-radius:12px;padding:25px;color:#c0d4e1;grid-column:1/-1}
+.external{padding:18px;border:1px solid #446e7b;border-radius:15px;background:#173343;margin:22px 0}.external p{margin:7px 0}.external a{font-weight:800}
+small{font-size:12px}
+@media(max-width:620px){main{padding:13px}.search{flex-direction:column}.search button{min-height:48px}.hero{padding:22px 17px}.photo{height:195px}}
+</style>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8F23HQRW4W"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-8F23HQRW4W');</script>
+<script src="./site-nav.js" defer></script>
+</head><body><main>
+<section class="hero">
+<div class="eyebrow">SNEAKER BARCODE SEARCH</div>
+<h1>JANコードから<br>スニーカーを探す。</h1>
+<p class="intro">箱や商品ラベルのバーコードの下にある<strong>13桁の数字</strong>を入力。収集済みのスニーカー商品から探します。</p>
+<form class="search" id="form">
+<label for="jan" class="pp-visually-hidden">JANコード13桁</label>
+<input id="jan" type="text" inputmode="numeric" autocomplete="off" maxlength="17" placeholder="例：4905524535815" aria-describedby="message" required>
+<button type="submit">JANで検索 →</button>
+</form>
+<div id="message" class="message" role="status">13桁のJANコードを入力してください。</div>
+</section>
+<div class="notice"><b>データの範囲：</b>この検索はPREMIUM PULSEで自動収集した掲載候補だけが対象です。すべての商品を検索できるわけではありません。JANコードは販売店が登録した情報であり、商品名・サイズ・型番・真贋との一致は未確認です。表示価格は成約価格ではありません。</div>
+<section aria-labelledby="resultsTitle"><div class="summary"><h2 id="resultsTitle">検索結果</h2><small id="updated">収集データを読み込み中…</small></div><div id="list" class="grid" aria-live="polite"><div class="empty">JANを入力して検索してください。</div></div></section>
+<section class="external" id="external" hidden>
+<h2>収集済みデータに見つからなかった場合</h2>
+<p>Yahoo!ショッピングでも、このJANコードの検索結果を確認できます。<strong>外部サイトの検索結果はJAN一致・スニーカー・同一商品の保証ではありません。</strong></p>
+<a id="yahooSearch" href="https://shopping.yahoo.co.jp/" target="_blank" rel="noopener noreferrer">Yahoo!ショッピングで検索する →</a>
+</section>
+<p class="muted">商品名・型番で探したい場合は、<a href="./compare.html">スニーカー価格比較</a>へ。スマートフォンのカメラによる直接読み取りは、まだ実装していません。</p>
+</main><script>
+(()=>{'use strict';
+const el=id=>document.getElementById(id),yen=n=>'¥'+Number(n).toLocaleString('ja-JP');let data=[],loaded=false,loadingError=false;
+function validJan(s){if(!/^\d{13}$/.test(s))return false;const a=[...s].map(Number);const check=(10-(a.slice(0,12).reduce((sum,n,i)=>sum+n*(i%2?3:1),0)%10))%10;return a[12]===check}
+function safeImage(url){try{const u=new URL(url);return u.protocol==='https:'&&(u.hostname==='yimg.jp'||u.hostname.endsWith('.yimg.jp'))?u.href:null}catch{return null}}
+function dom(tag,cls,text){const node=document.createElement(tag);if(cls)node.className=cls;if(text!==undefined)node.textContent=text;return node}
+function card(r){const c=dom('article','card'),p=dom('div','photo','NO IMAGE'),src=safeImage(r.image_url);if(src){const img=dom('img');img.loading='lazy';img.referrerPolicy='no-referrer';img.src=src;img.alt=(r.name||'スニーカー')+'の出品写真';img.onerror=()=>p.textContent='NO IMAGE';p.replaceChildren(img)}c.append(p);
+const body=dom('div','detail');body.append(dom('div','sku','型番（収集タグ）：'+(r.watch_sku||'不明')));body.append(dom('h3','',r.name||'商品名未登録'));body.append(dom('div','price',yen(r.price_jpy)));body.append(dom('div','muted','JAN：'+r.jan_code+' ／ '+(r.condition_hint==='new'?'新品':r.condition_hint==='used'?'中古':'状態不明')+' ／ 未検証の出品価格'));body.append(dom('p','muted',r.seller||'出品者不明'));
+const link=dom('a',null,'出品元で確認 →');try{const u=new URL(r.url);if(u.protocol==='https:'){link.href=u.href;link.target='_blank';link.rel='noopener noreferrer';body.append(link)}}catch{}
+if(r.watch_sku){const compare=dom('a',null,'型番で価格比較 →');compare.href='./compare.html?sku='+encodeURIComponent(r.watch_sku);body.append(compare)}
+c.append(body);return c}
+function render(){const jan=el('jan').value.replace(/[\s-]/g,''),list=el('list');list.replaceChildren();el('external').hidden=true;
+if(!jan){el('message').textContent='13桁のJANコードを入力してください。';list.append(dom('div','empty','JANコードを入力すると収集済みデータから探します。'));return}
+if(!validJan(jan)){el('message').textContent='JANコードを確認してください（13桁とチェック数字が必要です）。';list.append(dom('div','empty','有効な13桁のJANコードを入力してください。'));return}
+const yahoo=new URL('https://shopping.yahoo.co.jp/search');yahoo.searchParams.set('p',jan);el('yahooSearch').href=yahoo.href;
+if(!loaded){el('message').textContent=loadingError?'収集データを読み込めませんでした。再度お試しください。':'検索データを読み込み中…';list.append(dom('div','empty','データを読み込んでいます。'));return}
+const matches=data.filter(r=>r.jan_code===jan&&Number.isSafeInteger(r.price_jpy)&&r.price_jpy>0).sort((a,b)=>a.price_jpy-b.price_jpy);
+el('message').textContent=matches.length?'収集済みデータに'+matches.length+'件の出品候補が見つかりました。':'このJANコードは現在の収集データに登録されていません。';
+if(!matches.length){list.append(dom('div','empty','該当する登録済みJANの出品候補はありません。検索対象データは日々更新されます。'))}else for(const r of matches.slice(0,50))list.append(card(r));
+el('external').hidden=matches.length>0;
+}
+el('form').addEventListener('submit',e=>{e.preventDefault();render();const jan=el('jan').value.replace(/[\s-]/g,'');if(validJan(jan)){const url=new URL(location.href);url.searchParams.set('jan',jan);history.replaceState(null,'',url.href)}});
+const start=new URLSearchParams(location.search).get('jan');if(start&&start.length<=17)el('jan').value=start;
+fetch('./data/review_candidates.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('fetch');return r.json()}).then(j=>{data=Array.isArray(j.candidates)?j.candidates:[];loaded=true;el('updated').textContent='最終観測：'+(j.generated_at||'不明').replace('T',' ').slice(0,16);render()}).catch(()=>{loadingError=true;el('updated').textContent='データ読み込み失敗';render()});
+})();
+</script></body></html>
