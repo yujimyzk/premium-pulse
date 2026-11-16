@@ -16,6 +16,15 @@ def official_image(hit):
                 return candidate
     return None
 
+def jan_code_hint(hit):
+    """Return a valid merchant-reported JAN/EAN-13, never infer it from titles."""
+    raw=hit.get("janCode")
+    if not isinstance(raw,str) or not re.fullmatch(r"[0-9]{13}",raw):
+        return None
+    digits=[int(c) for c in raw]
+    check=(10-(sum(digits[:12:2])+3*sum(digits[1:12:2]))%10)%10
+    return raw if digits[-1]==check else None
+
 def listing_size_hint(name):
     """Extract only explicitly labeled Japanese/English centimeter shoe sizes."""
     # Not a verified product attribute: merchant titles can be inaccurate.
@@ -59,7 +68,7 @@ def collect(key,queries,request=None):
             if sku.lower() not in name.lower() or not isinstance(price,int) or price<=0 or parsed.scheme!="https" or not parsed.netloc:continue
             result.append({"watch_sku":sku,"name":name[:240],"price_jpy":price,"price_kind":"listing",
               "verification":"pending","condition_hint":hit.get("condition"),"seller":(hit.get("seller") or {}).get("name"),
-              "url":link,"image_url":official_image(hit),"size_cm_hint":listing_size_hint(name),"observed_at":now,"source":"Yahoo! Shopping API v3",
+              "url":link,"image_url":official_image(hit),"jan_code":jan_code_hint(hit),"size_cm_hint":listing_size_hint(name),"observed_at":now,"source":"Yahoo! Shopping API v3",
               "warning":"未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"})
     return {"generated_at":now,"status":"unverified_candidates","source":"Yahoo! Shopping API v3","count":len(result),"candidates":result}
 def main():
