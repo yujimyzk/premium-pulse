@@ -23,6 +23,16 @@ a{color:#77edda}h1{font-size:clamp(30px,5vw,48px);line-height:1.25;margin:13px 0
 .empty{border:1px dashed #587586;border-radius:12px;padding:25px;color:#c0d4e1;grid-column:1/-1}
 .external{padding:18px;border:1px solid #446e7b;border-radius:15px;background:#173343;margin:22px 0}.external p{margin:7px 0}.external a{font-weight:800}
 small{font-size:12px}
+.camera-tools{display:flex;gap:9px;flex-wrap:wrap;margin:15px 0 9px}
+.camera-tools button,.camera-tools label{display:inline-flex;align-items:center;justify-content:center;border:1px solid #689e9c;border-radius:10px;background:#1e4b53;color:#eafff9;padding:12px 15px;min-height:46px;font-size:14px;font-weight:800;cursor:pointer}
+.camera-tools button:disabled{opacity:.5;cursor:not-allowed}
+#cameraPanel{background:#092231;border:1px solid #416f80;border-radius:14px;overflow:hidden;margin:14px 0}
+#cameraReader{width:100%;max-width:650px;min-height:150px;margin:auto}
+#cameraReader video{max-width:100%;border-radius:10px}
+#cameraStatus{font-size:13px;color:#d4f2ed;padding:10px 12px}
+#imagePick{position:absolute;width:1px;height:1px;opacity:0;pointer-events:none}
+.camera-tools label:focus-within{outline:3px solid #f3d77d;outline-offset:2px}
+
 @media(max-width:620px){main{padding:13px}.search{flex-direction:column}.search button{min-height:48px}.hero{padding:22px 17px}.photo{height:195px}}
 </style>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-8F23HQRW4W"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-8F23HQRW4W');</script>
@@ -37,6 +47,12 @@ small{font-size:12px}
 <input id="jan" type="text" inputmode="numeric" autocomplete="off" maxlength="17" placeholder="例：4905524535815" aria-describedby="message" required>
 <button type="submit">JANで検索 →</button>
 </form>
+<div class="camera-tools" aria-label="バーコードを読み取る方法">
+<button id="cameraStart" type="button">📷 カメラでバーコードを読む</button>
+<button id="cameraStop" type="button" hidden>カメラを停止</button>
+<label for="imagePick">写真からバーコードを読む<input id="imagePick" type="file" accept="image/*" capture="environment"></label>
+</div>
+<div id="cameraPanel" hidden><div id="cameraReader"></div><div id="cameraStatus" role="status">スニーカーの箱のバーコードを枠の中央に合わせてください。</div></div>
 <div id="message" class="message" role="status">13桁のJANコードを入力してください。</div>
 </section>
 <div class="notice"><b>データの範囲：</b>この検索はPREMIUM PULSEで自動収集した掲載候補だけが対象です。すべての商品を検索できるわけではありません。JANコードは販売店が登録した情報であり、商品名・サイズ・型番・真贋との一致は未確認です。表示価格は成約価格ではありません。</div>
@@ -46,7 +62,7 @@ small{font-size:12px}
 <p>Yahoo!ショッピングでも、このJANコードの検索結果を確認できます。<strong>外部サイトの検索結果はJAN一致・スニーカー・同一商品の保証ではありません。</strong></p>
 <a id="yahooSearch" href="https://shopping.yahoo.co.jp/" target="_blank" rel="noopener noreferrer">Yahoo!ショッピングで検索する →</a>
 </section>
-<p class="muted">商品名・型番で探したい場合は、<a href="./compare.html">スニーカー価格比較</a>へ。スマートフォンのカメラによる直接読み取りは、まだ実装していません。</p>
+<p class="muted">商品名・型番で探したい場合は、<a href="./compare.html">スニーカー価格比較</a>へ。カメラ機能はブラウザの許可が必要です。画像読み取りは端末内で処理し、画像をPREMIUM PULSEのサーバーに送信しません。</p>
 </main><script>
 (()=>{'use strict';
 const el=id=>document.getElementById(id),yen=n=>'¥'+Number(n).toLocaleString('ja-JP');let data=[],loaded=false,loadingError=false;
@@ -71,5 +87,29 @@ el('external').hidden=matches.length>0;
 el('form').addEventListener('submit',e=>{e.preventDefault();render();const jan=el('jan').value.replace(/[\s-]/g,'');if(validJan(jan)){const url=new URL(location.href);url.searchParams.set('jan',jan);history.replaceState(null,'',url.href)}});
 const start=new URLSearchParams(location.search).get('jan');if(start&&start.length<=17)el('jan').value=start;
 fetch('./data/review_candidates.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('fetch');return r.json()}).then(j=>{data=Array.isArray(j.candidates)?j.candidates:[];loaded=true;el('updated').textContent='最終観測：'+(j.generated_at||'不明').replace('T',' ').slice(0,16);render()}).catch(()=>{loadingError=true;el('updated').textContent='データ読み込み失敗';render()});
+})();
+</script>
+<script>
+(()=>{'use strict';
+const start=document.getElementById('cameraStart'),stop=document.getElementById('cameraStop'),pick=document.getElementById('imagePick'),panel=document.getElementById('cameraPanel'),reader=document.getElementById('cameraReader'),status=document.getElementById('cameraStatus'),input=document.getElementById('jan'),form=document.getElementById('form');
+let scanner=null,starting=false,scanning=false,completed=false,libraryPromise=null;
+function say(message){status.textContent=message}
+function janValid(code){if(!/^[0-9]{13}$/.test(code))return false;let total=0;for(let i=0;i<12;i++)total+=Number(code[i])*(i%2?3:1);return (10-total%10)%10===Number(code[12])}
+function loadLibrary(){if(window.Html5Qrcode)return Promise.resolve();if(libraryPromise)return libraryPromise;
+libraryPromise=new Promise((resolve,reject)=>{const js=document.createElement('script');js.src='https://cdn.jsdelivr.net/npm/html5-qrcode@2.3.8/html5-qrcode.min.js';js.async=true;js.onload=()=>window.Html5Qrcode?resolve():reject(Error('デコーダーを読み込めません'));js.onerror=()=>reject(Error('通信環境を確認してください'));document.head.append(js)}).catch(e=>{libraryPromise=null;throw e});return libraryPromise}
+function ensureScanner(){if(!scanner){scanner=new window.Html5Qrcode('cameraReader',{formatsToSupport:[window.Html5QrcodeSupportedFormats.EAN_13],verbose:false})}return scanner}
+async function stopCamera(){if(starting){completed=true;return}if(!scanner||!scanning){panel.hidden=true;stop.hidden=true;start.disabled=false;return}
+try{await scanner.stop()}catch(e){say('カメラ停止時に問題が発生しました。ページを閉じれば停止します。')}
+scanning=false;panel.hidden=true;stop.hidden=true;start.disabled=false}
+async function acceptCode(text){if(completed)return;const code=String(text||'').trim();if(!janValid(code)){say('JANコードではない番号を読み取りました。13桁のバーコードを合わせてください。');return}
+completed=true;input.value=code;say('JAN '+code+' を読み取りました。検索します。');await stopCamera();form.requestSubmit();document.getElementById('resultsTitle').scrollIntoView({behavior:'smooth',block:'start'})}
+start.addEventListener('click',async()=>{if(starting||scanning)return;completed=false;starting=true;start.disabled=true;panel.hidden=false;stop.hidden=false;say('読み取り機能を読み込み中…');
+try{if(!window.isSecureContext||!navigator.mediaDevices){throw Error('カメラが利用できません。HTTPSのブラウザで開いてください。')}await loadLibrary();if(completed)return;const q=ensureScanner();say('カメラへのアクセスを許可してください。');await q.start({facingMode:'environment'},{fps:10,qrbox:{width:260,height:120},aspectRatio:1.777778},acceptCode,()=>{});scanning=true;starting=false;if(completed){await stopCamera();return}say('バーコードを枠に合わせてください。読み取ると自動検索します。')}
+catch(e){starting=false;start.disabled=false;stop.hidden=true;panel.hidden=false;say('カメラを起動できませんでした。許可設定を確認するか「写真から読む」を使用してください。');}});
+stop.addEventListener('click',()=>{if(starting){completed=true;say('カメラの起動を中止しています。');return}completed=true;stopCamera()});
+pick.addEventListener('change',async()=>{const file=pick.files&&pick.files[0];if(!file)return;pick.value='';completed=false;if(file.size>15*1024*1024){panel.hidden=false;say('画像が大きすぎます。15MB以下を選んでください。');return}if(!file.type.startsWith('image/')){panel.hidden=false;say('画像ファイルを選んでください。');return}
+await stopCamera();panel.hidden=false;say('写真からバーコードを解析しています…');
+try{await loadLibrary();const q=ensureScanner();const code=await q.scanFile(file,false);await acceptCode(code)}catch(e){say('写真からJANを読み取れませんでした。バーコードを大きく鮮明に撮影するか、13桁を手入力してください。')}})
+window.addEventListener('pagehide',()=>{if(scanner&&scanning){scanner.stop().catch(()=>{})}});
 })();
 </script></body></html>
