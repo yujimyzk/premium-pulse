@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-16T10:27:12+09:00",
+  "generated_at": "2026-11-17T13:13:33+09:00",
   "status": "unverified_candidates",
   "source": "Yahoo! Shopping API v3",
-  "count": 246,
+  "count": 249,
+  "duplicates_removed": 0,
   "candidates": [
     {
       "watch_sku": "DZ4137-106",
@@ -14,10 +15,13 @@
       "seller": "ブランド古着販売のベクトル",
       "url": "https://store.shopping.yahoo.co.jp/vectorpremium/034-902605170030.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/vectorpremium_034-902605170030",
+      "jan_code": null,
       "size_cm_hint": null,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "DZ4137-106",
@@ -29,10 +33,13 @@
       "seller": "RINKAN",
       "url": "https://store.shopping.yahoo.co.jp/rinkan/15379-241208-0347.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/rinkan_15379-241208-0347",
+      "jan_code": null,
       "size_cm_hint": 25.0,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "DZ4137-106",
@@ -44,10 +51,13 @@
       "seller": "LIMITED EDT",
       "url": "https://store.shopping.yahoo.co.jp/limited-edition/dz4137-106.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/limited-edition_dz4137-106",
+      "jan_code": null,
       "size_cm_hint": null,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "DZ4137-106",
@@ -59,25 +69,13 @@
       "seller": "RINKAN",
       "url": "https://store.shopping.yahoo.co.jp/rinkan/55379-250716-0159.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/rinkan_55379-250716-0159",
+      "jan_code": null,
       "size_cm_hint": 29.0,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
-    },
-    {
-      "watch_sku": "DZ4137-106",
-      "name": "ナイキ ウィメンズ エアジョーダン 1 ロー トラビス・スコット NIKE WMNS AIR JORDAN 1 LOW OG SP TRAVIS SCOTT sail/university red-black dz4137-106 OLIVE",
-      "price_jpy": 169000,
-      "price_kind": "listing",
-      "verification": "pending",
-      "condition_hint": "new",
-      "seller": "LTD Online",
-      "url": "https://store.shopping.yahoo.co.jp/ltd-online/dz4137-106.html",
-      "image_url": "https://item-shopping.c.yimg.jp/i/j/ltd-online_dz4137-106",
-      "size_cm_hint": null,
-      "observed_at": "2026-11-16T10:27:12+09:00",
-      "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "DZ4137-106",
@@ -89,10 +87,31 @@
       "seller": "ブランド古着販売のベクトル",
       "url": "https://store.shopping.yahoo.co.jp/vectorpremium/037-902408150027.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/vectorpremium_037-902408150027",
+      "jan_code": null,
       "size_cm_hint": 26.5,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
+    },
+    {
+      "watch_sku": "DZ4137-106",
+      "name": "ナイキ ウィメンズ エアジョーダン 1 ロー トラビス・スコット NIKE WMNS AIR JORDAN 1 LOW OG SP TRAVIS SCOTT sail/university red-black dz4137-106 OLIVE",
+      "price_jpy": 169000,
+      "price_kind": "listing",
+      "verification": "pending",
+      "condition_hint": "new",
+      "seller": "LTD Online",
+      "url": "https://store.shopping.yahoo.co.jp/ltd-online/dz4137-106.html",
+      "image_url": "https://item-shopping.c.yimg.jp/i/j/ltd-online_dz4137-106",
+      "jan_code": null,
+      "size_cm_hint": null,
+      "observed_at": "2026-11-17T13:13:33+09:00",
+      "source": "Yahoo! Shopping API v3",
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "DZ4137-106",
@@ -104,10 +123,13 @@
       "seller": "セカンドストリートYahoo!店",
       "url": "https://store.shopping.yahoo.co.jp/ssol-shopping/2350020486383.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/ssol-shopping_2350020486383",
+      "jan_code": null,
       "size_cm_hint": 27.5,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "DZ4137-106",
@@ -119,10 +141,13 @@
       "seller": "セカンドストリートYahoo!店",
       "url": "https://store.shopping.yahoo.co.jp/ssol-shopping/2336396553836.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/ssol-shopping_2336396553836",
+      "jan_code": null,
       "size_cm_hint": 25.5,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "DZ4137-106",
@@ -134,25 +159,13 @@
       "seller": "RINKAN",
       "url": "https://store.shopping.yahoo.co.jp/rinkan/15379-260928-0227.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/rinkan_15379-260928-0227",
+      "jan_code": null,
       "size_cm_hint": 26.5,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
-    },
-    {
-      "watch_sku": "DZ4137-106",
-      "name": "ナイキ NIKE × Travis Scott WMNS AIR JORDAN 1 LOW OG SP Medium Olive DZ4137-106 size:28.5cm スニーカー 靴 △WT4864",
-      "price_jpy": 173800,
-      "price_kind": "listing",
-      "verification": "pending",
-      "condition_hint": "used",
-      "seller": "スリフト",
-      "url": "https://store.shopping.yahoo.co.jp/thrift-webshop/a-148-wt4864-19.html",
-      "image_url": "https://item-shopping.c.yimg.jp/i/j/thrift-webshop_a-148-wt4864-19",
-      "size_cm_hint": 28.5,
-      "observed_at": "2026-11-16T10:27:12+09:00",
-      "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "DM7866-200",
@@ -164,10 +177,13 @@
       "seller": "ブランド古着販売のベクトル",
       "url": "https://store.shopping.yahoo.co.jp/vectorpremium/208-902608180003.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/vectorpremium_208-902608180003",
+      "jan_code": null,
       "size_cm_hint": null,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "DM7866-200",
@@ -179,10 +195,13 @@
       "seller": "ブランド古着販売のベクトル",
       "url": "https://store.shopping.yahoo.co.jp/vectorpremium/002-902608220030.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/vectorpremium_002-902608220030",
+      "jan_code": null,
       "size_cm_hint": 26.0,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "DM7866-200",
@@ -194,10 +213,13 @@
       "seller": "ブランド古着販売のベクトル",
       "url": "https://store.shopping.yahoo.co.jp/vectorpremium/034-902605020025.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/vectorpremium_034-902605020025",
+      "jan_code": null,
       "size_cm_hint": null,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "DM7866-200",
@@ -209,10 +231,13 @@
       "seller": "セカンドストリートYahoo!店",
       "url": "https://store.shopping.yahoo.co.jp/ssol-shopping/2345001964868.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/ssol-shopping_2345001964868",
+      "jan_code": null,
       "size_cm_hint": 25.0,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "DM7866-200",
@@ -224,10 +249,13 @@
       "seller": "カインドオルYahoo!店",
       "url": "https://store.shopping.yahoo.co.jp/kindal/8005002060375.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/kindal_8005002060375",
+      "jan_code": null,
       "size_cm_hint": 27.5,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "DM7866-200",
@@ -239,10 +267,13 @@
       "seller": "オーバーラップヤフー店",
       "url": "https://store.shopping.yahoo.co.jp/overlap/2604090105.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/overlap_2604090105",
+      "jan_code": null,
       "size_cm_hint": 29.5,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "DM7866-200",
@@ -254,25 +285,13 @@
       "seller": "質みなみ ヤフーショッピング店",
       "url": "https://store.shopping.yahoo.co.jp/shichi-minami/ft1380341.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/shichi-minami_ft1380341",
+      "jan_code": null,
       "size_cm_hint": 28.0,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
-    },
-    {
-      "watch_sku": "DM7866-200",
-      "name": "NIKE AIR JORDAN 1 LOW OG SP ×TRAVIS SCOTT 【REVERSE OLIVE】 ナイキ エア ジョーダン 1 ロー × トラヴィス スコット 【リバースオリーブ】 DM7866-200",
-      "price_jpy": 130680,
-      "price_kind": "listing",
-      "verification": "pending",
-      "condition_hint": "new",
-      "seller": "KICKS LAB.ヤフー店",
-      "url": "https://store.shopping.yahoo.co.jp/lowtex/dm7866-200.html",
-      "image_url": "https://item-shopping.c.yimg.jp/i/j/lowtex_dm7866-200",
-      "size_cm_hint": null,
-      "observed_at": "2026-11-16T10:27:12+09:00",
-      "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "DM7866-200",
@@ -284,10 +303,31 @@
       "seller": "SHOES HOUSE KUZE",
       "url": "https://store.shopping.yahoo.co.jp/shkuze/dm7866-200.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/shkuze_dm7866-200",
+      "jan_code": null,
       "size_cm_hint": null,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
+    },
+    {
+      "watch_sku": "DM7866-200",
+      "name": "NIKE AIR JORDAN 1 LOW OG SP ×TRAVIS SCOTT 【REVERSE OLIVE】 ナイキ エア ジョーダン 1 ロー × トラヴィス スコット 【リバースオリーブ】 DM7866-200",
+      "price_jpy": 130680,
+      "price_kind": "listing",
+      "verification": "pending",
+      "condition_hint": "new",
+      "seller": "KICKS LAB.ヤフー店",
+      "url": "https://store.shopping.yahoo.co.jp/lowtex/dm7866-200.html",
+      "image_url": "https://item-shopping.c.yimg.jp/i/j/lowtex_dm7866-200",
+      "jan_code": null,
+      "size_cm_hint": null,
+      "observed_at": "2026-11-17T13:13:33+09:00",
+      "source": "Yahoo! Shopping API v3",
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "DM7866-202",
@@ -299,25 +339,13 @@
       "seller": "スリフト",
       "url": "https://store.shopping.yahoo.co.jp/thrift-webshop/a-148-wt5308-19.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/thrift-webshop_a-148-wt5308-19",
+      "jan_code": null,
       "size_cm_hint": 28.5,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
-    },
-    {
-      "watch_sku": "DM7866-202",
-      "name": "ナイキ トラヴィススコット 27.5cm JORDAN 1 LOW OG SP DARK MOCHA DM7866-202 エアジョーダン1スニーカー 中古 BS99",
-      "price_jpy": 63470,
-      "price_kind": "listing",
-      "verification": "pending",
-      "condition_hint": "used",
-      "seller": "RINKAN",
-      "url": "https://store.shopping.yahoo.co.jp/rinkan/15379-260828-0454.html",
-      "image_url": "https://item-shopping.c.yimg.jp/i/j/rinkan_15379-260828-0454",
-      "size_cm_hint": 27.5,
-      "observed_at": "2026-11-16T10:27:12+09:00",
-      "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "DM7866-202",
@@ -329,10 +357,31 @@
       "seller": "サンステップ Yahoo!店",
       "url": "https://store.shopping.yahoo.co.jp/sunstep/1-240001715681.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/sunstep_1-240001715681",
+      "jan_code": null,
       "size_cm_hint": 29.0,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
+    },
+    {
+      "watch_sku": "DM7866-202",
+      "name": "ナイキ トラヴィススコット 27.5cm JORDAN 1 LOW OG SP DARK MOCHA DM7866-202 エアジョーダン1スニーカー 中古 BS99",
+      "price_jpy": 63470,
+      "price_kind": "listing",
+      "verification": "pending",
+      "condition_hint": "used",
+      "seller": "RINKAN",
+      "url": "https://store.shopping.yahoo.co.jp/rinkan/15379-260828-0454.html",
+      "image_url": "https://item-shopping.c.yimg.jp/i/j/rinkan_15379-260828-0454",
+      "jan_code": null,
+      "size_cm_hint": 27.5,
+      "observed_at": "2026-11-17T13:13:33+09:00",
+      "source": "Yahoo! Shopping API v3",
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "DM7866-202",
@@ -344,25 +393,13 @@
       "seller": "LTD Online",
       "url": "https://store.shopping.yahoo.co.jp/ltd-online/dm7866-202.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/ltd-online_dm7866-202",
+      "jan_code": null,
       "size_cm_hint": null,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
-    },
-    {
-      "watch_sku": "DM7866-202",
-      "name": "ナイキ トラヴィススコット サイズ:30cm JORDAN 1 LOW OG SP DARK MOCHA DM7866-202 エアジョーダン1ローダークモカスニーカー 中古 BS99",
-      "price_jpy": 50765,
-      "price_kind": "listing",
-      "verification": "pending",
-      "condition_hint": "used",
-      "seller": "RINKAN",
-      "url": "https://store.shopping.yahoo.co.jp/rinkan/15379-261101-0223.html",
-      "image_url": "https://item-shopping.c.yimg.jp/i/j/rinkan_15379-261101-0223",
-      "size_cm_hint": 30.0,
-      "observed_at": "2026-11-16T10:27:12+09:00",
-      "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "DM7866-202",
@@ -374,10 +411,31 @@
       "seller": "カインドオルYahoo!店",
       "url": "https://store.shopping.yahoo.co.jp/kindal/8109000057747.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/kindal_8109000057747",
+      "jan_code": null,
       "size_cm_hint": null,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
+    },
+    {
+      "watch_sku": "DM7866-202",
+      "name": "ナイキ トラヴィススコット サイズ:30cm JORDAN 1 LOW OG SP DARK MOCHA DM7866-202 エアジョーダン1ローダークモカスニーカー 中古 BS99",
+      "price_jpy": 50765,
+      "price_kind": "listing",
+      "verification": "pending",
+      "condition_hint": "used",
+      "seller": "RINKAN",
+      "url": "https://store.shopping.yahoo.co.jp/rinkan/15379-261101-0223.html",
+      "image_url": "https://item-shopping.c.yimg.jp/i/j/rinkan_15379-261101-0223",
+      "jan_code": null,
+      "size_cm_hint": 30.0,
+      "observed_at": "2026-11-17T13:13:33+09:00",
+      "source": "Yahoo! Shopping API v3",
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "DM7866-202",
@@ -389,10 +447,13 @@
       "seller": "ブランド古着販売のベクトル",
       "url": "https://store.shopping.yahoo.co.jp/vectorpremium/034-902607190017.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/vectorpremium_034-902607190017",
+      "jan_code": null,
       "size_cm_hint": null,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "DM7866-202",
@@ -404,10 +465,13 @@
       "seller": "LIMITED EDT",
       "url": "https://store.shopping.yahoo.co.jp/limited-edition/dm7866-202.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/limited-edition_dm7866-202",
+      "jan_code": null,
       "size_cm_hint": null,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "DM7866-202",
@@ -419,25 +483,31 @@
       "seller": "TS Trading Co Ltd",
       "url": "https://store.shopping.yahoo.co.jp/turuya783/319400.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/turuya783_319400",
+      "jan_code": null,
       "size_cm_hint": null,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "DM7866-202",
-      "name": "ナイキ NIKE × Travis Scott AIR JORDAN 1 LOW OG SP Velvet Brown &amp; Dark Mocha DM7866-202 size:26.5cm スニーカー 靴 △WT5211",
-      "price_jpy": 56980,
+      "name": "ナイキ トラヴィススコット サイズ:27cm JORDAN 1 LOW OG SP DARK MOCHA DM7866-202 エアジョーダン1ローダークモカスニーカー 中古 BS99",
+      "price_jpy": 68090,
       "price_kind": "listing",
       "verification": "pending",
       "condition_hint": "used",
-      "seller": "スリフト",
-      "url": "https://store.shopping.yahoo.co.jp/thrift-webshop/a-148-wt5211-19.html",
-      "image_url": "https://item-shopping.c.yimg.jp/i/j/thrift-webshop_a-148-wt5211-19",
-      "size_cm_hint": 26.5,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "seller": "RINKAN",
+      "url": "https://store.shopping.yahoo.co.jp/rinkan/15379-260921-0299.html",
+      "image_url": "https://item-shopping.c.yimg.jp/i/j/rinkan_15379-260921-0299",
+      "jan_code": null,
+      "size_cm_hint": 27.0,
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "DH0690-200",
@@ -449,10 +519,13 @@
       "seller": "サンステップ Yahoo!店",
       "url": "https://store.shopping.yahoo.co.jp/sunstep/1-240001710562.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/sunstep_1-240001710562",
+      "jan_code": null,
       "size_cm_hint": 26.5,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "DH0690-200",
@@ -464,10 +537,13 @@
       "seller": "スリフト",
       "url": "https://store.shopping.yahoo.co.jp/thrift-webshop/u-147-ut15242-11.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/thrift-webshop_u-147-ut15242-11",
+      "jan_code": null,
       "size_cm_hint": 25.0,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "DH0690-200",
@@ -479,10 +555,31 @@
       "seller": "セカンドストリートYahoo!店",
       "url": "https://store.shopping.yahoo.co.jp/ssol-shopping/2348681336468.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/ssol-shopping_2348681336468",
+      "jan_code": null,
       "size_cm_hint": null,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
+    },
+    {
+      "watch_sku": "DH0690-200",
+      "name": "NIKE◆ハイカットスニーカー/25cm/CML/スウェード/dh0690-200//",
+      "price_jpy": 28160,
+      "price_kind": "listing",
+      "verification": "pending",
+      "condition_hint": "used",
+      "seller": "セカンドストリートYahoo!店",
+      "url": "https://store.shopping.yahoo.co.jp/ssol-shopping/2340914072570.html",
+      "image_url": "https://item-shopping.c.yimg.jp/i/j/ssol-shopping_2340914072570",
+      "jan_code": null,
+      "size_cm_hint": 25.0,
+      "observed_at": "2026-11-17T13:13:33+09:00",
+      "source": "Yahoo! Shopping API v3",
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "DH0690-200",
@@ -494,25 +591,13 @@
       "seller": "ブランド古着販売のベクトル",
       "url": "https://store.shopping.yahoo.co.jp/vectorpremium/037-902609050021.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/vectorpremium_037-902609050021",
+      "jan_code": null,
       "size_cm_hint": 25.0,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
-    },
-    {
-      "watch_sku": "DH0690-200",
-      "name": "ナイキ トラヴィススコット 27.5cm AIR JORDAN 6 SP BRITISH KHAKI DH0690-200 エアジョーダン6ブリティッシュカーキスニーカー 中古 BS99",
-      "price_jpy": 25630,
-      "price_kind": "listing",
-      "verification": "pending",
-      "condition_hint": "used",
-      "seller": "RINKAN",
-      "url": "https://store.shopping.yahoo.co.jp/rinkan/15379-260205-0032.html",
-      "image_url": "https://item-shopping.c.yimg.jp/i/j/rinkan_15379-260205-0032",
-      "size_cm_hint": 27.5,
-      "observed_at": "2026-11-16T10:27:12+09:00",
-      "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "DH0690-200",
@@ -524,10 +609,31 @@
       "seller": "サンステップ Yahoo!店",
       "url": "https://store.shopping.yahoo.co.jp/sunstep/1-240001714884.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/sunstep_1-240001714884",
+      "jan_code": null,
       "size_cm_hint": 26.0,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
+    },
+    {
+      "watch_sku": "DH0690-200",
+      "name": "ナイキ トラヴィススコット 27.5cm AIR JORDAN 6 SP BRITISH KHAKI DH0690-200 エアジョーダン6ブリティッシュカーキスニーカー 中古 BS99",
+      "price_jpy": 25630,
+      "price_kind": "listing",
+      "verification": "pending",
+      "condition_hint": "used",
+      "seller": "RINKAN",
+      "url": "https://store.shopping.yahoo.co.jp/rinkan/15379-260205-0032.html",
+      "image_url": "https://item-shopping.c.yimg.jp/i/j/rinkan_15379-260205-0032",
+      "jan_code": null,
+      "size_cm_hint": 27.5,
+      "observed_at": "2026-11-17T13:13:33+09:00",
+      "source": "Yahoo! Shopping API v3",
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "DH0690-200",
@@ -539,10 +645,13 @@
       "seller": "LTD Online",
       "url": "https://store.shopping.yahoo.co.jp/ltd-online/dh0690-200.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/ltd-online_dh0690-200",
+      "jan_code": null,
       "size_cm_hint": null,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "DH0690-200",
@@ -554,40 +663,13 @@
       "seller": "スリフト",
       "url": "https://store.shopping.yahoo.co.jp/thrift-webshop/a-148-wt5361-19.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/thrift-webshop_a-148-wt5361-19",
+      "jan_code": null,
       "size_cm_hint": 26.5,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
-    },
-    {
-      "watch_sku": "DH0690-200",
-      "name": "NIKE◆ハイカットスニーカー/28cm/BRW/レザー/dh0690-200//",
-      "price_jpy": 28160,
-      "price_kind": "listing",
-      "verification": "pending",
-      "condition_hint": "used",
-      "seller": "セカンドストリートYahoo!店",
-      "url": "https://store.shopping.yahoo.co.jp/ssol-shopping/2339954493834.html",
-      "image_url": "https://item-shopping.c.yimg.jp/i/j/ssol-shopping_2339954493834",
-      "size_cm_hint": 28.0,
-      "observed_at": "2026-11-16T10:27:12+09:00",
-      "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
-    },
-    {
-      "watch_sku": "IM9113-300",
-      "name": "ナイキ NIKE × TRAVIS SCOTT JUMPMAN JACK T-REXX GREEN 2025 28cm IM9113-300 トラビススコット ジャンプマン ジャック トレーナー  グリ",
-      "price_jpy": 26400,
-      "price_kind": "listing",
-      "verification": "pending",
-      "condition_hint": "used",
-      "seller": "ブランド古着販売のベクトル",
-      "url": "https://store.shopping.yahoo.co.jp/vectorpremium/037-902604150005.html",
-      "image_url": "https://item-shopping.c.yimg.jp/i/j/vectorpremium_037-902604150005",
-      "size_cm_hint": 28.0,
-      "observed_at": "2026-11-16T10:27:12+09:00",
-      "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "IM9113-300",
@@ -599,10 +681,13 @@
       "seller": "KICKS LAB.ヤフー店",
       "url": "https://store.shopping.yahoo.co.jp/lowtex/im9113-300.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/lowtex_im9113-300",
+      "jan_code": null,
       "size_cm_hint": null,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "IM9113-300",
@@ -614,10 +699,13 @@
       "seller": "RINKAN",
       "url": "https://store.shopping.yahoo.co.jp/rinkan/15379-260903-0237.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/rinkan_15379-260903-0237",
+      "jan_code": null,
       "size_cm_hint": 28.0,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "IM9113-300",
@@ -629,10 +717,13 @@
       "seller": "ブランド古着販売のベクトル",
       "url": "https://store.shopping.yahoo.co.jp/vectorpremium/034-902609210012.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/vectorpremium_034-902609210012",
+      "jan_code": null,
       "size_cm_hint": null,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "IM9113-300",
@@ -644,10 +735,13 @@
       "seller": "ブランド古着販売のベクトル",
       "url": "https://store.shopping.yahoo.co.jp/vectorpremium/034-902607190018.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/vectorpremium_034-902607190018",
+      "jan_code": null,
       "size_cm_hint": null,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "IM9113-300",
@@ -659,10 +753,13 @@
       "seller": "RINKAN",
       "url": "https://store.shopping.yahoo.co.jp/rinkan/15379-261106-0185.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/rinkan_15379-261106-0185",
+      "jan_code": null,
       "size_cm_hint": 29.0,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "IM9113-300",
@@ -674,10 +771,13 @@
       "seller": "セカンドストリートYahoo!店",
       "url": "https://store.shopping.yahoo.co.jp/ssol-shopping/2338766914636.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/ssol-shopping_2338766914636",
+      "jan_code": null,
       "size_cm_hint": 27.5,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "IM9113-300",
@@ -689,10 +789,13 @@
       "seller": "ブランド古着販売のベクトル",
       "url": "https://store.shopping.yahoo.co.jp/vectorpremium/165-402607240011.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/vectorpremium_165-402607240011",
+      "jan_code": null,
       "size_cm_hint": 30.0,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "IM9113-300",
@@ -704,10 +807,13 @@
       "seller": "セカンドストリートYahoo!店",
       "url": "https://store.shopping.yahoo.co.jp/ssol-shopping/2319139208842.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/ssol-shopping_2319139208842",
+      "jan_code": null,
       "size_cm_hint": 27.0,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "IM9113-300",
@@ -719,10 +825,31 @@
       "seller": "RINKAN",
       "url": "https://store.shopping.yahoo.co.jp/rinkan/15379-260607-0392.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/rinkan_15379-260607-0392",
+      "jan_code": null,
       "size_cm_hint": 26.0,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
+    },
+    {
+      "watch_sku": "IM9113-300",
+      "name": "NIKE◆ローカットスニーカー/28.5cm/GRN/IM9113-300/Travis Scott//",
+      "price_jpy": 31460,
+      "price_kind": "listing",
+      "verification": "pending",
+      "condition_hint": "used",
+      "seller": "セカンドストリートYahoo!店",
+      "url": "https://store.shopping.yahoo.co.jp/ssol-shopping/2334873301420.html",
+      "image_url": "https://item-shopping.c.yimg.jp/i/j/ssol-shopping_2334873301420",
+      "jan_code": null,
+      "size_cm_hint": 28.5,
+      "observed_at": "2026-11-17T13:13:33+09:00",
+      "source": "Yahoo! Shopping API v3",
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "CT0856-100",
@@ -734,10 +861,13 @@
       "seller": "ブランド古着販売のベクトル",
       "url": "https://store.shopping.yahoo.co.jp/vectorpremium/037-902410040009.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/vectorpremium_037-902410040009",
+      "jan_code": null,
       "size_cm_hint": 24.0,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "CT0856-100",
@@ -749,10 +879,13 @@
       "seller": "スリフトWEB SHOP 2nd",
       "url": "https://store.shopping.yahoo.co.jp/thrift2nd/y154-813.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/thrift2nd_y154-813",
+      "jan_code": null,
       "size_cm_hint": 28.0,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "CT0856-100",
@@ -764,10 +897,13 @@
       "seller": "セカンドストリートYahoo!店",
       "url": "https://store.shopping.yahoo.co.jp/ssol-shopping/2320973170219.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/ssol-shopping_2320973170219",
+      "jan_code": null,
       "size_cm_hint": 28.0,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "CT0856-100",
@@ -779,10 +915,13 @@
       "seller": "セカンドストリートYahoo!店",
       "url": "https://store.shopping.yahoo.co.jp/ssol-shopping/2333767078431.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/ssol-shopping_2333767078431",
+      "jan_code": null,
       "size_cm_hint": 27.5,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "CT0856-100",
@@ -794,10 +933,13 @@
       "seller": "RINKAN",
       "url": "https://store.shopping.yahoo.co.jp/rinkan/15379-260307-0291.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/rinkan_15379-260307-0291",
+      "jan_code": null,
       "size_cm_hint": 28.5,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "CT0856-100",
@@ -809,10 +951,13 @@
       "seller": "ブランド古着販売のベクトル",
       "url": "https://store.shopping.yahoo.co.jp/vectorpremium/034-902604290004.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/vectorpremium_034-902604290004",
+      "jan_code": null,
       "size_cm_hint": null,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "CT0856-100",
@@ -824,25 +969,13 @@
       "seller": "ブランド古着販売のベクトル",
       "url": "https://store.shopping.yahoo.co.jp/vectorpremium/037-902510090022.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/vectorpremium_037-902510090022",
+      "jan_code": null,
       "size_cm_hint": 29.0,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
-    },
-    {
-      "watch_sku": "CT0856-100",
-      "name": "NIKE◆DUNK LOW LTHR/ダンク ロー レザー/グリーン/CT0856-100/26.5cm/グリーン//",
-      "price_jpy": 44660,
-      "price_kind": "listing",
-      "verification": "pending",
-      "condition_hint": "used",
-      "seller": "セカンドストリートYahoo!店",
-      "url": "https://store.shopping.yahoo.co.jp/ssol-shopping/2334317331426.html",
-      "image_url": "https://item-shopping.c.yimg.jp/i/j/ssol-shopping_2334317331426",
-      "size_cm_hint": 26.5,
-      "observed_at": "2026-11-16T10:27:12+09:00",
-      "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "CT0856-100",
@@ -854,10 +987,31 @@
       "seller": "セカンドストリートYahoo!店",
       "url": "https://store.shopping.yahoo.co.jp/ssol-shopping/2347990258768.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/ssol-shopping_2347990258768",
+      "jan_code": null,
       "size_cm_hint": 27.0,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
+    },
+    {
+      "watch_sku": "CT0856-100",
+      "name": "NIKE◆DUNK LOW LTHR/ダンク ロー レザー/グリーン/CT0856-100/26.5cm/グリーン//",
+      "price_jpy": 44660,
+      "price_kind": "listing",
+      "verification": "pending",
+      "condition_hint": "used",
+      "seller": "セカンドストリートYahoo!店",
+      "url": "https://store.shopping.yahoo.co.jp/ssol-shopping/2334317331426.html",
+      "image_url": "https://item-shopping.c.yimg.jp/i/j/ssol-shopping_2334317331426",
+      "jan_code": null,
+      "size_cm_hint": 26.5,
+      "observed_at": "2026-11-17T13:13:33+09:00",
+      "source": "Yahoo! Shopping API v3",
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "CT0856-100",
@@ -869,10 +1023,13 @@
       "seller": "セカンドストリートYahoo!店",
       "url": "https://store.shopping.yahoo.co.jp/ssol-shopping/2319697102187.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/ssol-shopping_2319697102187",
+      "jan_code": null,
       "size_cm_hint": 29.0,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "DZ4137-700",
@@ -884,70 +1041,13 @@
       "seller": "Rehello by BOOKOFF",
       "url": "https://store.shopping.yahoo.co.jp/hugall/rc-itweu08cglog-o8po.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/hugall_rc-itweu08cglog-o8po",
+      "jan_code": null,
       "size_cm_hint": null,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
-    },
-    {
-      "watch_sku": "DZ4137-700",
-      "name": "Travis Scott ×NIKE  WMNS AIR JORDAN 1 LOW OG SP/イエロー/29ｃｍ DZ4137-700 メンズファッション 中古",
-      "price_jpy": 44000,
-      "price_kind": "listing",
-      "verification": "pending",
-      "condition_hint": "used",
-      "seller": "ARCHERY",
-      "url": "https://store.shopping.yahoo.co.jp/shop-archery/0220562869.html",
-      "image_url": "https://item-shopping.c.yimg.jp/i/j/shop-archery_0220562869",
-      "size_cm_hint": null,
-      "observed_at": "2026-11-16T10:27:12+09:00",
-      "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
-    },
-    {
-      "watch_sku": "DZ4137-700",
-      "name": "ナイキ トラヴィススコット サイズ:27.5cm WMNS AIR JORDAN 1 LOW OG SP DZ4137-700 エアジョーダン1ローカナリースニーカー 中古 BS99",
-      "price_jpy": 42350,
-      "price_kind": "listing",
-      "verification": "pending",
-      "condition_hint": "used",
-      "seller": "RINKAN",
-      "url": "https://store.shopping.yahoo.co.jp/rinkan/55379-260830-0732.html",
-      "image_url": "https://item-shopping.c.yimg.jp/i/j/rinkan_55379-260830-0732",
-      "size_cm_hint": 27.5,
-      "observed_at": "2026-11-16T10:27:12+09:00",
-      "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
-    },
-    {
-      "watch_sku": "DZ4137-700",
-      "name": "Travis Scott×NIKE　トラヴィススコット×ナイキ WMNS AIR JORDAN 1 LOW OG SP　DZ4137-700　CANARY サイズ:26.5cm★SH8551",
-      "price_jpy": 43780,
-      "price_kind": "listing",
-      "verification": "pending",
-      "condition_hint": "used",
-      "seller": "スリフト",
-      "url": "https://store.shopping.yahoo.co.jp/thrift-webshop/n-149-sh8551-03.html",
-      "image_url": "https://item-shopping.c.yimg.jp/i/j/thrift-webshop_n-149-sh8551-03",
-      "size_cm_hint": 26.5,
-      "observed_at": "2026-11-16T10:27:12+09:00",
-      "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
-    },
-    {
-      "watch_sku": "DZ4137-700",
-      "name": "ナイキ NIKE × TRAVIS SCOTT WMNS AIR JORDAN 1 LOW OG SP CANARY 29cm DZ4137-700 ウィメンズ エア ジョーダン ロー トラヴィス スコット",
-      "price_jpy": 59400,
-      "price_kind": "listing",
-      "verification": "pending",
-      "condition_hint": "used",
-      "seller": "ブランド古着販売のベクトル",
-      "url": "https://store.shopping.yahoo.co.jp/vectorpremium/037-902603250001.html",
-      "image_url": "https://item-shopping.c.yimg.jp/i/j/vectorpremium_037-902603250001",
-      "size_cm_hint": 29.0,
-      "observed_at": "2026-11-16T10:27:12+09:00",
-      "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "DZ4137-700",
@@ -959,10 +1059,85 @@
       "seller": "RINKAN",
       "url": "https://store.shopping.yahoo.co.jp/rinkan/15379-261101-0207.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/rinkan_15379-261101-0207",
+      "jan_code": null,
       "size_cm_hint": 29.5,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
+    },
+    {
+      "watch_sku": "DZ4137-700",
+      "name": "Travis Scott ×NIKE  WMNS AIR JORDAN 1 LOW OG SP/イエロー/29ｃｍ DZ4137-700 メンズファッション 中古",
+      "price_jpy": 44000,
+      "price_kind": "listing",
+      "verification": "pending",
+      "condition_hint": "used",
+      "seller": "ARCHERY",
+      "url": "https://store.shopping.yahoo.co.jp/shop-archery/0220562869.html",
+      "image_url": "https://item-shopping.c.yimg.jp/i/j/shop-archery_0220562869",
+      "jan_code": null,
+      "size_cm_hint": null,
+      "observed_at": "2026-11-17T13:13:33+09:00",
+      "source": "Yahoo! Shopping API v3",
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
+    },
+    {
+      "watch_sku": "DZ4137-700",
+      "name": "ナイキ トラヴィススコット サイズ:27.5cm WMNS AIR JORDAN 1 LOW OG SP DZ4137-700 エアジョーダン1ローカナリースニーカー 中古 BS99",
+      "price_jpy": 42350,
+      "price_kind": "listing",
+      "verification": "pending",
+      "condition_hint": "used",
+      "seller": "RINKAN",
+      "url": "https://store.shopping.yahoo.co.jp/rinkan/55379-260830-0732.html",
+      "image_url": "https://item-shopping.c.yimg.jp/i/j/rinkan_55379-260830-0732",
+      "jan_code": null,
+      "size_cm_hint": 27.5,
+      "observed_at": "2026-11-17T13:13:33+09:00",
+      "source": "Yahoo! Shopping API v3",
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
+    },
+    {
+      "watch_sku": "DZ4137-700",
+      "name": "Travis Scott×NIKE　トラヴィススコット×ナイキ WMNS AIR JORDAN 1 LOW OG SP　DZ4137-700　CANARY サイズ:26.5cm★SH8551",
+      "price_jpy": 43780,
+      "price_kind": "listing",
+      "verification": "pending",
+      "condition_hint": "used",
+      "seller": "スリフト",
+      "url": "https://store.shopping.yahoo.co.jp/thrift-webshop/n-149-sh8551-03.html",
+      "image_url": "https://item-shopping.c.yimg.jp/i/j/thrift-webshop_n-149-sh8551-03",
+      "jan_code": null,
+      "size_cm_hint": 26.5,
+      "observed_at": "2026-11-17T13:13:33+09:00",
+      "source": "Yahoo! Shopping API v3",
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
+    },
+    {
+      "watch_sku": "DZ4137-700",
+      "name": "ナイキ NIKE × TRAVIS SCOTT WMNS AIR JORDAN 1 LOW OG SP CANARY 29cm DZ4137-700 ウィメンズ エア ジョーダン ロー トラヴィス スコット",
+      "price_jpy": 59400,
+      "price_kind": "listing",
+      "verification": "pending",
+      "condition_hint": "used",
+      "seller": "ブランド古着販売のベクトル",
+      "url": "https://store.shopping.yahoo.co.jp/vectorpremium/037-902603250001.html",
+      "image_url": "https://item-shopping.c.yimg.jp/i/j/vectorpremium_037-902603250001",
+      "jan_code": null,
+      "size_cm_hint": 29.0,
+      "observed_at": "2026-11-17T13:13:33+09:00",
+      "source": "Yahoo! Shopping API v3",
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "DZ4137-700",
@@ -974,10 +1149,13 @@
       "seller": "KICKS LAB.ヤフー店",
       "url": "https://store.shopping.yahoo.co.jp/lowtex/dz4137-700.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/lowtex_dz4137-700",
+      "jan_code": null,
       "size_cm_hint": null,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "DZ4137-700",
@@ -989,10 +1167,13 @@
       "seller": "LTD Online",
       "url": "https://store.shopping.yahoo.co.jp/ltd-online/dz4137-700.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/ltd-online_dz4137-700",
+      "jan_code": null,
       "size_cm_hint": null,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "DZ4137-700",
@@ -1004,10 +1185,13 @@
       "seller": "LIMITED EDT",
       "url": "https://store.shopping.yahoo.co.jp/limited-edition/dz4137-700.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/limited-edition_dz4137-700",
+      "jan_code": null,
       "size_cm_hint": null,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "DZ4137-700",
@@ -1019,10 +1203,13 @@
       "seller": "SHOES HOUSE KUZE",
       "url": "https://store.shopping.yahoo.co.jp/shkuze/dz4137-700.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/shkuze_dz4137-700",
+      "jan_code": null,
       "size_cm_hint": null,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "HF6061-400",
@@ -1034,10 +1221,13 @@
       "seller": "LIMITED EDT",
       "url": "https://store.shopping.yahoo.co.jp/limited-edition/hf6061-400.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/limited-edition_hf6061-400",
+      "jan_code": null,
       "size_cm_hint": null,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "HF6061-400",
@@ -1049,10 +1239,13 @@
       "seller": "スリフト",
       "url": "https://store.shopping.yahoo.co.jp/thrift-webshop/u-147-ut15468-11.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/thrift-webshop_u-147-ut15468-11",
+      "jan_code": null,
       "size_cm_hint": 28.0,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "HF6061-400",
@@ -1064,10 +1257,13 @@
       "seller": "ブランド古着販売のベクトル",
       "url": "https://store.shopping.yahoo.co.jp/vectorpremium/170-402608260241.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/vectorpremium_170-402608260241",
+      "jan_code": null,
       "size_cm_hint": 25.0,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "HF6061-400",
@@ -1079,10 +1275,13 @@
       "seller": "買取MOTTO",
       "url": "https://store.shopping.yahoo.co.jp/motto-motto/27662m.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/motto-motto_27662m",
+      "jan_code": null,
       "size_cm_hint": 28.5,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "HF6061-400",
@@ -1094,25 +1293,13 @@
       "seller": "カインドオルYahoo!店",
       "url": "https://store.shopping.yahoo.co.jp/kindal/8009002183997.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/kindal_8009002183997",
+      "jan_code": null,
       "size_cm_hint": null,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
-    },
-    {
-      "watch_sku": "HF6061-400",
-      "name": "ナイキ NIKE SB DUNK LOW OG QS FUTURA 2024 27.5cm HF6061-400 エスビー ダンク ロー フューチュラ コラボ ブリーチド アクア ▲■260511",
-      "price_jpy": 36300,
-      "price_kind": "listing",
-      "verification": "pending",
-      "condition_hint": "used",
-      "seller": "ブランド古着販売のベクトル",
-      "url": "https://store.shopping.yahoo.co.jp/vectorpremium/037-902605040013.html",
-      "image_url": "https://item-shopping.c.yimg.jp/i/j/vectorpremium_037-902605040013",
-      "size_cm_hint": 27.5,
-      "observed_at": "2026-11-16T10:27:12+09:00",
-      "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "HF6061-400",
@@ -1124,10 +1311,31 @@
       "seller": "LTD Online",
       "url": "https://store.shopping.yahoo.co.jp/ltd-online/hf6061-400.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/ltd-online_hf6061-400",
+      "jan_code": null,
       "size_cm_hint": null,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
+    },
+    {
+      "watch_sku": "HF6061-400",
+      "name": "ナイキ NIKE SB DUNK LOW OG QS FUTURA 2024 27.5cm HF6061-400 エスビー ダンク ロー フューチュラ コラボ ブリーチド アクア ▲■260511",
+      "price_jpy": 36300,
+      "price_kind": "listing",
+      "verification": "pending",
+      "condition_hint": "used",
+      "seller": "ブランド古着販売のベクトル",
+      "url": "https://store.shopping.yahoo.co.jp/vectorpremium/037-902605040013.html",
+      "image_url": "https://item-shopping.c.yimg.jp/i/j/vectorpremium_037-902605040013",
+      "jan_code": null,
+      "size_cm_hint": 27.5,
+      "observed_at": "2026-11-17T13:13:33+09:00",
+      "source": "Yahoo! Shopping API v3",
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "HF6061-400",
@@ -1139,10 +1347,13 @@
       "seller": "PAWNSHOP RIZ",
       "url": "https://store.shopping.yahoo.co.jp/pawnshopriz/240002028921.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/pawnshopriz_240002028921",
+      "jan_code": null,
       "size_cm_hint": 26.5,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "HF6061-400",
@@ -1154,10 +1365,13 @@
       "seller": "セカンドストリートYahoo!店",
       "url": "https://store.shopping.yahoo.co.jp/ssol-shopping/2332675767802.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/ssol-shopping_2332675767802",
+      "jan_code": null,
       "size_cm_hint": 27.5,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "HF6061-400",
@@ -1169,10 +1383,13 @@
       "seller": "スリフト",
       "url": "https://store.shopping.yahoo.co.jp/thrift-webshop/n-149-sh7468-03.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/thrift-webshop_n-149-sh7468-03",
+      "jan_code": null,
       "size_cm_hint": 29.0,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "HF8022-300",
@@ -1184,10 +1401,13 @@
       "seller": "サンステップ Yahoo!店",
       "url": "https://store.shopping.yahoo.co.jp/sunstep/1-240001706371.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/sunstep_1-240001706371",
+      "jan_code": null,
       "size_cm_hint": 28.0,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "HF8022-300",
@@ -1199,10 +1419,13 @@
       "seller": "LTD Online",
       "url": "https://store.shopping.yahoo.co.jp/ltd-online/hf8022-300.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/ltd-online_hf8022-300",
+      "jan_code": null,
       "size_cm_hint": null,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "HF8022-300",
@@ -1214,25 +1437,13 @@
       "seller": "LIMITED EDT",
       "url": "https://store.shopping.yahoo.co.jp/limited-edition/hf8022-300.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/limited-edition_hf8022-300",
+      "jan_code": null,
       "size_cm_hint": null,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
-    },
-    {
-      "watch_sku": "HF8022-300",
-      "name": "ナイキ エスビー NIKE SB Yuto Horigome Dunk Low Matcha 堀米雄斗 ホリゴメユウト ダンク ロー 抹茶 スニーカー US9 緑 HF8022-300",
-      "price_jpy": 29800,
-      "price_kind": "listing",
-      "verification": "pending",
-      "condition_hint": "used",
-      "seller": "ブランド古着販売のベクトル",
-      "url": "https://store.shopping.yahoo.co.jp/vectorpremium/208-902610270013.html",
-      "image_url": "https://item-shopping.c.yimg.jp/i/j/vectorpremium_208-902610270013",
-      "size_cm_hint": null,
-      "observed_at": "2026-11-16T10:27:12+09:00",
-      "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "HF8022-300",
@@ -1244,10 +1455,31 @@
       "seller": "カインドオルYahoo!店",
       "url": "https://store.shopping.yahoo.co.jp/kindal/8039001791039.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/kindal_8039001791039",
+      "jan_code": null,
       "size_cm_hint": null,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
+    },
+    {
+      "watch_sku": "HF8022-300",
+      "name": "ナイキ エスビー NIKE SB Yuto Horigome Dunk Low Matcha 堀米雄斗 ホリゴメユウト ダンク ロー 抹茶 スニーカー US9 緑 HF8022-300",
+      "price_jpy": 29800,
+      "price_kind": "listing",
+      "verification": "pending",
+      "condition_hint": "used",
+      "seller": "ブランド古着販売のベクトル",
+      "url": "https://store.shopping.yahoo.co.jp/vectorpremium/208-902610270013.html",
+      "image_url": "https://item-shopping.c.yimg.jp/i/j/vectorpremium_208-902610270013",
+      "jan_code": null,
+      "size_cm_hint": null,
+      "observed_at": "2026-11-17T13:13:33+09:00",
+      "source": "Yahoo! Shopping API v3",
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "HF8022-300",
@@ -1259,10 +1491,13 @@
       "seller": "セカンドストリートYahoo!店",
       "url": "https://store.shopping.yahoo.co.jp/ssol-shopping/2342094682471.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/ssol-shopping_2342094682471",
+      "jan_code": null,
       "size_cm_hint": 26.5,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "HF8022-300",
@@ -1274,25 +1509,13 @@
       "seller": "セカンドストリートYahoo!店",
       "url": "https://store.shopping.yahoo.co.jp/ssol-shopping/2345953717581.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/ssol-shopping_2345953717581",
+      "jan_code": null,
       "size_cm_hint": null,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
-    },
-    {
-      "watch_sku": "HF8022-300",
-      "name": "ナイキ サイズ:29cm HF8022-300 DUNK LOW PRO ダンクロープロスニーカー 中古 BS99",
-      "price_jpy": 31020,
-      "price_kind": "listing",
-      "verification": "pending",
-      "condition_hint": "used",
-      "seller": "RINKAN",
-      "url": "https://store.shopping.yahoo.co.jp/rinkan/15379-261016-0345.html",
-      "image_url": "https://item-shopping.c.yimg.jp/i/j/rinkan_15379-261016-0345",
-      "size_cm_hint": 29.0,
-      "observed_at": "2026-11-16T10:27:12+09:00",
-      "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "HF8022-300",
@@ -1304,10 +1527,31 @@
       "seller": "セカンドストリートYahoo!店",
       "url": "https://store.shopping.yahoo.co.jp/ssol-shopping/2332675767819.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/ssol-shopping_2332675767819",
+      "jan_code": null,
       "size_cm_hint": 27.0,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
+    },
+    {
+      "watch_sku": "HF8022-300",
+      "name": "NIKE◆ローカットスニーカー_HF8022-300/26cm/GRN/スウェード//",
+      "price_jpy": 25960,
+      "price_kind": "listing",
+      "verification": "pending",
+      "condition_hint": "used",
+      "seller": "セカンドストリートYahoo!店",
+      "url": "https://store.shopping.yahoo.co.jp/ssol-shopping/2320817428766.html",
+      "image_url": "https://item-shopping.c.yimg.jp/i/j/ssol-shopping_2320817428766",
+      "jan_code": null,
+      "size_cm_hint": 26.0,
+      "observed_at": "2026-11-17T13:13:33+09:00",
+      "source": "Yahoo! Shopping API v3",
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "HQ8487-001",
@@ -1319,10 +1563,13 @@
       "seller": "KICKS LAB.ヤフー店",
       "url": "https://store.shopping.yahoo.co.jp/lowtex/hq8487-001.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/lowtex_hq8487-001",
+      "jan_code": null,
       "size_cm_hint": null,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "HQ8487-001",
@@ -1334,10 +1581,13 @@
       "seller": "LIMITED EDT",
       "url": "https://store.shopping.yahoo.co.jp/limited-edition/hq8487-001.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/limited-edition_hq8487-001",
+      "jan_code": null,
       "size_cm_hint": null,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "HQ8487-001",
@@ -1349,10 +1599,13 @@
       "seller": "LTD Online",
       "url": "https://store.shopping.yahoo.co.jp/ltd-online/hq8487-001.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/ltd-online_hq8487-001",
+      "jan_code": null,
       "size_cm_hint": null,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "HQ8487-001",
@@ -1364,10 +1617,13 @@
       "seller": "セカンドストリートYahoo!店",
       "url": "https://store.shopping.yahoo.co.jp/ssol-shopping/2345483452099.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/ssol-shopping_2345483452099",
+      "jan_code": null,
       "size_cm_hint": 26.0,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "HQ8487-001",
@@ -1379,10 +1635,13 @@
       "seller": "セカンドストリートYahoo!店",
       "url": "https://store.shopping.yahoo.co.jp/ssol-shopping/2347802713799.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/ssol-shopping_2347802713799",
+      "jan_code": null,
       "size_cm_hint": 27.0,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "HQ8487-001",
@@ -1394,10 +1653,13 @@
       "seller": "ToriDollJAPAN",
       "url": "https://store.shopping.yahoo.co.jp/orange-orange/g-hq8487-001.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/orange-orange_g-hq8487-001",
+      "jan_code": null,
       "size_cm_hint": null,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "HQ8487-100",
@@ -1409,10 +1671,13 @@
       "seller": "LTD Online",
       "url": "https://store.shopping.yahoo.co.jp/ltd-online/hq8487-100.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/ltd-online_hq8487-100",
+      "jan_code": null,
       "size_cm_hint": null,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "HQ8487-100",
@@ -1424,10 +1689,13 @@
       "seller": "KICKS LAB.ヤフー店",
       "url": "https://store.shopping.yahoo.co.jp/lowtex/hq8487-100.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/lowtex_hq8487-100",
+      "jan_code": null,
       "size_cm_hint": null,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "HQ8487-100",
@@ -1439,10 +1707,13 @@
       "seller": "LIMITED EDT",
       "url": "https://store.shopping.yahoo.co.jp/limited-edition/hq8487-100.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/limited-edition_hq8487-100",
+      "jan_code": null,
       "size_cm_hint": null,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "HQ8487-100",
@@ -1454,10 +1725,13 @@
       "seller": "ToriDollJAPAN",
       "url": "https://store.shopping.yahoo.co.jp/orange-orange/g-hq8487-100.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/orange-orange_g-hq8487-100",
+      "jan_code": null,
       "size_cm_hint": null,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "HQ8487-400",
@@ -1469,10 +1743,13 @@
       "seller": "LTD Online",
       "url": "https://store.shopping.yahoo.co.jp/ltd-online/hq8487-400.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/ltd-online_hq8487-400",
+      "jan_code": null,
       "size_cm_hint": null,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "HQ8487-400",
@@ -1484,10 +1761,13 @@
       "seller": "LIMITED EDT",
       "url": "https://store.shopping.yahoo.co.jp/limited-edition/hq8487-400.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/limited-edition_hq8487-400",
+      "jan_code": null,
       "size_cm_hint": null,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "HQ8487-400",
@@ -1499,10 +1779,13 @@
       "seller": "ToriDollJAPAN",
       "url": "https://store.shopping.yahoo.co.jp/orange-orange/g-hq8487-400.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/orange-orange_g-hq8487-400",
+      "jan_code": null,
       "size_cm_hint": null,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "HQ8487-500",
@@ -1514,10 +1797,13 @@
       "seller": "ブランド古着販売のベクトル",
       "url": "https://store.shopping.yahoo.co.jp/vectorpremium/034-902610040053.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/vectorpremium_034-902610040053",
+      "jan_code": null,
       "size_cm_hint": null,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "HQ8487-500",
@@ -1529,10 +1815,13 @@
       "seller": "LTD Online",
       "url": "https://store.shopping.yahoo.co.jp/ltd-online/hq8487-500.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/ltd-online_hq8487-500",
+      "jan_code": null,
       "size_cm_hint": null,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "HQ8487-500",
@@ -1544,10 +1833,13 @@
       "seller": "LIMITED EDT",
       "url": "https://store.shopping.yahoo.co.jp/limited-edition/hq8487-500.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/limited-edition_hq8487-500",
+      "jan_code": null,
       "size_cm_hint": null,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "HQ8487-500",
@@ -1559,10 +1851,31 @@
       "seller": "ToriDollJAPAN",
       "url": "https://store.shopping.yahoo.co.jp/orange-orange/g-hq8487-500.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/orange-orange_g-hq8487-500",
+      "jan_code": null,
       "size_cm_hint": null,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
+    },
+    {
+      "watch_sku": "DM1602-125",
+      "name": "ナイキ NIKE DM1602-125 スニーカー",
+      "price_jpy": 23600,
+      "price_kind": "listing",
+      "verification": "pending",
+      "condition_hint": "used",
+      "seller": "KOMEHYO ONLINESTORE Yahoo!店",
+      "url": "https://store.shopping.yahoo.co.jp/komehyo/230-000-878-6073.html",
+      "image_url": "https://item-shopping.c.yimg.jp/i/j/komehyo_230-000-878-6073",
+      "jan_code": null,
+      "size_cm_hint": null,
+      "observed_at": "2026-11-17T13:13:33+09:00",
+      "source": "Yahoo! Shopping API v3",
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "DM1602-125",
@@ -1574,10 +1887,13 @@
       "seller": "RINKAN",
       "url": "https://store.shopping.yahoo.co.jp/rinkan/15379-261108-0194.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/rinkan_15379-261108-0194",
+      "jan_code": null,
       "size_cm_hint": 28.5,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "DM1602-125",
@@ -1589,10 +1905,13 @@
       "seller": "サンステップ Yahoo!店",
       "url": "https://store.shopping.yahoo.co.jp/sunstep/1-240001712210.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/sunstep_1-240001712210",
+      "jan_code": null,
       "size_cm_hint": 27.5,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "DM1602-125",
@@ -1604,10 +1923,13 @@
       "seller": "セカンドストリートYahoo!店",
       "url": "https://store.shopping.yahoo.co.jp/ssol-shopping/2341201388282.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/ssol-shopping_2341201388282",
+      "jan_code": null,
       "size_cm_hint": 26.5,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "DM1602-125",
@@ -1619,10 +1941,13 @@
       "seller": "unstitch Yahoo!店",
       "url": "https://store.shopping.yahoo.co.jp/unstitch/160275.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/unstitch_160275",
+      "jan_code": null,
       "size_cm_hint": null,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "DM1602-125",
@@ -1634,10 +1959,13 @@
       "seller": "サンステップ Yahoo!店",
       "url": "https://store.shopping.yahoo.co.jp/sunstep/1-240001708916.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/sunstep_1-240001708916",
+      "jan_code": null,
       "size_cm_hint": 26.5,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "DM1602-125",
@@ -1649,10 +1977,13 @@
       "seller": "セカンドストリートYahoo!店",
       "url": "https://store.shopping.yahoo.co.jp/ssol-shopping/2341274427482.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/ssol-shopping_2341274427482",
+      "jan_code": null,
       "size_cm_hint": 27.0,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "DM1602-125",
@@ -1664,10 +1995,13 @@
       "seller": "セカンドストリートYahoo!店",
       "url": "https://store.shopping.yahoo.co.jp/ssol-shopping/2329874886564.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/ssol-shopping_2329874886564",
+      "jan_code": null,
       "size_cm_hint": 27.5,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "DM1602-125",
@@ -1679,10 +2013,13 @@
       "seller": "スリフト",
       "url": "https://store.shopping.yahoo.co.jp/thrift-webshop/a-148-wt5275-19.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/thrift-webshop_a-148-wt5275-19",
+      "jan_code": null,
       "size_cm_hint": 28.0,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "DM1602-125",
@@ -1694,25 +2031,13 @@
       "seller": "セカンドストリートYahoo!店",
       "url": "https://store.shopping.yahoo.co.jp/ssol-shopping/2335042936535.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/ssol-shopping_2335042936535",
+      "jan_code": null,
       "size_cm_hint": 27.0,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
-    },
-    {
-      "watch_sku": "DM1602-125",
-      "name": "NIKE ナイキ DM1602-125 Off-White x Nike ダンク Low 'Lot 47 of 50' メンズ",
-      "price_jpy": 78980,
-      "price_kind": "listing",
-      "verification": "pending",
-      "condition_hint": "new",
-      "seller": "ToriDollJAPAN",
-      "url": "https://store.shopping.yahoo.co.jp/orange-orange/g-dm1602-125.html",
-      "image_url": "https://item-shopping.c.yimg.jp/i/j/orange-orange_g-dm1602-125",
-      "size_cm_hint": null,
-      "observed_at": "2026-11-16T10:27:12+09:00",
-      "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "IQ7604-100",
@@ -1724,10 +2049,13 @@
       "seller": "カインドオルYahoo!店",
       "url": "https://store.shopping.yahoo.co.jp/kindal/8071000183668.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/kindal_8071000183668",
+      "jan_code": null,
       "size_cm_hint": null,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "IQ7604-100",
@@ -1739,10 +2067,13 @@
       "seller": "ブランド古着販売のベクトル",
       "url": "https://store.shopping.yahoo.co.jp/vectorpremium/034-902607240007.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/vectorpremium_034-902607240007",
+      "jan_code": null,
       "size_cm_hint": null,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "IQ7604-100",
@@ -1754,10 +2085,13 @@
       "seller": "RINKAN",
       "url": "https://store.shopping.yahoo.co.jp/rinkan/15379-261029-0302.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/rinkan_15379-261029-0302",
+      "jan_code": null,
       "size_cm_hint": 27.5,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "IQ7604-100",
@@ -1769,25 +2103,13 @@
       "seller": "リサイクルビッグバンヤフー店",
       "url": "https://store.shopping.yahoo.co.jp/bigban/1003102276167.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/bigban_1003102276167",
+      "jan_code": null,
       "size_cm_hint": 27.0,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
-    },
-    {
-      "watch_sku": "IQ7604-100",
-      "name": "Travis Scott × Nike AirJordan1 Retro Low OG トラヴィススコット ナイキ エアジョーダン1 レトロ IQ7604-100 28.5cm 未使用品 ◆131551",
-      "price_jpy": 55000,
-      "price_kind": "listing",
-      "verification": "pending",
-      "condition_hint": "used",
-      "seller": "スリフトWEB SHOP 2nd",
-      "url": "https://store.shopping.yahoo.co.jp/thrift2nd/t146-13-1551.html",
-      "image_url": "https://item-shopping.c.yimg.jp/i/j/thrift2nd_t146-13-1551",
-      "size_cm_hint": 28.5,
-      "observed_at": "2026-11-16T10:27:12+09:00",
-      "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "IQ7604-100",
@@ -1799,25 +2121,49 @@
       "seller": "LIMITED EDT",
       "url": "https://store.shopping.yahoo.co.jp/limited-edition/iq7604-100.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/limited-edition_iq7604-100",
+      "jan_code": null,
       "size_cm_hint": null,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "IQ7604-100",
-      "name": "ナイキ トラヴィススコット 28cm AIRJORDAN1 LOW OG SP MUSLIN SHYPINK IQ7604-100 エアジョーダン1ローシャイピンクスニーカー 中古 BS99",
-      "price_jpy": 57112,
+      "name": "Travis Scott × Nike AirJordan1 Retro Low OG トラヴィススコット ナイキ エアジョーダン1 レトロ IQ7604-100 28.5cm 未使用品 ◆131551",
+      "price_jpy": 55000,
+      "price_kind": "listing",
+      "verification": "pending",
+      "condition_hint": "used",
+      "seller": "スリフトWEB SHOP 2nd",
+      "url": "https://store.shopping.yahoo.co.jp/thrift2nd/t146-13-1551.html",
+      "image_url": "https://item-shopping.c.yimg.jp/i/j/thrift2nd_t146-13-1551",
+      "jan_code": null,
+      "size_cm_hint": 28.5,
+      "observed_at": "2026-11-17T13:13:33+09:00",
+      "source": "Yahoo! Shopping API v3",
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
+    },
+    {
+      "watch_sku": "IQ7604-100",
+      "name": "ナイキ トラヴィススコット 28cm AIRJORDAN1 LOW OG SP MUSLIN SHYPINK IQ7604-100 エアジョーダン1ローシャイピンクスニーカー 中古 SB01",
+      "price_jpy": 60984,
       "price_kind": "listing",
       "verification": "pending",
       "condition_hint": "used",
       "seller": "RINKAN",
       "url": "https://store.shopping.yahoo.co.jp/rinkan/15379-261107-0291.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/rinkan_15379-261107-0291",
+      "jan_code": null,
       "size_cm_hint": 28.0,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "IQ7604-100",
@@ -1829,10 +2175,13 @@
       "seller": "KICKS LAB.ヤフー店",
       "url": "https://store.shopping.yahoo.co.jp/lowtex/iq7604-100.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/lowtex_iq7604-100",
+      "jan_code": null,
       "size_cm_hint": null,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "IQ7604-100",
@@ -1844,10 +2193,13 @@
       "seller": "LTD Online",
       "url": "https://store.shopping.yahoo.co.jp/ltd-online/iq7604-100.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/ltd-online_iq7604-100",
+      "jan_code": null,
       "size_cm_hint": null,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "IQ7604-100",
@@ -1859,10 +2211,13 @@
       "seller": "RINKAN",
       "url": "https://store.shopping.yahoo.co.jp/rinkan/15379-260908-0310.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/rinkan_15379-260908-0310",
+      "jan_code": null,
       "size_cm_hint": 26.0,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "HV1668-001",
@@ -1874,10 +2229,13 @@
       "seller": "スリフト",
       "url": "https://store.shopping.yahoo.co.jp/thrift-webshop/n-149-sh8830-04.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/thrift-webshop_n-149-sh8830-04",
+      "jan_code": null,
       "size_cm_hint": 27.5,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "HV1668-001",
@@ -1889,10 +2247,13 @@
       "seller": "カインドオルYahoo!店",
       "url": "https://store.shopping.yahoo.co.jp/kindal/8104000157411.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/kindal_8104000157411",
+      "jan_code": null,
       "size_cm_hint": null,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "HV1668-001",
@@ -1904,10 +2265,13 @@
       "seller": "質みなみ ヤフーショッピング店",
       "url": "https://store.shopping.yahoo.co.jp/shichi-minami/dz465351.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/shichi-minami_dz465351",
+      "jan_code": null,
       "size_cm_hint": 28.5,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "HV1668-001",
@@ -1919,10 +2283,13 @@
       "seller": "スリフト",
       "url": "https://store.shopping.yahoo.co.jp/thrift-webshop/n-149-sh8403-03.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/thrift-webshop_n-149-sh8403-03",
+      "jan_code": null,
       "size_cm_hint": 28.0,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "HV1668-001",
@@ -1934,10 +2301,13 @@
       "seller": "セカンドストリートYahoo!店",
       "url": "https://store.shopping.yahoo.co.jp/ssol-shopping/2338018356443.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/ssol-shopping_2338018356443",
+      "jan_code": null,
       "size_cm_hint": 27.5,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "HV1668-001",
@@ -1949,10 +2319,13 @@
       "seller": "カインドオルYahoo!店",
       "url": "https://store.shopping.yahoo.co.jp/kindal/8015001008858.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/kindal_8015001008858",
+      "jan_code": null,
       "size_cm_hint": null,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "HV1668-001",
@@ -1964,10 +2337,13 @@
       "seller": "セカンドストリートYahoo!店",
       "url": "https://store.shopping.yahoo.co.jp/ssol-shopping/2318642851538.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/ssol-shopping_2318642851538",
+      "jan_code": null,
       "size_cm_hint": 27.5,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "HV1668-001",
@@ -1979,10 +2355,13 @@
       "seller": "セカンドストリートYahoo!店",
       "url": "https://store.shopping.yahoo.co.jp/ssol-shopping/2319145372551.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/ssol-shopping_2319145372551",
+      "jan_code": null,
       "size_cm_hint": 29.0,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "HV1668-001",
@@ -1994,10 +2373,13 @@
       "seller": "セカンドストリートYahoo!店",
       "url": "https://store.shopping.yahoo.co.jp/ssol-shopping/2302245680336.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/ssol-shopping_2302245680336",
+      "jan_code": null,
       "size_cm_hint": 26.0,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "CZ8455-100",
@@ -2009,10 +2391,13 @@
       "seller": "LIMITED EDT",
       "url": "https://store.shopping.yahoo.co.jp/limited-edition/cz8455-100.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/limited-edition_cz8455-100",
+      "jan_code": null,
       "size_cm_hint": null,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "CZ8455-100",
@@ -2024,10 +2409,13 @@
       "seller": "LTD Online",
       "url": "https://store.shopping.yahoo.co.jp/ltd-online/cz8455-100.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/ltd-online_cz8455-100",
+      "jan_code": null,
       "size_cm_hint": null,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "CZ8455-100",
@@ -2039,10 +2427,13 @@
       "seller": "買取MOTTO",
       "url": "https://store.shopping.yahoo.co.jp/motto-motto/27990m.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/motto-motto_27990m",
+      "jan_code": null,
       "size_cm_hint": 30.0,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "CZ8455-100",
@@ -2054,10 +2445,13 @@
       "seller": "セカンドストリートYahoo!店",
       "url": "https://store.shopping.yahoo.co.jp/ssol-shopping/2341353995574.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/ssol-shopping_2341353995574",
+      "jan_code": null,
       "size_cm_hint": 25.0,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "CZ8455-100",
@@ -2069,10 +2463,13 @@
       "seller": "セカンドストリートYahoo!店",
       "url": "https://store.shopping.yahoo.co.jp/ssol-shopping/2343604405641.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/ssol-shopping_2343604405641",
+      "jan_code": null,
       "size_cm_hint": 27.0,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "CZ8455-100",
@@ -2084,10 +2481,13 @@
       "seller": "ToriDollJAPAN",
       "url": "https://store.shopping.yahoo.co.jp/orange-orange/g-cz8455-100.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/orange-orange_g-cz8455-100",
+      "jan_code": null,
       "size_cm_hint": null,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "CZ8455-100",
@@ -2099,10 +2499,13 @@
       "seller": "OPINION COSMETIC",
       "url": "https://store.shopping.yahoo.co.jp/streethomme/2001028419.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/streethomme_2001028419",
+      "jan_code": null,
       "size_cm_hint": null,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "CZ8455-100",
@@ -2114,10 +2517,13 @@
       "seller": "ワンダーレックスヤフー店",
       "url": "https://store.shopping.yahoo.co.jp/wonderrex-ec/9264822439931.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/wonderrex-ec_9264822439931",
+      "jan_code": null,
       "size_cm_hint": 27.0,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "DD1391-100",
@@ -2129,10 +2535,13 @@
       "seller": "goodsmell",
       "url": "https://store.shopping.yahoo.co.jp/goodsmell/133.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/goodsmell_133",
+      "jan_code": null,
       "size_cm_hint": null,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "DD1391-100",
@@ -2144,10 +2553,13 @@
       "seller": "KICKS LAB.ヤフー店",
       "url": "https://store.shopping.yahoo.co.jp/lowtex/dd1391-100.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/lowtex_dd1391-100",
+      "jan_code": null,
       "size_cm_hint": null,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "DD1391-100",
@@ -2159,10 +2571,13 @@
       "seller": "LTD Online",
       "url": "https://store.shopping.yahoo.co.jp/ltd-online/dd1391-100.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/ltd-online_dd1391-100",
+      "jan_code": null,
       "size_cm_hint": null,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "DD1391-100",
@@ -2174,10 +2589,13 @@
       "seller": "LeicesterSquare",
       "url": "https://store.shopping.yahoo.co.jp/leicester/dd1391-100.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/leicester_dd1391-100",
+      "jan_code": null,
       "size_cm_hint": null,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "DD1391-100",
@@ -2189,10 +2607,13 @@
       "seller": "ブランド古着販売のベクトル",
       "url": "https://store.shopping.yahoo.co.jp/vectorpremium/002-902611030044.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/vectorpremium_002-902611030044",
+      "jan_code": null,
       "size_cm_hint": 26.5,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "DD1391-100",
@@ -2204,10 +2625,13 @@
       "seller": "スニーカー専門店・Greening!",
       "url": "https://store.shopping.yahoo.co.jp/greening/dd1391-100.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/greening_dd1391-100",
+      "jan_code": null,
       "size_cm_hint": null,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "DD1391-100",
@@ -2219,25 +2643,13 @@
       "seller": "LIMITED EDT",
       "url": "https://store.shopping.yahoo.co.jp/limited-edition/dd1391-100.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/limited-edition_dd1391-100",
+      "jan_code": null,
       "size_cm_hint": null,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
-    },
-    {
-      "watch_sku": "DD1391-100",
-      "name": "ナイキ ローカットスニーカー DUNK LOW RETRO DD1391-100 メンズ SIZE 27.0 NIKE 中古",
-      "price_jpy": 11000,
-      "price_kind": "listing",
-      "verification": "pending",
-      "condition_hint": "used",
-      "seller": "Rehello by BOOKOFF",
-      "url": "https://store.shopping.yahoo.co.jp/hugall/rc-it8vd4a9xkrs-2dvd.html",
-      "image_url": "https://item-shopping.c.yimg.jp/i/j/hugall_rc-it8vd4a9xkrs-2dvd",
-      "size_cm_hint": null,
-      "observed_at": "2026-11-16T10:27:12+09:00",
-      "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "DD1391-100",
@@ -2249,25 +2661,49 @@
       "seller": "スリフトWEB SHOP 2nd",
       "url": "https://store.shopping.yahoo.co.jp/thrift2nd/y154-737.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/thrift2nd_y154-737",
+      "jan_code": null,
       "size_cm_hint": 28.5,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "DD1391-100",
-      "name": "ナイキ NIKE Dunk Low Retro Panda/White/Black  ダンク ロー レトロ パンダ スニーカー US7.5 25.5cm ホワイト/ブラック DD1391-100",
-      "price_jpy": 7000,
+      "name": "NIKE◆ローカットスニーカー/27cm/BLK/DD1391-100//",
+      "price_jpy": 9460,
       "price_kind": "listing",
       "verification": "pending",
       "condition_hint": "used",
-      "seller": "ブランド古着販売のベクトル",
-      "url": "https://store.shopping.yahoo.co.jp/vectorpremium/202-902610240008.html",
-      "image_url": "https://item-shopping.c.yimg.jp/i/j/vectorpremium_202-902610240008",
-      "size_cm_hint": 25.5,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "seller": "セカンドストリートYahoo!店",
+      "url": "https://store.shopping.yahoo.co.jp/ssol-shopping/2340555608343.html",
+      "image_url": "https://item-shopping.c.yimg.jp/i/j/ssol-shopping_2340555608343",
+      "jan_code": null,
+      "size_cm_hint": 27.0,
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
+    },
+    {
+      "watch_sku": "DD1391-100",
+      "name": "ナイキ ローカットスニーカー DUNK LOW RETRO DD1391-100 メンズ SIZE 27.0 NIKE 中古",
+      "price_jpy": 11000,
+      "price_kind": "listing",
+      "verification": "pending",
+      "condition_hint": "used",
+      "seller": "Rehello by BOOKOFF",
+      "url": "https://store.shopping.yahoo.co.jp/hugall/rc-it8vd4a9xkrs-2dvd.html",
+      "image_url": "https://item-shopping.c.yimg.jp/i/j/hugall_rc-it8vd4a9xkrs-2dvd",
+      "jan_code": null,
+      "size_cm_hint": null,
+      "observed_at": "2026-11-17T13:13:33+09:00",
+      "source": "Yahoo! Shopping API v3",
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "DD8386-001",
@@ -2279,10 +2715,13 @@
       "seller": "ブランド古着販売のベクトル",
       "url": "https://store.shopping.yahoo.co.jp/vectorpremium/037-902606220007.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/vectorpremium_037-902606220007",
+      "jan_code": null,
       "size_cm_hint": 28.0,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "DD8386-001",
@@ -2294,25 +2733,13 @@
       "seller": "カインドオルYahoo!店",
       "url": "https://store.shopping.yahoo.co.jp/kindal/8003001715975.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/kindal_8003001715975",
+      "jan_code": null,
       "size_cm_hint": 26.0,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
-    },
-    {
-      "watch_sku": "DD8386-001",
-      "name": "WASTED YOUTH × NIKE ナイキ SB DUNK LOW PRO QS4  / DD8386-001 SIZE:26cm スニーカー 靴 ≡SH6822",
-      "price_jpy": 19800,
-      "price_kind": "listing",
-      "verification": "pending",
-      "condition_hint": "used",
-      "seller": "スリフト",
-      "url": "https://store.shopping.yahoo.co.jp/thrift-webshop/n-149-sh6822-15.html",
-      "image_url": "https://item-shopping.c.yimg.jp/i/j/thrift-webshop_n-149-sh6822-15",
-      "size_cm_hint": 26.0,
-      "observed_at": "2026-11-16T10:27:12+09:00",
-      "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "DD8386-001",
@@ -2324,10 +2751,31 @@
       "seller": "スリフト",
       "url": "https://store.shopping.yahoo.co.jp/thrift-webshop/a-148-wt4644-19.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/thrift-webshop_a-148-wt4644-19",
+      "jan_code": null,
       "size_cm_hint": 26.0,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
+    },
+    {
+      "watch_sku": "DD8386-001",
+      "name": "WASTED YOUTH × NIKE ナイキ SB DUNK LOW PRO QS4  / DD8386-001 SIZE:26cm スニーカー 靴 ≡SH6822",
+      "price_jpy": 19800,
+      "price_kind": "listing",
+      "verification": "pending",
+      "condition_hint": "used",
+      "seller": "スリフト",
+      "url": "https://store.shopping.yahoo.co.jp/thrift-webshop/n-149-sh6822-15.html",
+      "image_url": "https://item-shopping.c.yimg.jp/i/j/thrift-webshop_n-149-sh6822-15",
+      "jan_code": null,
+      "size_cm_hint": 26.0,
+      "observed_at": "2026-11-17T13:13:33+09:00",
+      "source": "Yahoo! Shopping API v3",
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "DD8386-001",
@@ -2339,10 +2787,13 @@
       "seller": "セカンドストリートYahoo!店",
       "url": "https://store.shopping.yahoo.co.jp/ssol-shopping/2343634750445.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/ssol-shopping_2343634750445",
+      "jan_code": null,
       "size_cm_hint": 27.0,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "DD8386-001",
@@ -2354,10 +2805,13 @@
       "seller": "セカンドストリートYahoo!店",
       "url": "https://store.shopping.yahoo.co.jp/ssol-shopping/2321483539046.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/ssol-shopping_2321483539046",
+      "jan_code": null,
       "size_cm_hint": 26.0,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "DD8386-001",
@@ -2369,10 +2823,13 @@
       "seller": "セカンドストリートYahoo!店",
       "url": "https://store.shopping.yahoo.co.jp/ssol-shopping/2319553401980.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/ssol-shopping_2319553401980",
+      "jan_code": null,
       "size_cm_hint": 27.5,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "DD8386-001",
@@ -2384,10 +2841,13 @@
       "seller": "セカンドストリートYahoo!店",
       "url": "https://store.shopping.yahoo.co.jp/ssol-shopping/2342645401025.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/ssol-shopping_2342645401025",
+      "jan_code": null,
       "size_cm_hint": 28.0,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "DD8386-001",
@@ -2399,10 +2859,13 @@
       "seller": "セカンドストリートYahoo!店",
       "url": "https://store.shopping.yahoo.co.jp/ssol-shopping/2334834210709.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/ssol-shopping_2334834210709",
+      "jan_code": null,
       "size_cm_hint": null,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "DD8386-001",
@@ -2414,25 +2877,13 @@
       "seller": "ToriDollJAPAN",
       "url": "https://store.shopping.yahoo.co.jp/orange-orange/g-dd8386-001.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/orange-orange_g-dd8386-001",
+      "jan_code": null,
       "size_cm_hint": null,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
-    },
-    {
-      "watch_sku": "DJ0950-115",
-      "name": "NIKE◆DUNK LOW_ダンク ロー/28cm/ホワイト/DJ0950-115//",
-      "price_jpy": 25960,
-      "price_kind": "listing",
-      "verification": "pending",
-      "condition_hint": "used",
-      "seller": "セカンドストリートYahoo!店",
-      "url": "https://store.shopping.yahoo.co.jp/ssol-shopping/2334755926154.html",
-      "image_url": "https://item-shopping.c.yimg.jp/i/j/ssol-shopping_2334755926154",
-      "size_cm_hint": 28.0,
-      "observed_at": "2026-11-16T10:27:12+09:00",
-      "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "DJ0950-115",
@@ -2444,10 +2895,31 @@
       "seller": "セカンドストリートYahoo!店",
       "url": "https://store.shopping.yahoo.co.jp/ssol-shopping/2336708582301.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/ssol-shopping_2336708582301",
+      "jan_code": null,
       "size_cm_hint": 27.0,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
+    },
+    {
+      "watch_sku": "DJ0950-115",
+      "name": "NIKE◆DUNK LOW_ダンク ロー/28cm/ホワイト/DJ0950-115//",
+      "price_jpy": 25960,
+      "price_kind": "listing",
+      "verification": "pending",
+      "condition_hint": "used",
+      "seller": "セカンドストリートYahoo!店",
+      "url": "https://store.shopping.yahoo.co.jp/ssol-shopping/2334755926154.html",
+      "image_url": "https://item-shopping.c.yimg.jp/i/j/ssol-shopping_2334755926154",
+      "jan_code": null,
+      "size_cm_hint": 28.0,
+      "observed_at": "2026-11-17T13:13:33+09:00",
+      "source": "Yahoo! Shopping API v3",
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "DJ0950-115",
@@ -2459,10 +2931,13 @@
       "seller": "BrandBILLS Yahoo!ショップ",
       "url": "https://store.shopping.yahoo.co.jp/brand-bills/n12221000ont.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/brand-bills_n12221000ont",
+      "jan_code": null,
       "size_cm_hint": 23.5,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "DJ0950-115",
@@ -2474,10 +2949,13 @@
       "seller": "オーバーラップヤフー店",
       "url": "https://store.shopping.yahoo.co.jp/overlap/2505150204.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/overlap_2505150204",
+      "jan_code": null,
       "size_cm_hint": 27.0,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "DJ0950-115",
@@ -2489,10 +2967,13 @@
       "seller": "KOMEHYO ONLINESTORE Yahoo!店",
       "url": "https://store.shopping.yahoo.co.jp/komehyo/230-000-777-9281.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/komehyo_230-000-777-9281",
+      "jan_code": null,
       "size_cm_hint": null,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "DJ0950-115",
@@ -2504,10 +2985,13 @@
       "seller": "KLD ヤフーショッピング店",
       "url": "https://store.shopping.yahoo.co.jp/kldclothing/qezzeawtps7d.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/kldclothing_qezzeawtps7d",
+      "jan_code": null,
       "size_cm_hint": null,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "DJ0950-115",
@@ -2519,25 +3003,13 @@
       "seller": "ブランド古着のリュクス",
       "url": "https://store.shopping.yahoo.co.jp/kigaeru/372025095025.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/kigaeru_372025095025",
+      "jan_code": null,
       "size_cm_hint": 26.5,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
-    },
-    {
-      "watch_sku": "DJ0950-115",
-      "name": "NIKE◆ローカットスニーカー/28.5cm/DJ0950-115",
-      "price_jpy": 22660,
-      "price_kind": "listing",
-      "verification": "pending",
-      "condition_hint": "used",
-      "seller": "セカンドストリートYahoo!店",
-      "url": "https://store.shopping.yahoo.co.jp/ssol-shopping/2302246715679.html",
-      "image_url": "https://item-shopping.c.yimg.jp/i/j/ssol-shopping_2302246715679",
-      "size_cm_hint": 28.5,
-      "observed_at": "2026-11-16T10:27:12+09:00",
-      "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "DJ0950-115",
@@ -2549,10 +3021,31 @@
       "seller": "CARMAK-2nd",
       "url": "https://store.shopping.yahoo.co.jp/carmak-2nd/shu-1105.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/carmak-2nd_shu-1105",
+      "jan_code": null,
       "size_cm_hint": null,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
+    },
+    {
+      "watch_sku": "DJ0950-115",
+      "name": "NIKE◆ローカットスニーカー/28.5cm/DJ0950-115",
+      "price_jpy": 22660,
+      "price_kind": "listing",
+      "verification": "pending",
+      "condition_hint": "used",
+      "seller": "セカンドストリートYahoo!店",
+      "url": "https://store.shopping.yahoo.co.jp/ssol-shopping/2302246715679.html",
+      "image_url": "https://item-shopping.c.yimg.jp/i/j/ssol-shopping_2302246715679",
+      "jan_code": null,
+      "size_cm_hint": 28.5,
+      "observed_at": "2026-11-17T13:13:33+09:00",
+      "source": "Yahoo! Shopping API v3",
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "DJ0950-115",
@@ -2564,25 +3057,31 @@
       "seller": "セカンドストリートYahoo!店",
       "url": "https://store.shopping.yahoo.co.jp/ssol-shopping/2329875194309.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/ssol-shopping_2329875194309",
+      "jan_code": null,
       "size_cm_hint": 25.0,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "DJ0950-119",
       "name": "27cm 未使用品 NIKE × OFF-WHITE ナイキ オフホワイト DUNK LOW The 50 Collection 1 of 50 ’19' ダンク ロウ US9 DJ0950-119/● メンズ",
-      "price_jpy": 25000,
+      "price_jpy": 24500,
       "price_kind": "listing",
       "verification": "pending",
       "condition_hint": "new",
       "seller": "ブランド古着販売のベクトル",
       "url": "https://store.shopping.yahoo.co.jp/vectorpremium/004-202205040090.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/vectorpremium_004-202205040090",
+      "jan_code": null,
       "size_cm_hint": 27.0,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "DJ0950-119",
@@ -2594,10 +3093,13 @@
       "seller": "RINKAN",
       "url": "https://store.shopping.yahoo.co.jp/rinkan/15379-261030-0351.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/rinkan_15379-261030-0351",
+      "jan_code": null,
       "size_cm_hint": 27.0,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "DJ0950-119",
@@ -2609,10 +3111,13 @@
       "seller": "セカンドストリートYahoo!店",
       "url": "https://store.shopping.yahoo.co.jp/ssol-shopping/2339245302616.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/ssol-shopping_2339245302616",
+      "jan_code": null,
       "size_cm_hint": 27.0,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "DJ0950-119",
@@ -2624,10 +3129,13 @@
       "seller": "セカンドストリートYahoo!店",
       "url": "https://store.shopping.yahoo.co.jp/ssol-shopping/2340394008281.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/ssol-shopping_2340394008281",
+      "jan_code": null,
       "size_cm_hint": 27.0,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "DJ0950-119",
@@ -2639,10 +3147,13 @@
       "seller": "ToriDollJAPAN",
       "url": "https://store.shopping.yahoo.co.jp/orange-orange/g-dj0950-119.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/orange-orange_g-dj0950-119",
+      "jan_code": null,
       "size_cm_hint": null,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "DM1602-101",
@@ -2654,10 +3165,13 @@
       "seller": "ブランド古着販売のベクトル",
       "url": "https://store.shopping.yahoo.co.jp/vectorpremium/037-902506190014.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/vectorpremium_037-902506190014",
+      "jan_code": null,
       "size_cm_hint": 26.5,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "DM1602-101",
@@ -2669,10 +3183,13 @@
       "seller": "セカンドストリートYahoo!店",
       "url": "https://store.shopping.yahoo.co.jp/ssol-shopping/2324239064632.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/ssol-shopping_2324239064632",
+      "jan_code": null,
       "size_cm_hint": 27.0,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "DM1602-101",
@@ -2684,10 +3201,13 @@
       "seller": "ブランド古着販売のベクトル",
       "url": "https://store.shopping.yahoo.co.jp/vectorpremium/213-902609060013.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/vectorpremium_213-902609060013",
+      "jan_code": null,
       "size_cm_hint": 25.0,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "DM1602-101",
@@ -2699,10 +3219,13 @@
       "seller": "セカンドストリートYahoo!店",
       "url": "https://store.shopping.yahoo.co.jp/ssol-shopping/2320005552020.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/ssol-shopping_2320005552020",
+      "jan_code": null,
       "size_cm_hint": 28.0,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "DM1602-101",
@@ -2714,10 +3237,13 @@
       "seller": "ToriDollJAPAN",
       "url": "https://store.shopping.yahoo.co.jp/orange-orange/g-dm1602-101.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/orange-orange_g-dm1602-101",
+      "jan_code": null,
       "size_cm_hint": null,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "DM1602-107",
@@ -2729,10 +3255,13 @@
       "seller": "Rehello by BOOKOFF",
       "url": "https://store.shopping.yahoo.co.jp/hugall/rc-it2xcwwdkgv4-imeh.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/hugall_rc-it2xcwwdkgv4-imeh",
+      "jan_code": null,
       "size_cm_hint": null,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "DM1602-107",
@@ -2744,10 +3273,13 @@
       "seller": "CARMAK-2nd",
       "url": "https://store.shopping.yahoo.co.jp/carmak-2nd/shu-1114.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/carmak-2nd_shu-1114",
+      "jan_code": null,
       "size_cm_hint": null,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "DM1602-107",
@@ -2759,10 +3291,13 @@
       "seller": "セカンドストリートYahoo!店",
       "url": "https://store.shopping.yahoo.co.jp/ssol-shopping/2347621995765.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/ssol-shopping_2347621995765",
+      "jan_code": null,
       "size_cm_hint": 26.0,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "DM1602-107",
@@ -2774,10 +3309,13 @@
       "seller": "セカンドストリートYahoo!店",
       "url": "https://store.shopping.yahoo.co.jp/ssol-shopping/2347370045834.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/ssol-shopping_2347370045834",
+      "jan_code": null,
       "size_cm_hint": 26.5,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "DM1602-107",
@@ -2789,10 +3327,13 @@
       "seller": "セカンドストリートYahoo!店",
       "url": "https://store.shopping.yahoo.co.jp/ssol-shopping/2345982194285.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/ssol-shopping_2345982194285",
+      "jan_code": null,
       "size_cm_hint": 27.0,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "DM1602-107",
@@ -2804,10 +3345,13 @@
       "seller": "セカンドストリートYahoo!店",
       "url": "https://store.shopping.yahoo.co.jp/ssol-shopping/2319553433165.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/ssol-shopping_2319553433165",
+      "jan_code": null,
       "size_cm_hint": 26.5,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "DM1602-107",
@@ -2819,10 +3363,13 @@
       "seller": "セカンドストリートYahoo!店",
       "url": "https://store.shopping.yahoo.co.jp/ssol-shopping/2332832376847.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/ssol-shopping_2332832376847",
+      "jan_code": null,
       "size_cm_hint": 27.0,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "DM1602-107",
@@ -2834,10 +3381,13 @@
       "seller": "ToriDollJAPAN",
       "url": "https://store.shopping.yahoo.co.jp/orange-orange/g-dm1602-107.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/orange-orange_g-dm1602-107",
+      "jan_code": null,
       "size_cm_hint": null,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "DM1602-107",
@@ -2849,10 +3399,13 @@
       "seller": "ワンダーレックスヤフー店",
       "url": "https://store.shopping.yahoo.co.jp/wonderrex-ec/9264691899034.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/wonderrex-ec_9264691899034",
+      "jan_code": null,
       "size_cm_hint": null,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "DM1602-127",
@@ -2864,10 +3417,13 @@
       "seller": "スリフト",
       "url": "https://store.shopping.yahoo.co.jp/thrift-webshop/a-148-wt5266-19.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/thrift-webshop_a-148-wt5266-19",
+      "jan_code": null,
       "size_cm_hint": 27.5,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "DM1602-127",
@@ -2879,10 +3435,13 @@
       "seller": "RINKAN",
       "url": "https://store.shopping.yahoo.co.jp/rinkan/15379-260607-0192.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/rinkan_15379-260607-0192",
+      "jan_code": null,
       "size_cm_hint": 26.5,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "DM1602-127",
@@ -2894,10 +3453,13 @@
       "seller": "買取MOTTO",
       "url": "https://store.shopping.yahoo.co.jp/motto-motto/89322a.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/motto-motto_89322a",
+      "jan_code": null,
       "size_cm_hint": 27.0,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "DM1602-127",
@@ -2909,10 +3471,13 @@
       "seller": "RINKAN",
       "url": "https://store.shopping.yahoo.co.jp/rinkan/15379-251031-0040.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/rinkan_15379-251031-0040",
+      "jan_code": null,
       "size_cm_hint": 28.0,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "DM1602-127",
@@ -2924,10 +3489,13 @@
       "seller": "スリフト",
       "url": "https://store.shopping.yahoo.co.jp/thrift-webshop/a-148-wt5164-19.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/thrift-webshop_a-148-wt5164-19",
+      "jan_code": null,
       "size_cm_hint": 27.0,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "DM1602-127",
@@ -2939,10 +3507,13 @@
       "seller": "ToriDollJAPAN",
       "url": "https://store.shopping.yahoo.co.jp/orange-orange/g-dm1602-127.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/orange-orange_g-dm1602-127",
+      "jan_code": null,
       "size_cm_hint": null,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "DM1602-127",
@@ -2954,10 +3525,13 @@
       "seller": "ピックアップジャパン ヤフー店",
       "url": "https://store.shopping.yahoo.co.jp/pickupjapan/2010001297611.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/pickupjapan_2010001297611",
+      "jan_code": null,
       "size_cm_hint": 28.5,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "DN3400-001",
@@ -2969,25 +3543,13 @@
       "seller": "スニーカー専門店・Greening!",
       "url": "https://store.shopping.yahoo.co.jp/greening/dn3400-001.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/greening_dn3400-001",
+      "jan_code": null,
       "size_cm_hint": null,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
-    },
-    {
-      "watch_sku": "DN3400-001",
-      "name": "ナイキ NIKE SOLEFLY × AIR JORDAN 1 LOW OG SP BLACK SPORT RED BEIGE 28cm DN3400-001 AJ1 エア ジョーダン ロー ソールフライ ブラック",
-      "price_jpy": 28600,
-      "price_kind": "listing",
-      "verification": "pending",
-      "condition_hint": "used",
-      "seller": "ブランド古着販売のベクトル",
-      "url": "https://store.shopping.yahoo.co.jp/vectorpremium/037-902608310022.html",
-      "image_url": "https://item-shopping.c.yimg.jp/i/j/vectorpremium_037-902608310022",
-      "size_cm_hint": 28.0,
-      "observed_at": "2026-11-16T10:27:12+09:00",
-      "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "DN3400-001",
@@ -2999,25 +3561,31 @@
       "seller": "KICKS LAB.ヤフー店",
       "url": "https://store.shopping.yahoo.co.jp/lowtex/dn3400-001.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/lowtex_dn3400-001",
+      "jan_code": null,
       "size_cm_hint": null,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "DN3400-001",
-      "name": "NIKE◆AIR JORDAN 1 RETRO LOW OG/28.5cm/マルチカラー/DN3400-001",
-      "price_jpy": 14960,
+      "name": "ナイキ NIKE SOLEFLY × AIR JORDAN 1 LOW OG SP BLACK SPORT RED BEIGE 28cm DN3400-001 AJ1 エア ジョーダン ロー ソールフライ ブラック",
+      "price_jpy": 28600,
       "price_kind": "listing",
       "verification": "pending",
       "condition_hint": "used",
-      "seller": "セカンドストリートYahoo!店",
-      "url": "https://store.shopping.yahoo.co.jp/ssol-shopping/2332832830967.html",
-      "image_url": "https://item-shopping.c.yimg.jp/i/j/ssol-shopping_2332832830967",
-      "size_cm_hint": 28.5,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "seller": "ブランド古着販売のベクトル",
+      "url": "https://store.shopping.yahoo.co.jp/vectorpremium/037-902608310022.html",
+      "image_url": "https://item-shopping.c.yimg.jp/i/j/vectorpremium_037-902608310022",
+      "jan_code": null,
+      "size_cm_hint": 28.0,
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "DN3400-001",
@@ -3029,25 +3597,31 @@
       "seller": "スリフトWEB SHOP 2nd",
       "url": "https://store.shopping.yahoo.co.jp/thrift2nd/y154-830.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/thrift2nd_y154-830",
+      "jan_code": null,
       "size_cm_hint": 28.5,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "DN3400-001",
-      "name": "NIKE◆xSOLE FLY/ローカットスニーカー/26cm/RED/スウェード/DN3400-001",
-      "price_jpy": 12760,
+      "name": "NIKE◆AIR JORDAN 1 RETRO LOW OG/28.5cm/マルチカラー/DN3400-001",
+      "price_jpy": 14960,
       "price_kind": "listing",
       "verification": "pending",
       "condition_hint": "used",
       "seller": "セカンドストリートYahoo!店",
-      "url": "https://store.shopping.yahoo.co.jp/ssol-shopping/2320163852383.html",
-      "image_url": "https://item-shopping.c.yimg.jp/i/j/ssol-shopping_2320163852383",
-      "size_cm_hint": 26.0,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "url": "https://store.shopping.yahoo.co.jp/ssol-shopping/2332832830967.html",
+      "image_url": "https://item-shopping.c.yimg.jp/i/j/ssol-shopping_2332832830967",
+      "jan_code": null,
+      "size_cm_hint": 28.5,
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "DN3400-001",
@@ -3059,10 +3633,31 @@
       "seller": "KOMEHYO ONLINESTORE Yahoo!店",
       "url": "https://store.shopping.yahoo.co.jp/komehyo/230-000-650-6598.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/komehyo_230-000-650-6598",
+      "jan_code": null,
       "size_cm_hint": null,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
+    },
+    {
+      "watch_sku": "DN3400-001",
+      "name": "NIKE◆xSOLE FLY/ローカットスニーカー/26cm/RED/スウェード/DN3400-001",
+      "price_jpy": 12760,
+      "price_kind": "listing",
+      "verification": "pending",
+      "condition_hint": "used",
+      "seller": "セカンドストリートYahoo!店",
+      "url": "https://store.shopping.yahoo.co.jp/ssol-shopping/2320163852383.html",
+      "image_url": "https://item-shopping.c.yimg.jp/i/j/ssol-shopping_2320163852383",
+      "jan_code": null,
+      "size_cm_hint": 26.0,
+      "observed_at": "2026-11-17T13:13:33+09:00",
+      "source": "Yahoo! Shopping API v3",
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "DN3400-001",
@@ -3074,10 +3669,13 @@
       "seller": "ToriDollJAPAN",
       "url": "https://store.shopping.yahoo.co.jp/orange-orange/g-dn3400-001.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/orange-orange_g-dn3400-001",
+      "jan_code": null,
       "size_cm_hint": null,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "DN3400-001",
@@ -3089,25 +3687,13 @@
       "seller": "KICKS LAB.アウトレット ヤフー店",
       "url": "https://store.shopping.yahoo.co.jp/lowtex-plus/dn3400-001.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/lowtex-plus_dn3400-001",
+      "jan_code": null,
       "size_cm_hint": null,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
-    },
-    {
-      "watch_sku": "DX5933-900",
-      "name": "【20,000円均一SALE】 NIKE SB DUNK LOW PRO 【BE TRUE】 ナイキ SB ダンク ロー プロ 海外限定 日本未発売 メンズ MULTI COLOR/PINK GAZE/SAIL DX5933-900",
-      "price_jpy": 20000,
-      "price_kind": "listing",
-      "verification": "pending",
-      "condition_hint": "new",
-      "seller": "KICKS LAB.アウトレット ヤフー店",
-      "url": "https://store.shopping.yahoo.co.jp/lowtex-plus/dx5933-900.html",
-      "image_url": "https://item-shopping.c.yimg.jp/i/j/lowtex-plus_dx5933-900",
-      "size_cm_hint": null,
-      "observed_at": "2026-11-16T10:27:12+09:00",
-      "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "DX5933-900",
@@ -3119,10 +3705,31 @@
       "seller": "KICKS LAB.ヤフー店",
       "url": "https://store.shopping.yahoo.co.jp/lowtex/dx5933-900.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/lowtex_dx5933-900",
+      "jan_code": null,
       "size_cm_hint": null,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
+    },
+    {
+      "watch_sku": "DX5933-900",
+      "name": "【20,000円均一SALE】 NIKE SB DUNK LOW PRO 【BE TRUE】 ナイキ SB ダンク ロー プロ 海外限定 日本未発売 メンズ MULTI COLOR/PINK GAZE/SAIL DX5933-900",
+      "price_jpy": 20000,
+      "price_kind": "listing",
+      "verification": "pending",
+      "condition_hint": "new",
+      "seller": "KICKS LAB.アウトレット ヤフー店",
+      "url": "https://store.shopping.yahoo.co.jp/lowtex-plus/dx5933-900.html",
+      "image_url": "https://item-shopping.c.yimg.jp/i/j/lowtex-plus_dx5933-900",
+      "jan_code": null,
+      "size_cm_hint": null,
+      "observed_at": "2026-11-17T13:13:33+09:00",
+      "source": "Yahoo! Shopping API v3",
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "DX5933-900",
@@ -3134,10 +3741,13 @@
       "seller": "セカンドストリートYahoo!店",
       "url": "https://store.shopping.yahoo.co.jp/ssol-shopping/2334893730125.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/ssol-shopping_2334893730125",
+      "jan_code": null,
       "size_cm_hint": 28.0,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "DX5933-900",
@@ -3149,10 +3759,13 @@
       "seller": "セカンドストリートYahoo!店",
       "url": "https://store.shopping.yahoo.co.jp/ssol-shopping/2345362371558.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/ssol-shopping_2345362371558",
+      "jan_code": null,
       "size_cm_hint": 25.5,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "DX5933-900",
@@ -3164,10 +3777,13 @@
       "seller": "ToriDollJAPAN",
       "url": "https://store.shopping.yahoo.co.jp/orange-orange/g-dx5933-900.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/orange-orange_g-dx5933-900",
+      "jan_code": null,
       "size_cm_hint": null,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "HQ3072-400",
@@ -3179,10 +3795,31 @@
       "seller": "カインドオルYahoo!店",
       "url": "https://store.shopping.yahoo.co.jp/kindal/8033002519173.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/kindal_8033002519173",
+      "jan_code": null,
       "size_cm_hint": null,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
+    },
+    {
+      "watch_sku": "HQ3072-400",
+      "name": "NIKE◆ローカットスニーカー/27cm/BRW/スウェード/HQ3072-400//",
+      "price_jpy": 17160,
+      "price_kind": "listing",
+      "verification": "pending",
+      "condition_hint": "used",
+      "seller": "セカンドストリートYahoo!店",
+      "url": "https://store.shopping.yahoo.co.jp/ssol-shopping/2347921217451.html",
+      "image_url": "https://item-shopping.c.yimg.jp/i/j/ssol-shopping_2347921217451",
+      "jan_code": null,
+      "size_cm_hint": 27.0,
+      "observed_at": "2026-11-17T13:13:33+09:00",
+      "source": "Yahoo! Shopping API v3",
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "HQ3072-400",
@@ -3194,10 +3831,13 @@
       "seller": "サンステップ Yahoo!店",
       "url": "https://store.shopping.yahoo.co.jp/sunstep/1-240001711655.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/sunstep_1-240001711655",
+      "jan_code": null,
       "size_cm_hint": 28.0,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "HQ3072-400",
@@ -3209,10 +3849,13 @@
       "seller": "スリフト",
       "url": "https://store.shopping.yahoo.co.jp/thrift-webshop/n-149-sh8803-04.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/thrift-webshop_n-149-sh8803-04",
+      "jan_code": null,
       "size_cm_hint": 28.5,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "HQ3072-400",
@@ -3224,25 +3867,31 @@
       "seller": "ブランド古着販売のベクトル",
       "url": "https://store.shopping.yahoo.co.jp/vectorpremium/037-902606250023.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/vectorpremium_037-902606250023",
+      "jan_code": null,
       "size_cm_hint": 29.0,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "HQ3072-400",
-      "name": "ナイキ トラヴィススコット サイズ:28.5cm Zoom Field Jaxx HQ3072-400 ズームフィールドジャックススニーカー 中古 BS99",
-      "price_jpy": 19041,
+      "name": "NIKE◆シューズ_HQ3072-400/28.5cm/BRW//",
+      "price_jpy": 14960,
       "price_kind": "listing",
       "verification": "pending",
       "condition_hint": "used",
-      "seller": "RINKAN",
-      "url": "https://store.shopping.yahoo.co.jp/rinkan/15379-261107-0292.html",
-      "image_url": "https://item-shopping.c.yimg.jp/i/j/rinkan_15379-261107-0292",
+      "seller": "セカンドストリートYahoo!店",
+      "url": "https://store.shopping.yahoo.co.jp/ssol-shopping/2229982330372.html",
+      "image_url": "https://item-shopping.c.yimg.jp/i/j/ssol-shopping_2229982330372",
+      "jan_code": null,
       "size_cm_hint": 28.5,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "HQ3072-400",
@@ -3254,25 +3903,31 @@
       "seller": "RINKAN",
       "url": "https://store.shopping.yahoo.co.jp/rinkan/15379-261014-0027.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/rinkan_15379-261014-0027",
+      "jan_code": null,
       "size_cm_hint": 26.5,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "HQ3072-400",
-      "name": "NIKE◆シューズ_HQ3072-400/27cm/BRW//",
-      "price_jpy": 12760,
+      "name": "ナイキ トラヴィススコット サイズ:28.5cm Zoom Field Jaxx HQ3072-400 ズームフィールドジャックススニーカー 中古 BS99",
+      "price_jpy": 19041,
       "price_kind": "listing",
       "verification": "pending",
       "condition_hint": "used",
-      "seller": "セカンドストリートYahoo!店",
-      "url": "https://store.shopping.yahoo.co.jp/ssol-shopping/2341946063512.html",
-      "image_url": "https://item-shopping.c.yimg.jp/i/j/ssol-shopping_2341946063512",
-      "size_cm_hint": 27.0,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "seller": "RINKAN",
+      "url": "https://store.shopping.yahoo.co.jp/rinkan/15379-261107-0292.html",
+      "image_url": "https://item-shopping.c.yimg.jp/i/j/rinkan_15379-261107-0292",
+      "jan_code": null,
+      "size_cm_hint": 28.5,
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "HQ3072-400",
@@ -3284,40 +3939,31 @@
       "seller": "Rehello by BOOKOFF",
       "url": "https://store.shopping.yahoo.co.jp/hugall/rc-ityn5luwd01c-cucs.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/hugall_rc-ityn5luwd01c-cucs",
+      "jan_code": null,
       "size_cm_hint": null,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "HQ3072-400",
-      "name": "【値下げ】NIKE スニーカー HQ3072-400 ブラウン×アイボリー サイズ：26.5 (EC)",
-      "price_jpy": 13750,
-      "price_kind": "listing",
-      "verification": "pending",
-      "condition_hint": "used",
-      "seller": "カインドオルYahoo!店",
-      "url": "https://store.shopping.yahoo.co.jp/kindal/8015001020591.html",
-      "image_url": "https://item-shopping.c.yimg.jp/i/j/kindal_8015001020591",
-      "size_cm_hint": null,
-      "observed_at": "2026-11-16T10:27:12+09:00",
-      "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
-    },
-    {
-      "watch_sku": "HQ3072-400",
-      "name": "NIKE◆ZOOM FIELD JAXX/ローカットスニーカー/28cm/BRW/HQ3072-400",
-      "price_jpy": 17160,
+      "name": "NIKE◆シューズ_HQ3072-400/27cm/BRW//",
+      "price_jpy": 12760,
       "price_kind": "listing",
       "verification": "pending",
       "condition_hint": "used",
       "seller": "セカンドストリートYahoo!店",
-      "url": "https://store.shopping.yahoo.co.jp/ssol-shopping/2325794119010.html",
-      "image_url": "https://item-shopping.c.yimg.jp/i/j/ssol-shopping_2325794119010",
-      "size_cm_hint": 28.0,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "url": "https://store.shopping.yahoo.co.jp/ssol-shopping/2341946063512.html",
+      "image_url": "https://item-shopping.c.yimg.jp/i/j/ssol-shopping_2341946063512",
+      "jan_code": null,
+      "size_cm_hint": 27.0,
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "HQ3073-100",
@@ -3329,10 +3975,13 @@
       "seller": "サンステップ Yahoo!店",
       "url": "https://store.shopping.yahoo.co.jp/sunstep/1-240001714787.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/sunstep_1-240001714787",
+      "jan_code": null,
       "size_cm_hint": 25.5,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "HQ3073-100",
@@ -3344,10 +3993,13 @@
       "seller": "サンステップ Yahoo!店",
       "url": "https://store.shopping.yahoo.co.jp/sunstep/1-240001697762.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/sunstep_1-240001697762",
+      "jan_code": null,
       "size_cm_hint": 27.5,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "HQ3073-100",
@@ -3359,10 +4011,13 @@
       "seller": "セカンドストリートYahoo!店",
       "url": "https://store.shopping.yahoo.co.jp/ssol-shopping/2319116716308.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/ssol-shopping_2319116716308",
+      "jan_code": null,
       "size_cm_hint": 29.0,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "HQ3073-100",
@@ -3374,10 +4029,13 @@
       "seller": "KICKS LAB.ヤフー店",
       "url": "https://store.shopping.yahoo.co.jp/lowtex/hq3073-100.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/lowtex_hq3073-100",
+      "jan_code": null,
       "size_cm_hint": null,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "HQ3073-100",
@@ -3389,10 +4047,13 @@
       "seller": "ブランド古着販売のベクトル",
       "url": "https://store.shopping.yahoo.co.jp/vectorpremium/065-202503240260.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/vectorpremium_065-202503240260",
+      "jan_code": null,
       "size_cm_hint": 26.0,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "HQ3073-100",
@@ -3404,10 +4065,13 @@
       "seller": "スリフト",
       "url": "https://store.shopping.yahoo.co.jp/thrift-webshop/n-149-sh8804-04.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/thrift-webshop_n-149-sh8804-04",
+      "jan_code": null,
       "size_cm_hint": 28.5,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "HQ3073-100",
@@ -3419,10 +4083,13 @@
       "seller": "ブランド古着販売のベクトル",
       "url": "https://store.shopping.yahoo.co.jp/vectorpremium/051-202507010335.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/vectorpremium_051-202507010335",
+      "jan_code": null,
       "size_cm_hint": null,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "HQ3073-100",
@@ -3434,10 +4101,13 @@
       "seller": "セカンドストリートYahoo!店",
       "url": "https://store.shopping.yahoo.co.jp/ssol-shopping/2339176044647.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/ssol-shopping_2339176044647",
+      "jan_code": null,
       "size_cm_hint": 27.5,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "HQ3073-100",
@@ -3449,25 +4119,31 @@
       "seller": "セカンドストリートYahoo!店",
       "url": "https://store.shopping.yahoo.co.jp/ssol-shopping/2347932014575.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/ssol-shopping_2347932014575",
+      "jan_code": null,
       "size_cm_hint": 27.5,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "HQ3073-100",
-      "name": "NIKE◆ローカットスニーカー_HQ3073-100/26.5cm/WHT",
-      "price_jpy": 20460,
+      "name": "NIKE◆ローカットスニーカー_HQ3073-100/27.5cm/WHT",
+      "price_jpy": 18260,
       "price_kind": "listing",
       "verification": "pending",
       "condition_hint": "used",
       "seller": "セカンドストリートYahoo!店",
-      "url": "https://store.shopping.yahoo.co.jp/ssol-shopping/2349580233988.html",
-      "image_url": "https://item-shopping.c.yimg.jp/i/j/ssol-shopping_2349580233988",
-      "size_cm_hint": 26.5,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "url": "https://store.shopping.yahoo.co.jp/ssol-shopping/2334926404078.html",
+      "image_url": "https://item-shopping.c.yimg.jp/i/j/ssol-shopping_2334926404078",
+      "jan_code": null,
+      "size_cm_hint": 27.5,
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "IO9508-200",
@@ -3479,10 +4155,13 @@
       "seller": "カインドオルYahoo!店",
       "url": "https://store.shopping.yahoo.co.jp/kindal/8001001119656.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/kindal_8001001119656",
+      "jan_code": null,
       "size_cm_hint": null,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "IO9508-200",
@@ -3494,10 +4173,13 @@
       "seller": "ブランド古着販売のベクトル",
       "url": "https://store.shopping.yahoo.co.jp/vectorpremium/037-902607130019.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/vectorpremium_037-902607130019",
+      "jan_code": null,
       "size_cm_hint": 28.0,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "IO9508-200",
@@ -3509,10 +4191,13 @@
       "seller": "KICKS LAB.ヤフー店",
       "url": "https://store.shopping.yahoo.co.jp/lowtex/io9508-200.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/lowtex_io9508-200",
+      "jan_code": null,
       "size_cm_hint": null,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "IO9508-200",
@@ -3524,10 +4209,13 @@
       "seller": "セカンドストリートYahoo!店",
       "url": "https://store.shopping.yahoo.co.jp/ssol-shopping/2335634650146.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/ssol-shopping_2335634650146",
+      "jan_code": null,
       "size_cm_hint": 27.0,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "IO9508-200",
@@ -3539,10 +4227,13 @@
       "seller": "セカンドストリートYahoo!店",
       "url": "https://store.shopping.yahoo.co.jp/ssol-shopping/2329474635111.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/ssol-shopping_2329474635111",
+      "jan_code": null,
       "size_cm_hint": 27.5,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "IO9508-200",
@@ -3554,10 +4245,13 @@
       "seller": "ToriDollJAPAN",
       "url": "https://store.shopping.yahoo.co.jp/orange-orange/g-io9508-200.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/orange-orange_g-io9508-200",
+      "jan_code": null,
       "size_cm_hint": null,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "IQ7604-101",
@@ -3569,10 +4263,13 @@
       "seller": "LTD Online",
       "url": "https://store.shopping.yahoo.co.jp/ltd-online/iq7604-101.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/ltd-online_iq7604-101",
+      "jan_code": null,
       "size_cm_hint": null,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "IQ7604-101",
@@ -3584,25 +4281,13 @@
       "seller": "LIMITED EDT",
       "url": "https://store.shopping.yahoo.co.jp/limited-edition/iq7604-101.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/limited-edition_iq7604-101",
+      "jan_code": null,
       "size_cm_hint": null,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
-    },
-    {
-      "watch_sku": "IQ7604-101",
-      "name": "ナイキ NIKE ×Travis Scott トラヴィス スコット AIR JORDAN 1 LOW エア ジョーダン 1 ロー セイル トロピカル ピンク IQ7604-101 27.5▲",
-      "price_jpy": 71500,
-      "price_kind": "listing",
-      "verification": "pending",
-      "condition_hint": "used",
-      "seller": "ブランド古着販売のベクトル",
-      "url": "https://store.shopping.yahoo.co.jp/vectorpremium/034-902606020008.html",
-      "image_url": "https://item-shopping.c.yimg.jp/i/j/vectorpremium_034-902606020008",
-      "size_cm_hint": null,
-      "observed_at": "2026-11-16T10:27:12+09:00",
-      "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "IQ7604-101",
@@ -3614,10 +4299,31 @@
       "seller": "RINKAN",
       "url": "https://store.shopping.yahoo.co.jp/rinkan/15379-261030-0174.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/rinkan_15379-261030-0174",
+      "jan_code": null,
       "size_cm_hint": null,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
+    },
+    {
+      "watch_sku": "IQ7604-101",
+      "name": "ナイキ NIKE ×Travis Scott トラヴィス スコット AIR JORDAN 1 LOW エア ジョーダン 1 ロー セイル トロピカル ピンク IQ7604-101 27.5▲",
+      "price_jpy": 71500,
+      "price_kind": "listing",
+      "verification": "pending",
+      "condition_hint": "used",
+      "seller": "ブランド古着販売のベクトル",
+      "url": "https://store.shopping.yahoo.co.jp/vectorpremium/034-902606020008.html",
+      "image_url": "https://item-shopping.c.yimg.jp/i/j/vectorpremium_034-902606020008",
+      "jan_code": null,
+      "size_cm_hint": null,
+      "observed_at": "2026-11-17T13:13:33+09:00",
+      "source": "Yahoo! Shopping API v3",
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "IQ7604-101",
@@ -3629,10 +4335,13 @@
       "seller": "KICKS LAB.ヤフー店",
       "url": "https://store.shopping.yahoo.co.jp/lowtex/iq7604-101.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/lowtex_iq7604-101",
+      "jan_code": null,
       "size_cm_hint": null,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "IQ7604-101",
@@ -3644,10 +4353,13 @@
       "seller": "ブランド古着販売のベクトル",
       "url": "https://store.shopping.yahoo.co.jp/vectorpremium/034-902609130028.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/vectorpremium_034-902609130028",
+      "jan_code": null,
       "size_cm_hint": null,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "IQ7604-101",
@@ -3659,10 +4371,13 @@
       "seller": "ブランド古着販売のベクトル",
       "url": "https://store.shopping.yahoo.co.jp/vectorpremium/037-902607150024.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/vectorpremium_037-902607150024",
+      "jan_code": null,
       "size_cm_hint": null,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "IQ7604-101",
@@ -3674,10 +4389,13 @@
       "seller": "ブランド古着販売のベクトル",
       "url": "https://store.shopping.yahoo.co.jp/vectorpremium/034-902608080013.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/vectorpremium_034-902608080013",
+      "jan_code": null,
       "size_cm_hint": null,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     },
     {
       "watch_sku": "IQ7604-101",
@@ -3689,10 +4407,85 @@
       "seller": "SHOES HOUSE KUZE",
       "url": "https://store.shopping.yahoo.co.jp/shkuze/iq7604-101.html",
       "image_url": "https://item-shopping.c.yimg.jp/i/j/shkuze_iq7604-101",
+      "jan_code": null,
       "size_cm_hint": null,
-      "observed_at": "2026-11-16T10:27:12+09:00",
+      "observed_at": "2026-11-17T13:13:33+09:00",
       "source": "Yahoo! Shopping API v3",
-      "warning": "未検証の出品価格候補。サイズ・状態・定価・真贋・出品内容を要確認。成約価格ではありません。"
+      "brand_hint": "Nike",
+      "collection_mode": "tracked",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
+    },
+    {
+      "watch_sku": "398846-31",
+      "name": "毎日発送 1世帯1点限り プーマ スピードキャット OG PUMA SPEEDCAT OG 398846-31 メンズ レディース スニーカー 茶色 ベージュ スエード",
+      "price_jpy": 15400,
+      "price_kind": "listing",
+      "verification": "pending",
+      "condition_hint": "new",
+      "seller": "スニーカー坊主",
+      "url": "https://store.shopping.yahoo.co.jp/sneaker-bouz/39884631.html",
+      "image_url": "https://item-shopping.c.yimg.jp/i/j/sneaker-bouz_39884631",
+      "jan_code": "4067983281006",
+      "size_cm_hint": null,
+      "observed_at": "2026-11-17T13:13:33+09:00",
+      "source": "Yahoo! Shopping API v3",
+      "brand_hint": "PUMA",
+      "collection_mode": "brand_discovery",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
+    },
+    {
+      "watch_sku": "398846-31",
+      "name": "プーマ puma スニーカー SPEEDCAT OG　398846-31 メンズ レディース",
+      "price_jpy": 15400,
+      "price_kind": "listing",
+      "verification": "pending",
+      "condition_hint": "new",
+      "seller": "ZOZOTOWN Yahoo!店",
+      "url": "https://store.shopping.yahoo.co.jp/zozo/94910891.html",
+      "image_url": "https://item-shopping.c.yimg.jp/i/j/zozo_94910891",
+      "jan_code": null,
+      "size_cm_hint": null,
+      "observed_at": "2026-11-17T13:13:33+09:00",
+      "source": "Yahoo! Shopping API v3",
+      "brand_hint": "PUMA",
+      "collection_mode": "brand_discovery",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
+    },
+    {
+      "watch_sku": "398846-31",
+      "name": "プーマ スピードキャット OG オートコーヒー フロステッドアイボリー PUMA SPEEDCAT OG HAUTE COFFEE-FROSTED IVORY 398846-31",
+      "price_jpy": 13499,
+      "price_kind": "listing",
+      "verification": "pending",
+      "condition_hint": "new",
+      "seller": "LTD Online",
+      "url": "https://store.shopping.yahoo.co.jp/ltd-online/398846-31.html",
+      "image_url": "https://item-shopping.c.yimg.jp/i/j/ltd-online_398846-31",
+      "jan_code": null,
+      "size_cm_hint": null,
+      "observed_at": "2026-11-17T13:13:33+09:00",
+      "source": "Yahoo! Shopping API v3",
+      "brand_hint": "PUMA",
+      "collection_mode": "brand_discovery",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
+    },
+    {
+      "watch_sku": "398846-94",
+      "name": "プーマ puma スニーカー SPEEDCAT OG　398846-94 メンズ レディース",
+      "price_jpy": 15400,
+      "price_kind": "listing",
+      "verification": "pending",
+      "condition_hint": "new",
+      "seller": "ZOZOTOWN Yahoo!店",
+      "url": "https://store.shopping.yahoo.co.jp/zozo/111008944.html",
+      "image_url": "https://item-shopping.c.yimg.jp/i/j/zozo_111008944",
+      "jan_code": null,
+      "size_cm_hint": null,
+      "observed_at": "2026-11-17T13:13:33+09:00",
+      "source": "Yahoo! Shopping API v3",
+      "brand_hint": "PUMA",
+      "collection_mode": "brand_discovery",
+      "warning": "未検証の出品価格候補。サイズ・状態・JAN・真贋を要確認。成約価格ではありません。"
     }
   ]
 }

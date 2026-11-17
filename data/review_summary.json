@@ -1,13 +1,26 @@
 {
-  "generated_at": "2026-11-16T10:27:12+09:00",
+  "generated_at": "2026-11-17T13:13:33+09:00",
   "data_status": "review_required",
-  "observed_candidates": 246,
-  "unique_listing_urls": 246,
+  "observed_candidates": 249,
+  "unique_listing_urls": 249,
+  "distinct_skus_in_listings": 32,
+  "valid_jan_listing_urls": 1,
+  "jan_coverage_pct": 0.4,
+  "jan_by_brand": {
+    "PUMA": 1
+  },
+  "listing_candidates_by_brand": {
+    "Nike": 245,
+    "PUMA": 4
+  },
+  "collector_duplicates_removed": 0,
   "possibly_size_labeled": 142,
-  "size_not_determined": 104,
+  "size_not_determined": 107,
   "api_condition_unknown": 0,
   "duplicate_urls_excluded": 0,
   "by_sku": {
+    "398846-31": 3,
+    "398846-94": 1,
     "CT0856-100": 10,
     "CZ8455-100": 8,
     "DD1391-100": 10,
@@ -23,7 +36,7 @@
     "DM7866-202": 10,
     "DN3400-001": 9,
     "DX5933-900": 5,
-    "DZ4137-106": 10,
+    "DZ4137-106": 9,
     "DZ4137-700": 10,
     "HF6061-400": 10,
     "HF8022-300": 9,
@@ -40,13 +53,5 @@
     "IQ7604-101": 9
   },
   "published_as_market_price": 0,
-  "note": "商品名中のcm表記は参考値で、型番・サイズ・状態・実物・税込区分・定価・成約の確認は未実施。ランキングへの自動公開はしません。",
-  "distinct_skus_in_listings": 30,
-  "valid_jan_listing_urls": 0,
-  "jan_coverage_pct": 0,
-  "jan_by_brand": {},
-  "listing_candidates_by_brand": {
-    "Nike": 246
-  },
-  "collector_duplicates_removed": 0
+  "note": "商品名中のcm表記は参考値で、型番・サイズ・状態・実物・税込区分・定価・成約の確認は未実施。ランキングへの自動公開はしません。"
 }
