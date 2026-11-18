@@ -83,7 +83,11 @@ def extract_skus(name, brand=None):
     # the search term, to reduce cross-brand model code contamination.
     if classify_brand(name) != brand:
         return []
-    return sorted(set(m.group(1).upper() for m in BRAND_PATTERNS[brand].finditer(name)))
+    matches = sorted(set(m.group(1).upper() for m in BRAND_PATTERNS[brand].finditer(name)))
+    # Multiple model codes in one title can describe color variants or a product
+    # family. Without verification, assigning one listing price to every code
+    # creates misleading cross-SKU candidates, so leave ambiguous titles out.
+    return matches if len(matches) == 1 else []
 
 def discover(payloads, existing, previous, observed_at):
     counts = {}
