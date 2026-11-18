@@ -101,21 +101,30 @@ def collect(key,queries,request=None,exploration_queries=None):
             row=listing(hit,sku,"tracked")
             if row:
                 result.append(row)
-    # Maximum two extra broad queries/day across brands; never auto-verify model identity.
+    # Query every configured brand once per collection, rotating through that
+    # brand's search themes. This gives each brand daily discovery coverage
+    # without auto-verifying model identity.
     topics=list(exploration_queries or [])
+    allowed_brands=("Nike","adidas","New Balance","ASICS","PUMA")
+    by_brand={brand:[] for brand in allowed_brands}
+    for topic in topics:
+        brand=str(topic["brand"])
+        query=str(topic["query"]).strip()
+        if brand not in allowed_brands or not 0<len(query)<=120:
+            raise ValueError("Invalid expansion query")
+        by_brand[brand].append(query)
     if topics:
         day=dt.datetime.fromisoformat(now).date().toordinal()
-        for i in range(min(2,len(topics))):
-            topic=topics[(day*2+i)%len(topics)]
-            brand=str(topic["brand"])
-            query=str(topic["query"]).strip()
-            if brand not in ("Nike","adidas","New Balance","ASICS","PUMA") or not 0<len(query)<=120:
-                raise ValueError("Invalid expansion query")
+        for brand in allowed_brands:
+            queries_for_brand=by_brand[brand]
+            if not queries_for_brand:
+                continue
+            query=queries_for_brand[day % len(queries_for_brand)]
             url=API+"?"+urllib.parse.urlencode({"appid":key,"query":query,"results":30,"in_stock":"true","image_size":300})
             try:
                 payload=request(url)
             except SystemExit:
-                print("Optional brand query rejected; keeping tracked candidates.")
+                print(f"Optional {brand} discovery query rejected; keeping other brand and tracked candidates.")
                 continue
             for hit in payload.get("hits",[]):
                 name=str(hit.get("name") or "")
