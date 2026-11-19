@@ -1,37 +1,17 @@
 {
-  "last_collection": "2026-11-18T12:10:50+09:00",
-  "observation_count": 883,
-  "new_observations": 250,
-  "unique_urls": 271,
+  "last_collection": "2026-11-19T11:51:50+09:00",
+  "observation_count": 1145,
+  "new_observations": 262,
+  "unique_urls": 289,
   "observed_listing_changes": [
     {
-      "watch_sku": "DJ0950-115",
-      "url": "https://store.shopping.yahoo.co.jp/kigaeru/372025095025.html",
-      "from_jpy": 18850,
-      "to_jpy": 17905,
-      "change_percent": -5.01,
-      "from_date": "2026-11-17T13:13:33+09:00",
-      "to_date": "2026-11-18T12:10:50+09:00",
-      "note": "同一URLの出品希望価格の変動。成約や市場全体の変動ではありません。"
-    },
-    {
-      "watch_sku": "DD1391-100",
-      "url": "https://store.shopping.yahoo.co.jp/vectorpremium/002-902611030044.html",
-      "from_jpy": 9600,
-      "to_jpy": 9200,
-      "change_percent": -4.17,
-      "from_date": "2026-11-17T13:13:33+09:00",
-      "to_date": "2026-11-18T12:10:50+09:00",
-      "note": "同一URLの出品希望価格の変動。成約や市場全体の変動ではありません。"
-    },
-    {
-      "watch_sku": "DM7866-200",
-      "url": "https://store.shopping.yahoo.co.jp/vectorpremium/002-902608220030.html",
-      "from_jpy": 51500,
-      "to_jpy": 49500,
-      "change_percent": -3.88,
-      "from_date": "2026-11-17T13:13:33+09:00",
-      "to_date": "2026-11-18T12:10:50+09:00",
+      "watch_sku": "KH9705",
+      "url": "https://store.shopping.yahoo.co.jp/zozo/111727942.html",
+      "from_jpy": 11550,
+      "to_jpy": 9889,
+      "change_percent": -14.38,
+      "from_date": "2026-11-18T12:10:50+09:00",
+      "to_date": "2026-11-19T11:51:50+09:00",
       "note": "同一URLの出品希望価格の変動。成約や市場全体の変動ではありません。"
     }
   ],
