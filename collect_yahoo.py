@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """Collect unverified Yahoo! Shopping listing candidates via official V3 API."""
+import time
 import datetime as dt
 import json,os,pathlib,re,urllib.parse,urllib.request,urllib.error
 from discover_skus import classify_brand, extract_skus
@@ -59,17 +60,28 @@ def dedupe_candidates(rows):
 
 def collect(key,queries,request=None,exploration_queries=None):
     def fetch(url):
-        try:
-            with urllib.request.urlopen(urllib.request.Request(url,headers={"User-Agent":"PremiumPulse/1.0"}),timeout=20) as resp:
-                return json.loads(resp.read(4000000).decode("utf-8"))
-        except urllib.error.HTTPError as e:
-            print(f"Yahoo Shopping API returned HTTP {e.code}.")
-            if e.code==403:
-                print("Check GitHub Actions Client ID secret and official API access.")
-            raise SystemExit(1) from None
+        for attempt in range(3):
+            time.sleep(2)
+            try:
+                with urllib.request.urlopen(urllib.request.Request(url,headers={"User-Agent":"PremiumPulse/1.0"}),timeout=20) as resp:
+                    return json.loads(resp.read(4000000).decode("utf-8"))
+            except urllib.error.HTTPError as e:
+                print(f"Yahoo Shopping API returned HTTP {e.code}.")
+                if e.code not in (429, 500, 502, 503, 504) or attempt == 2:
+                    raise SystemExit(1) from None
+                retry_after=(e.headers or {}).get("Retry-After", "")
+                delay=max(30*(2**attempt), int(retry_after) if retry_after.isdigit() else 0)
+                if delay > 300:
+                    raise SystemExit(1) from None
+                time.sleep(delay)
+            except (urllib.error.URLError, TimeoutError, ValueError):
+                print("Yahoo request failed; preserving previously collected data.")
+                raise SystemExit(1) from None
     request=request or fetch
     now=dt.datetime.now(dt.timezone(dt.timedelta(hours=9))).replace(microsecond=0).isoformat()
     result=[]
+    failed=False
+    successful=0
     blocked=("靴紐","シューレース","キーホルダー","ステッカー","インソール","ソックス","靴下")
     def listing(hit,sku,mode):
         name=str(hit.get("name") or "")
@@ -94,7 +106,13 @@ def collect(key,queries,request=None,exploration_queries=None):
         if not re.fullmatch(r"[A-Z0-9_.-]{4,32}",sku) or not 0<len(query)<=120:
             raise ValueError("Invalid watch query")
         url=API+"?"+urllib.parse.urlencode({"appid":key,"query":query,"results":10,"in_stock":"true","image_size":300})
-        for hit in request(url).get("hits",[]):
+        try:
+            payload=request(url)
+            successful+=1
+        except SystemExit:
+            failed=True
+            break
+        for hit in payload.get("hits",[]):
             name=str(hit.get("name") or "")
             if not re.search(r"(?<![A-Za-z0-9])"+re.escape(sku)+r"(?![A-Za-z0-9])",name,re.I):
                 continue
@@ -113,7 +131,7 @@ def collect(key,queries,request=None,exploration_queries=None):
         if brand not in allowed_brands or not 0<len(query)<=120:
             raise ValueError("Invalid expansion query")
         by_brand[brand].append(query)
-    if topics:
+    if topics and not failed:
         day=dt.datetime.fromisoformat(now).date().toordinal()
         for brand in allowed_brands:
             queries_for_brand=by_brand[brand]
@@ -123,9 +141,11 @@ def collect(key,queries,request=None,exploration_queries=None):
             url=API+"?"+urllib.parse.urlencode({"appid":key,"query":query,"results":30,"in_stock":"true","image_size":300})
             try:
                 payload=request(url)
+                successful+=1
             except SystemExit:
+                failed=True
                 print(f"Optional {brand} discovery query rejected; keeping other brand and tracked candidates.")
-                continue
+                break
             for hit in payload.get("hits",[]):
                 name=str(hit.get("name") or "")
                 if classify_brand(name)!=brand:
@@ -134,12 +154,14 @@ def collect(key,queries,request=None,exploration_queries=None):
                     row=listing(hit,sku,"brand_discovery")
                     if row:
                         result.append(row)
+    if failed and not successful:
+        raise SystemExit(1)
     unique=dedupe_candidates(result)
     removed=len(result)-len(unique)
     if removed:
         print(f"Excluded {removed} duplicate SKU/listing links.")
     return {"generated_at":now,"status":"unverified_candidates","source":"Yahoo! Shopping API v3",
-            "count":len(unique),"duplicates_removed":removed,"candidates":unique}
+            "partial":failed,"count":len(unique),"duplicates_removed":removed,"candidates":unique}
 
 def main():
     key=os.environ.get("YAHOO_SHOPPING_APP_ID","").strip()
@@ -149,6 +171,13 @@ def main():
     queries=json.loads((ROOT/"data/watch_queries.json").read_text(encoding="utf-8"))
     extra=json.loads((ROOT/'data/expansion_queries.json').read_text(encoding='utf-8'))
     result=collect(key,queries,exploration_queries=extra)
-    (ROOT/"data/review_candidates.json").write_text(json.dumps(result,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+    target=ROOT/"data/review_candidates.json"
+    if result.get("partial") and target.exists():
+        previous=json.loads(target.read_text(encoding="utf-8"))
+        rows=result["candidates"]
+        seen={(x["watch_sku"],canonical_listing_url(x["url"])) for x in rows}
+        rows.extend(x for x in previous.get("candidates",[]) if (x["watch_sku"],canonical_listing_url(x["url"])) not in seen)
+        result["count"]=len(rows)
+    target.write_text(json.dumps(result,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     print(f"Collected {result['count']} unverified candidates; never auto-published")
 if __name__=="__main__":main()
