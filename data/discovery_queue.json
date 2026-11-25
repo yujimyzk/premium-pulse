@@ -1,6 +1,6 @@
 {
   "status": "pending_review",
-  "updated_at": "2026-11-16T10:27:29+09:00",
+  "updated_at": "2026-11-25T13:40:40+09:00",
   "candidates": [
     {
       "sku": "FN6248-001",
@@ -11,7 +11,8 @@
       "sample_url": "https://store.shopping.yahoo.co.jp/lowtex-plus/fn6248-001.html",
       "sample_image_url": "https://item-shopping.c.yimg.jp/i/j/lowtex-plus_fn6248-001",
       "status": "pending_review",
-      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。",
+      "brand": "Nike"
     },
     {
       "sku": "HM0622-002",
@@ -22,7 +23,8 @@
       "sample_url": "https://store.shopping.yahoo.co.jp/lowtex/hm0622-002.html",
       "sample_image_url": "https://item-shopping.c.yimg.jp/i/j/lowtex_hm0622-002",
       "status": "pending_review",
-      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。",
+      "brand": "Nike"
     },
     {
       "sku": "HQ3825-001",
@@ -33,7 +35,8 @@
       "sample_url": "https://store.shopping.yahoo.co.jp/lowtex/hq3825-001.html",
       "sample_image_url": "https://item-shopping.c.yimg.jp/i/j/lowtex_hq3825-001",
       "status": "pending_review",
-      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。",
+      "brand": "Nike"
     },
     {
       "sku": "AA3834-100",
@@ -44,7 +47,8 @@
       "sample_url": "https://store.shopping.yahoo.co.jp/shkuze/aa3834-100.html",
       "sample_image_url": "https://item-shopping.c.yimg.jp/i/j/shkuze_aa3834-100",
       "status": "pending_review",
-      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。",
+      "brand": "Nike"
     },
     {
       "sku": "AQ2728-102",
@@ -55,7 +59,8 @@
       "sample_url": "https://store.shopping.yahoo.co.jp/ssol-shopping/2229995629302.html",
       "sample_image_url": "https://item-shopping.c.yimg.jp/i/j/ssol-shopping_2229995629302",
       "status": "pending_review",
-      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。",
+      "brand": "Nike"
     },
     {
       "sku": "AV5354-611",
@@ -66,7 +71,8 @@
       "sample_url": "https://store.shopping.yahoo.co.jp/bbtown/av5354-611.html",
       "sample_image_url": "https://item-shopping.c.yimg.jp/i/j/bbtown_av5354-611",
       "status": "pending_review",
-      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。",
+      "brand": "Nike"
     },
     {
       "sku": "BQ4422-600",
@@ -77,7 +83,8 @@
       "sample_url": "https://store.shopping.yahoo.co.jp/lowtex/bq4422-600.html",
       "sample_image_url": "https://item-shopping.c.yimg.jp/i/j/lowtex_bq4422-600",
       "status": "pending_review",
-      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。",
+      "brand": "Nike"
     },
     {
       "sku": "BQ6817-501",
@@ -88,7 +95,8 @@
       "sample_url": "https://store.shopping.yahoo.co.jp/kindal/8080000766733.html",
       "sample_image_url": "https://item-shopping.c.yimg.jp/i/j/kindal_8080000766733",
       "status": "pending_review",
-      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。",
+      "brand": "Nike"
     },
     {
       "sku": "BQ6931-802",
@@ -99,7 +107,8 @@
       "sample_url": "https://store.shopping.yahoo.co.jp/lowtex/bq6931-802.html",
       "sample_image_url": "https://item-shopping.c.yimg.jp/i/j/lowtex_bq6931-802",
       "status": "pending_review",
-      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。",
+      "brand": "Nike"
     },
     {
       "sku": "CK0687-001",
@@ -110,7 +119,8 @@
       "sample_url": "https://store.shopping.yahoo.co.jp/kigaeru/344693014008.html",
       "sample_image_url": "https://item-shopping.c.yimg.jp/i/j/kigaeru_344693014008",
       "status": "pending_review",
-      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。",
+      "brand": "Nike"
     },
     {
       "sku": "CN1084-200",
@@ -121,7 +131,8 @@
       "sample_url": "https://store.shopping.yahoo.co.jp/rinkan/15379-251205-0158.html",
       "sample_image_url": "https://item-shopping.c.yimg.jp/i/j/rinkan_15379-251205-0158",
       "status": "pending_review",
-      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。",
+      "brand": "Nike"
     },
     {
       "sku": "CN8607-002",
@@ -132,7 +143,8 @@
       "sample_url": "https://store.shopping.yahoo.co.jp/shkuze/cn8607-002.html",
       "sample_image_url": "https://item-shopping.c.yimg.jp/i/j/shkuze_cn8607-002",
       "status": "pending_review",
-      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。",
+      "brand": "Nike"
     },
     {
       "sku": "CT0856-600",
@@ -143,7 +155,8 @@
       "sample_url": "https://store.shopping.yahoo.co.jp/thrift-webshop/u-147-ut15243-11.html",
       "sample_image_url": "https://item-shopping.c.yimg.jp/i/j/thrift-webshop_u-147-ut15243-11",
       "status": "pending_review",
-      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。",
+      "brand": "Nike"
     },
     {
       "sku": "CT0856-700",
@@ -154,7 +167,8 @@
       "sample_url": "https://store.shopping.yahoo.co.jp/vectorpremium/004-202605310024.html",
       "sample_image_url": "https://item-shopping.c.yimg.jp/i/j/vectorpremium_004-202605310024",
       "status": "pending_review",
-      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。",
+      "brand": "Nike"
     },
     {
       "sku": "CT8529-063",
@@ -165,7 +179,8 @@
       "sample_url": "https://store.shopping.yahoo.co.jp/lowtex/ct8529-063.html",
       "sample_image_url": "https://item-shopping.c.yimg.jp/i/j/lowtex_ct8529-063",
       "status": "pending_review",
-      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。",
+      "brand": "Nike"
     },
     {
       "sku": "CU2804-100",
@@ -176,7 +191,8 @@
       "sample_url": "https://store.shopping.yahoo.co.jp/shkuze/cu2804-100.html",
       "sample_image_url": "https://item-shopping.c.yimg.jp/i/j/shkuze_cu2804-100",
       "status": "pending_review",
-      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。",
+      "brand": "Nike"
     },
     {
       "sku": "CV1635-002",
@@ -187,7 +203,8 @@
       "sample_url": "https://store.shopping.yahoo.co.jp/endor/cv1635-002.html",
       "sample_image_url": "https://item-shopping.c.yimg.jp/i/j/endor_cv1635-002",
       "status": "pending_review",
-      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。",
+      "brand": "Nike"
     },
     {
       "sku": "CZ0790-001",
@@ -198,7 +215,8 @@
       "sample_url": "https://store.shopping.yahoo.co.jp/lowtex/cz0790-001.html",
       "sample_image_url": "https://item-shopping.c.yimg.jp/i/j/lowtex_cz0790-001",
       "status": "pending_review",
-      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。",
+      "brand": "Nike"
     },
     {
       "sku": "CZ5127-001",
@@ -209,7 +227,8 @@
       "sample_url": "https://store.shopping.yahoo.co.jp/carmak-2nd/shu-1119.html",
       "sample_image_url": "https://item-shopping.c.yimg.jp/i/j/carmak-2nd_shu-1119",
       "status": "pending_review",
-      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。",
+      "brand": "Nike"
     },
     {
       "sku": "DA2728-100",
@@ -220,7 +239,8 @@
       "sample_url": "https://store.shopping.yahoo.co.jp/lowtex/da2728-100.html",
       "sample_image_url": "https://item-shopping.c.yimg.jp/i/j/lowtex_da2728-100",
       "status": "pending_review",
-      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。",
+      "brand": "Nike"
     },
     {
       "sku": "DC0774-101",
@@ -231,7 +251,8 @@
       "sample_url": "https://store.shopping.yahoo.co.jp/sneak/nike-dc0774-101.html",
       "sample_image_url": "https://item-shopping.c.yimg.jp/i/j/sneak_nike-dc0774-101",
       "status": "pending_review",
-      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。",
+      "brand": "Nike"
     },
     {
       "sku": "DC1788-100",
@@ -242,7 +263,8 @@
       "sample_url": "https://store.shopping.yahoo.co.jp/lowtex/dc1788-100.html",
       "sample_image_url": "https://item-shopping.c.yimg.jp/i/j/lowtex_dc1788-100",
       "status": "pending_review",
-      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。",
+      "brand": "Nike"
     },
     {
       "sku": "DD1391-600",
@@ -253,7 +275,8 @@
       "sample_url": "https://store.shopping.yahoo.co.jp/ltd-online/dd1391-600.html",
       "sample_image_url": "https://item-shopping.c.yimg.jp/i/j/ltd-online_dd1391-600",
       "status": "pending_review",
-      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。",
+      "brand": "Nike"
     },
     {
       "sku": "DD1503-101",
@@ -264,7 +287,8 @@
       "sample_url": "https://store.shopping.yahoo.co.jp/limited-edition/dd1503-101.html",
       "sample_image_url": "https://item-shopping.c.yimg.jp/i/j/limited-edition_dd1503-101",
       "status": "pending_review",
-      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。",
+      "brand": "Nike"
     },
     {
       "sku": "DJ0950-117",
@@ -275,7 +299,8 @@
       "sample_url": "https://store.shopping.yahoo.co.jp/ssol-shopping/2321483072260.html",
       "sample_image_url": "https://item-shopping.c.yimg.jp/i/j/ssol-shopping_2321483072260",
       "status": "pending_review",
-      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。",
+      "brand": "Nike"
     },
     {
       "sku": "DM1602-100",
@@ -286,7 +311,8 @@
       "sample_url": "https://store.shopping.yahoo.co.jp/thrift-webshop/u-147-ut15175-11.html",
       "sample_image_url": "https://item-shopping.c.yimg.jp/i/j/thrift-webshop_u-147-ut15175-11",
       "status": "pending_review",
-      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。",
+      "brand": "Nike"
     },
     {
       "sku": "DM1602-106",
@@ -297,7 +323,8 @@
       "sample_url": "https://store.shopping.yahoo.co.jp/hugall/rc-itj3kfc6bg94-hqje.html",
       "sample_image_url": "https://item-shopping.c.yimg.jp/i/j/hugall_rc-itj3kfc6bg94-hqje",
       "status": "pending_review",
-      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。",
+      "brand": "Nike"
     },
     {
       "sku": "DM1602-117",
@@ -308,7 +335,8 @@
       "sample_url": "https://store.shopping.yahoo.co.jp/thrift-webshop/u-147-ut14680-11.html",
       "sample_image_url": "https://item-shopping.c.yimg.jp/i/j/thrift-webshop_u-147-ut14680-11",
       "status": "pending_review",
-      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。",
+      "brand": "Nike"
     },
     {
       "sku": "DM1602-123",
@@ -319,7 +347,8 @@
       "sample_url": "https://store.shopping.yahoo.co.jp/wine-king/2777100000204131.html",
       "sample_image_url": "https://item-shopping.c.yimg.jp/i/j/wine-king_2777100000204131",
       "status": "pending_review",
-      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。",
+      "brand": "Nike"
     },
     {
       "sku": "DM7866-140",
@@ -330,7 +359,8 @@
       "sample_url": "https://store.shopping.yahoo.co.jp/rinkan/15379-260831-0210.html",
       "sample_image_url": "https://item-shopping.c.yimg.jp/i/j/rinkan_15379-260831-0210",
       "status": "pending_review",
-      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。",
+      "brand": "Nike"
     },
     {
       "sku": "DM7866-162",
@@ -341,7 +371,8 @@
       "sample_url": "https://store.shopping.yahoo.co.jp/rinkan/15379-260831-0424.html",
       "sample_image_url": "https://item-shopping.c.yimg.jp/i/j/rinkan_15379-260831-0424",
       "status": "pending_review",
-      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。",
+      "brand": "Nike"
     },
     {
       "sku": "DO5442-001",
@@ -352,7 +383,8 @@
       "sample_url": "https://store.shopping.yahoo.co.jp/lowtex/do5442-001.html",
       "sample_image_url": "https://item-shopping.c.yimg.jp/i/j/lowtex_do5442-001",
       "status": "pending_review",
-      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。",
+      "brand": "Nike"
     },
     {
       "sku": "DO5442-200",
@@ -363,7 +395,8 @@
       "sample_url": "https://store.shopping.yahoo.co.jp/lowtex/do5442-200.html",
       "sample_image_url": "https://item-shopping.c.yimg.jp/i/j/lowtex_do5442-200",
       "status": "pending_review",
-      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。",
+      "brand": "Nike"
     },
     {
       "sku": "DO5442-202",
@@ -374,7 +407,8 @@
       "sample_url": "https://store.shopping.yahoo.co.jp/lowtex/do5442-202.html",
       "sample_image_url": "https://item-shopping.c.yimg.jp/i/j/lowtex_do5442-202",
       "status": "pending_review",
-      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。",
+      "brand": "Nike"
     },
     {
       "sku": "DO9392-700",
@@ -385,7 +419,8 @@
       "sample_url": "https://store.shopping.yahoo.co.jp/rinkan/15379-260929-0161.html",
       "sample_image_url": "https://item-shopping.c.yimg.jp/i/j/rinkan_15379-260929-0161",
       "status": "pending_review",
-      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。",
+      "brand": "Nike"
     },
     {
       "sku": "DQ5130-400",
@@ -396,7 +431,8 @@
       "sample_url": "https://store.shopping.yahoo.co.jp/lowtex/dq5130-400.html",
       "sample_image_url": "https://item-shopping.c.yimg.jp/i/j/lowtex_dq5130-400",
       "status": "pending_review",
-      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。",
+      "brand": "Nike"
     },
     {
       "sku": "DQ8426-007",
@@ -407,7 +443,8 @@
       "sample_url": "https://store.shopping.yahoo.co.jp/lowtex/dq8426-007.html",
       "sample_image_url": "https://item-shopping.c.yimg.jp/i/j/lowtex_dq8426-007",
       "status": "pending_review",
-      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。",
+      "brand": "Nike"
     },
     {
       "sku": "DQ8426-132",
@@ -418,7 +455,8 @@
       "sample_url": "https://store.shopping.yahoo.co.jp/lowtex/dq8426-132.html",
       "sample_image_url": "https://item-shopping.c.yimg.jp/i/j/lowtex_dq8426-132",
       "status": "pending_review",
-      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。",
+      "brand": "Nike"
     },
     {
       "sku": "DZ4523-800",
@@ -429,7 +467,8 @@
       "sample_url": "https://store.shopping.yahoo.co.jp/ltd-online/dz4523-800.html",
       "sample_image_url": "https://item-shopping.c.yimg.jp/i/j/ltd-online_dz4523-800",
       "status": "pending_review",
-      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。",
+      "brand": "Nike"
     },
     {
       "sku": "FD1437-008",
@@ -440,7 +479,8 @@
       "sample_url": "https://store.shopping.yahoo.co.jp/lowtex/fd1437-008.html",
       "sample_image_url": "https://item-shopping.c.yimg.jp/i/j/lowtex_fd1437-008",
       "status": "pending_review",
-      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。",
+      "brand": "Nike"
     },
     {
       "sku": "FD8779-100",
@@ -451,7 +491,8 @@
       "sample_url": "https://store.shopping.yahoo.co.jp/reference/mo-260906-6.html",
       "sample_image_url": "https://item-shopping.c.yimg.jp/i/j/reference_mo-260906-6",
       "status": "pending_review",
-      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。",
+      "brand": "Nike"
     },
     {
       "sku": "FJ0445-001",
@@ -462,7 +503,8 @@
       "sample_url": "https://store.shopping.yahoo.co.jp/greening/fj0445-001.html",
       "sample_image_url": "https://item-shopping.c.yimg.jp/i/j/greening_fj0445-001",
       "status": "pending_review",
-      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。",
+      "brand": "Nike"
     },
     {
       "sku": "FJ1674-400",
@@ -473,7 +515,8 @@
       "sample_url": "https://store.shopping.yahoo.co.jp/kindal/8003001866028.html",
       "sample_image_url": "https://item-shopping.c.yimg.jp/i/j/kindal_8003001866028",
       "status": "pending_review",
-      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。",
+      "brand": "Nike"
     },
     {
       "sku": "FJ3460-012",
@@ -483,7 +526,8 @@
       "sample_name": "【30,000円均一SALE】 NIKE AIR JORDAN 14 RETRO SE ナイキ エア ジョーダン 14 SE レトロ 海外限定 日本未発売 FLINT GREY/STEALTH GREY/WHITE FJ3460-012",
       "sample_url": "https://store.shopping.yahoo.co.jp/lowtex/fj3460-012.html",
       "status": "pending_review",
-      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。",
+      "brand": "Nike"
     },
     {
       "sku": "FJ5737-001",
@@ -494,7 +538,8 @@
       "sample_url": "https://store.shopping.yahoo.co.jp/lowtex/fj5737-001.html",
       "sample_image_url": "https://item-shopping.c.yimg.jp/i/j/lowtex_fj5737-001",
       "status": "pending_review",
-      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。",
+      "brand": "Nike"
     },
     {
       "sku": "FQ1180-001",
@@ -505,7 +550,8 @@
       "sample_url": "https://store.shopping.yahoo.co.jp/kindal/8003001743589.html",
       "sample_image_url": "https://item-shopping.c.yimg.jp/i/j/kindal_8003001743589",
       "status": "pending_review",
-      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。",
+      "brand": "Nike"
     },
     {
       "sku": "FQ1759-104",
@@ -516,7 +562,8 @@
       "sample_url": "https://store.shopping.yahoo.co.jp/lowtex/fq1759-104.html",
       "sample_image_url": "https://item-shopping.c.yimg.jp/i/j/lowtex_fq1759-104",
       "status": "pending_review",
-      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。",
+      "brand": "Nike"
     },
     {
       "sku": "FQ8899-100",
@@ -527,7 +574,8 @@
       "sample_url": "https://store.shopping.yahoo.co.jp/ltd-online/fq8899-100.html",
       "sample_image_url": "https://item-shopping.c.yimg.jp/i/j/ltd-online_fq8899-100",
       "status": "pending_review",
-      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。",
+      "brand": "Nike"
     },
     {
       "sku": "FV1920-001",
@@ -538,7 +586,8 @@
       "sample_url": "https://store.shopping.yahoo.co.jp/golden-state/t08102626.html",
       "sample_image_url": "https://item-shopping.c.yimg.jp/i/j/golden-state_t08102626",
       "status": "pending_review",
-      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。",
+      "brand": "Nike"
     },
     {
       "sku": "FV4710-001",
@@ -549,7 +598,8 @@
       "sample_url": "https://store.shopping.yahoo.co.jp/endor/fv4710-001.html",
       "sample_image_url": "https://item-shopping.c.yimg.jp/i/j/endor_fv4710-001",
       "status": "pending_review",
-      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。",
+      "brand": "Nike"
     },
     {
       "sku": "FZ4811-001",
@@ -560,7 +610,8 @@
       "sample_url": "https://store.shopping.yahoo.co.jp/lowtex/fz4811-001.html",
       "sample_image_url": "https://item-shopping.c.yimg.jp/i/j/lowtex_fz4811-001",
       "status": "pending_review",
-      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。",
+      "brand": "Nike"
     },
     {
       "sku": "FZ8117-204",
@@ -570,7 +621,8 @@
       "sample_name": "ナイキ トラヴィススコット サイズ:24.5cm JUMPMAN JACK TR FZ8117-204 ジャンプマンジャックトレーナースニーカー 中古 BS99",
       "sample_url": "https://store.shopping.yahoo.co.jp/rinkan/15379-261028-0310.html",
       "status": "pending_review",
-      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。",
+      "brand": "Nike"
     },
     {
       "sku": "FZ8802-100",
@@ -581,7 +633,8 @@
       "sample_url": "https://store.shopping.yahoo.co.jp/orange-orange/g-fz8802-100.html",
       "sample_image_url": "https://item-shopping.c.yimg.jp/i/j/orange-orange_g-fz8802-100",
       "status": "pending_review",
-      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。",
+      "brand": "Nike"
     },
     {
       "sku": "HF3148-106",
@@ -592,7 +645,8 @@
       "sample_url": "https://store.shopping.yahoo.co.jp/ltd-online/hf3148-106.html",
       "sample_image_url": "https://item-shopping.c.yimg.jp/i/j/ltd-online_hf3148-106",
       "status": "pending_review",
-      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。",
+      "brand": "Nike"
     },
     {
       "sku": "HF3188-106",
@@ -603,7 +657,8 @@
       "sample_url": "https://store.shopping.yahoo.co.jp/lowtex/hf3188-106.html",
       "sample_image_url": "https://item-shopping.c.yimg.jp/i/j/lowtex_hf3188-106",
       "status": "pending_review",
-      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。",
+      "brand": "Nike"
     },
     {
       "sku": "HF3704-003",
@@ -614,7 +669,8 @@
       "sample_url": "https://store.shopping.yahoo.co.jp/orange-orange/g-hf3704-003.html",
       "sample_image_url": "https://item-shopping.c.yimg.jp/i/j/orange-orange_g-hf3704-003",
       "status": "pending_review",
-      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。",
+      "brand": "Nike"
     },
     {
       "sku": "HF5182-600",
@@ -625,7 +681,8 @@
       "sample_url": "https://store.shopping.yahoo.co.jp/lowtex/hf5182-600.html",
       "sample_image_url": "https://item-shopping.c.yimg.jp/i/j/lowtex_hf5182-600",
       "status": "pending_review",
-      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。",
+      "brand": "Nike"
     },
     {
       "sku": "HF8828-100",
@@ -636,7 +693,8 @@
       "sample_url": "https://store.shopping.yahoo.co.jp/lowtex/hf8828-100.html",
       "sample_image_url": "https://item-shopping.c.yimg.jp/i/j/lowtex_hf8828-100",
       "status": "pending_review",
-      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。",
+      "brand": "Nike"
     },
     {
       "sku": "HJ4131-200",
@@ -647,7 +705,8 @@
       "sample_url": "https://store.shopping.yahoo.co.jp/orange-orange/g-hj4131-200.html",
       "sample_image_url": "https://item-shopping.c.yimg.jp/i/j/orange-orange_g-hj4131-200",
       "status": "pending_review",
-      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。",
+      "brand": "Nike"
     },
     {
       "sku": "HJ5958-206",
@@ -658,7 +717,8 @@
       "sample_url": "https://store.shopping.yahoo.co.jp/lowtex/hj5958-206.html",
       "sample_image_url": "https://item-shopping.c.yimg.jp/i/j/lowtex_hj5958-206",
       "status": "pending_review",
-      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。",
+      "brand": "Nike"
     },
     {
       "sku": "HJ9152-100",
@@ -669,7 +729,8 @@
       "sample_url": "https://store.shopping.yahoo.co.jp/lowtex/hj9152-100.html",
       "sample_image_url": "https://item-shopping.c.yimg.jp/i/j/lowtex_hj9152-100",
       "status": "pending_review",
-      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。",
+      "brand": "Nike"
     },
     {
       "sku": "HM4824-002",
@@ -680,7 +741,8 @@
       "sample_url": "https://store.shopping.yahoo.co.jp/lowtex/hm4824-002.html",
       "sample_image_url": "https://item-shopping.c.yimg.jp/i/j/lowtex_hm4824-002",
       "status": "pending_review",
-      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。",
+      "brand": "Nike"
     },
     {
       "sku": "HM5837-100",
@@ -691,7 +753,8 @@
       "sample_url": "https://store.shopping.yahoo.co.jp/sunstep/1-240001714788.html",
       "sample_image_url": "https://item-shopping.c.yimg.jp/i/j/sunstep_1-240001714788",
       "status": "pending_review",
-      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。",
+      "brand": "Nike"
     },
     {
       "sku": "HM9236-001",
@@ -702,7 +765,8 @@
       "sample_url": "https://store.shopping.yahoo.co.jp/lowtex/hm9236-001.html",
       "sample_image_url": "https://item-shopping.c.yimg.jp/i/j/lowtex_hm9236-001",
       "status": "pending_review",
-      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。",
+      "brand": "Nike"
     },
     {
       "sku": "HQ1625-200",
@@ -713,7 +777,8 @@
       "sample_url": "https://store.shopping.yahoo.co.jp/orange-orange/g-hq1625-200.html",
       "sample_image_url": "https://item-shopping.c.yimg.jp/i/j/orange-orange_g-hq1625-200",
       "status": "pending_review",
-      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。",
+      "brand": "Nike"
     },
     {
       "sku": "HQ8487-300",
@@ -724,7 +789,8 @@
       "sample_url": "https://store.shopping.yahoo.co.jp/shkuze/hq8487-300.html",
       "sample_image_url": "https://item-shopping.c.yimg.jp/i/j/shkuze_hq8487-300",
       "status": "pending_review",
-      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。",
+      "brand": "Nike"
     },
     {
       "sku": "HV4091-006",
@@ -735,7 +801,8 @@
       "sample_url": "https://store.shopping.yahoo.co.jp/lowtex/hv4091-006.html",
       "sample_image_url": "https://item-shopping.c.yimg.jp/i/j/lowtex_hv4091-006",
       "status": "pending_review",
-      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。",
+      "brand": "Nike"
     },
     {
       "sku": "HV4091-102",
@@ -746,7 +813,8 @@
       "sample_url": "https://store.shopping.yahoo.co.jp/lowtex/hv4091-102.html",
       "sample_image_url": "https://item-shopping.c.yimg.jp/i/j/lowtex_hv4091-102",
       "status": "pending_review",
-      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。",
+      "brand": "Nike"
     },
     {
       "sku": "HV8293-100",
@@ -757,7 +825,8 @@
       "sample_url": "https://store.shopping.yahoo.co.jp/sunstep/1-240001710496.html",
       "sample_image_url": "https://item-shopping.c.yimg.jp/i/j/sunstep_1-240001710496",
       "status": "pending_review",
-      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。",
+      "brand": "Nike"
     },
     {
       "sku": "HV8563-600",
@@ -768,7 +837,8 @@
       "sample_url": "https://store.shopping.yahoo.co.jp/lowtex/hv8563-600.html",
       "sample_image_url": "https://item-shopping.c.yimg.jp/i/j/lowtex_hv8563-600",
       "status": "pending_review",
-      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。",
+      "brand": "Nike"
     },
     {
       "sku": "IB1667-001",
@@ -779,7 +849,8 @@
       "sample_url": "https://store.shopping.yahoo.co.jp/endor/ib1667-001.html",
       "sample_image_url": "https://item-shopping.c.yimg.jp/i/j/endor_ib1667-001",
       "status": "pending_review",
-      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。",
+      "brand": "Nike"
     },
     {
       "sku": "IB6397-001",
@@ -790,7 +861,8 @@
       "sample_url": "https://store.shopping.yahoo.co.jp/lowtex/ib6397-001.html",
       "sample_image_url": "https://item-shopping.c.yimg.jp/i/j/lowtex_ib6397-001",
       "status": "pending_review",
-      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。",
+      "brand": "Nike"
     },
     {
       "sku": "IF0670-002",
@@ -801,7 +873,8 @@
       "sample_url": "https://store.shopping.yahoo.co.jp/endor/if0670-002.html",
       "sample_image_url": "https://item-shopping.c.yimg.jp/i/j/endor_if0670-002",
       "status": "pending_review",
-      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。",
+      "brand": "Nike"
     },
     {
       "sku": "IF0673-001",
@@ -812,7 +885,8 @@
       "sample_url": "https://store.shopping.yahoo.co.jp/orange-orange/g-if0673-001.html",
       "sample_image_url": "https://item-shopping.c.yimg.jp/i/j/orange-orange_g-if0673-001",
       "status": "pending_review",
-      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。",
+      "brand": "Nike"
     },
     {
       "sku": "IH1871-800",
@@ -823,7 +897,8 @@
       "sample_url": "https://store.shopping.yahoo.co.jp/lowtex/ih1871-800.html",
       "sample_image_url": "https://item-shopping.c.yimg.jp/i/j/lowtex_ih1871-800",
       "status": "pending_review",
-      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。",
+      "brand": "Nike"
     },
     {
       "sku": "IH4363-100",
@@ -834,7 +909,8 @@
       "sample_url": "https://store.shopping.yahoo.co.jp/lowtex/ih4363-100.html",
       "sample_image_url": "https://item-shopping.c.yimg.jp/i/j/lowtex_ih4363-100",
       "status": "pending_review",
-      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。",
+      "brand": "Nike"
     },
     {
       "sku": "IH5074-010",
@@ -845,7 +921,8 @@
       "sample_url": "https://store.shopping.yahoo.co.jp/lowtex/ih5074-010.html",
       "sample_image_url": "https://item-shopping.c.yimg.jp/i/j/lowtex_ih5074-010",
       "status": "pending_review",
-      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。",
+      "brand": "Nike"
     },
     {
       "sku": "IM0465-500",
@@ -856,7 +933,8 @@
       "sample_url": "https://store.shopping.yahoo.co.jp/lowtex/im0465-500.html",
       "sample_image_url": "https://item-shopping.c.yimg.jp/i/j/lowtex_im0465-500",
       "status": "pending_review",
-      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。",
+      "brand": "Nike"
     },
     {
       "sku": "IM6639-600",
@@ -867,7 +945,8 @@
       "sample_url": "https://store.shopping.yahoo.co.jp/lowtex/im6639-600.html",
       "sample_image_url": "https://item-shopping.c.yimg.jp/i/j/lowtex_im6639-600",
       "status": "pending_review",
-      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。",
+      "brand": "Nike"
     },
     {
       "sku": "IM8814-001",
@@ -878,7 +957,8 @@
       "sample_url": "https://store.shopping.yahoo.co.jp/zozo/112514449.html",
       "sample_image_url": "https://item-shopping.c.yimg.jp/i/j/zozo_112514449",
       "status": "pending_review",
-      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。",
+      "brand": "Nike"
     },
     {
       "sku": "IM9569-600",
@@ -889,7 +969,8 @@
       "sample_url": "https://store.shopping.yahoo.co.jp/lowtex/im9569-600.html",
       "sample_image_url": "https://item-shopping.c.yimg.jp/i/j/lowtex_im9569-600",
       "status": "pending_review",
-      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。",
+      "brand": "Nike"
     },
     {
       "sku": "IO6256-400",
@@ -900,7 +981,8 @@
       "sample_url": "https://store.shopping.yahoo.co.jp/lowtex/io6256-400.html",
       "sample_image_url": "https://item-shopping.c.yimg.jp/i/j/lowtex_io6256-400",
       "status": "pending_review",
-      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。",
+      "brand": "Nike"
     },
     {
       "sku": "IO7847-001",
@@ -911,7 +993,8 @@
       "sample_url": "https://store.shopping.yahoo.co.jp/ltd-online/io7847-001.html",
       "sample_image_url": "https://item-shopping.c.yimg.jp/i/j/ltd-online_io7847-001",
       "status": "pending_review",
-      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。",
+      "brand": "Nike"
     },
     {
       "sku": "IO7847-002",
@@ -922,7 +1005,8 @@
       "sample_url": "https://store.shopping.yahoo.co.jp/ltd-online/io7847-002.html",
       "sample_image_url": "https://item-shopping.c.yimg.jp/i/j/ltd-online_io7847-002",
       "status": "pending_review",
-      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。",
+      "brand": "Nike"
     },
     {
       "sku": "IQ3342-100",
@@ -933,7 +1017,8 @@
       "sample_url": "https://store.shopping.yahoo.co.jp/ssol-shopping/2325924025945.html",
       "sample_image_url": "https://item-shopping.c.yimg.jp/i/j/ssol-shopping_2325924025945",
       "status": "pending_review",
-      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。",
+      "brand": "Nike"
     },
     {
       "sku": "IQ3920-001",
@@ -944,7 +1029,8 @@
       "sample_url": "https://store.shopping.yahoo.co.jp/thrift-webshop/u-147-ut15460-11.html",
       "sample_image_url": "https://item-shopping.c.yimg.jp/i/j/thrift-webshop_u-147-ut15460-11",
       "status": "pending_review",
-      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。",
+      "brand": "Nike"
     },
     {
       "sku": "IQ4109-700",
@@ -955,7 +1041,8 @@
       "sample_url": "https://store.shopping.yahoo.co.jp/lowtex/iq4109-700.html",
       "sample_image_url": "https://item-shopping.c.yimg.jp/i/j/lowtex_iq4109-700",
       "status": "pending_review",
-      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。",
+      "brand": "Nike"
     },
     {
       "sku": "IQ5321-121",
@@ -966,7 +1053,8 @@
       "sample_url": "https://store.shopping.yahoo.co.jp/lowtex/iq5321-121.html",
       "sample_image_url": "https://item-shopping.c.yimg.jp/i/j/lowtex_iq5321-121",
       "status": "pending_review",
-      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。",
+      "brand": "Nike"
     },
     {
       "sku": "IQ5341-100",
@@ -977,7 +1065,8 @@
       "sample_url": "https://store.shopping.yahoo.co.jp/billiejean/iq5341-100.html",
       "sample_image_url": "https://item-shopping.c.yimg.jp/i/j/billiejean_iq5341-100",
       "status": "pending_review",
-      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。",
+      "brand": "Nike"
     },
     {
       "sku": "IQ5706-400",
@@ -988,7 +1077,8 @@
       "sample_url": "https://store.shopping.yahoo.co.jp/shkuze/iq5706-400.html",
       "sample_image_url": "https://item-shopping.c.yimg.jp/i/j/shkuze_iq5706-400",
       "status": "pending_review",
-      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。",
+      "brand": "Nike"
     },
     {
       "sku": "IR0914-400",
@@ -999,7 +1089,8 @@
       "sample_url": "https://store.shopping.yahoo.co.jp/fedes/ir0914-400.html",
       "sample_image_url": "https://item-shopping.c.yimg.jp/i/j/fedes_ir0914-400",
       "status": "pending_review",
-      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。",
+      "brand": "Nike"
     },
     {
       "sku": "IR1848-400",
@@ -1010,7 +1101,8 @@
       "sample_url": "https://store.shopping.yahoo.co.jp/lowtex/ir1848-400.html",
       "sample_image_url": "https://item-shopping.c.yimg.jp/i/j/lowtex_ir1848-400",
       "status": "pending_review",
-      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。",
+      "brand": "Nike"
     },
     {
       "sku": "MK0275-008",
@@ -1021,7 +1113,8 @@
       "sample_url": "https://store.shopping.yahoo.co.jp/mandai-treasure/mk0275-008.html",
       "sample_image_url": "https://item-shopping.c.yimg.jp/i/j/mandai-treasure_mk0275-008",
       "status": "pending_review",
-      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。"
+      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。",
+      "brand": "Nike"
     }
   ]
 }
