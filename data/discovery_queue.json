@@ -1,7 +1,31 @@
 {
   "status": "pending_review",
-  "updated_at": "2026-11-25T13:40:40+09:00",
+  "updated_at": "2026-11-26T12:51:15+09:00",
   "candidates": [
+    {
+      "sku": "410661-01",
+      "brand": "PUMA",
+      "first_seen": "2026-11-26T12:51:15+09:00",
+      "last_seen": "2026-11-26T12:51:15+09:00",
+      "matching_listings": 4,
+      "sample_name": "PUMA プーマ BLACKPINK ROSE ロゼ SPEEDCAT VTG スピードキャット ビンテージ コラボ スニーカー レディース 410661-01 BLACK PINK",
+      "sample_url": "https://store.shopping.yahoo.co.jp/faithstore2017/410661.html",
+      "sample_image_url": "https://item-shopping.c.yimg.jp/i/j/faithstore2017_410661",
+      "status": "pending_review",
+      "note": "未確認の型番候補。商品種別・型番・サイズ・真贋を要確認。"
+    },
+    {
+      "sku": "410911-01",
+      "brand": "PUMA",
+      "first_seen": "2026-11-26T12:51:15+09:00",
+      "last_seen": "2026-11-26T12:51:15+09:00",
+      "matching_listings": 3,
+      "sample_name": "[BLACK FRIDAY SALE] PUMA × ROSE プーマ ロゼ Speedcat VTG スピードキャット VTG スニーカー 410911-01 赤 バーガンディ シューズ コラボ レディース メンズ",
+      "sample_url": "https://store.shopping.yahoo.co.jp/golden-state/t06102635.html",
+      "sample_image_url": "https://item-shopping.c.yimg.jp/i/j/golden-state_t06102635",
+      "status": "pending_review",
+      "note": "未確認の型番候補。商品種別・型番・サイズ・真贋を要確認。"
+    },
     {
       "sku": "FN6248-001",
       "first_seen": "2026-11-14T11:09:47+09:00",
@@ -37,6 +61,30 @@
       "status": "pending_review",
       "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。",
       "brand": "Nike"
+    },
+    {
+      "sku": "409733-01",
+      "brand": "PUMA",
+      "first_seen": "2026-11-26T12:51:15+09:00",
+      "last_seen": "2026-11-26T12:51:15+09:00",
+      "matching_listings": 2,
+      "sample_name": "プーマ PUMA スニーカー レディース スピードキャット たまごっち [409733-01 FW26Q4] SPEEDCAT TAMAGOTCHI コラボスニーカー ローカット 白 正規取扱店",
+      "sample_url": "https://store.shopping.yahoo.co.jp/mischief/10104839.html",
+      "sample_image_url": "https://item-shopping.c.yimg.jp/i/j/mischief_10104839",
+      "status": "pending_review",
+      "note": "未確認の型番候補。商品種別・型番・サイズ・真贋を要確認。"
+    },
+    {
+      "sku": "409733-02",
+      "brand": "PUMA",
+      "first_seen": "2026-11-26T12:51:15+09:00",
+      "last_seen": "2026-11-26T12:51:15+09:00",
+      "matching_listings": 2,
+      "sample_name": "プーマ PUMA スニーカー レディース スピードキャット たまごっち 409733-02 SPEEDCAT コラボスニーカー ドライビングシューズ 薄底 PUMA-Black 正規取扱店",
+      "sample_url": "https://store.shopping.yahoo.co.jp/mischief/10104840.html",
+      "sample_image_url": "https://item-shopping.c.yimg.jp/i/j/mischief_10104840",
+      "status": "pending_review",
+      "note": "未確認の型番候補。商品種別・型番・サイズ・真贋を要確認。"
     },
     {
       "sku": "AA3834-100",
@@ -133,6 +181,18 @@
       "status": "pending_review",
       "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。",
       "brand": "Nike"
+    },
+    {
+      "sku": "CN2405-900",
+      "brand": "Nike",
+      "first_seen": "2026-11-26T12:51:15+09:00",
+      "last_seen": "2026-11-26T12:51:15+09:00",
+      "matching_listings": 1,
+      "sample_name": "ナイキ トラヴィススコット 26.5cm AIR FORCE 1 LOW CACTUS JACK CN2405-900 エアフォースワンローカクタスジャックスニーカー 中古 BS99",
+      "sample_url": "https://store.shopping.yahoo.co.jp/rinkan/15379-260512-0316.html",
+      "sample_image_url": "https://item-shopping.c.yimg.jp/i/j/rinkan_15379-260512-0316",
+      "status": "pending_review",
+      "note": "未確認の型番候補。商品種別・型番・サイズ・真贋を要確認。"
     },
     {
       "sku": "CN8607-002",
@@ -364,15 +424,15 @@
     },
     {
       "sku": "DM7866-162",
+      "brand": "Nike",
       "first_seen": "2026-11-13T12:29:19+09:00",
-      "last_seen": "2026-11-14T11:09:47+09:00",
+      "last_seen": "2026-11-26T12:51:15+09:00",
       "matching_listings": 1,
       "sample_name": "ナイキ トラヴィススコット 27cm AIR JORDAN 1 LOW OG REVERSE MOCHA DM7866-162 エアジョーダン1レトロロウオージースニーカー 中古 BS99",
       "sample_url": "https://store.shopping.yahoo.co.jp/rinkan/15379-260831-0424.html",
       "sample_image_url": "https://item-shopping.c.yimg.jp/i/j/rinkan_15379-260831-0424",
       "status": "pending_review",
-      "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。",
-      "brand": "Nike"
+      "note": "未確認の型番候補。商品種別・型番・サイズ・真贋を要確認。"
     },
     {
       "sku": "DO5442-001",
@@ -1105,6 +1165,30 @@
       "brand": "Nike"
     },
     {
+      "sku": "JJ7602-100",
+      "brand": "Nike",
+      "first_seen": "2026-11-26T12:51:15+09:00",
+      "last_seen": "2026-11-26T12:51:15+09:00",
+      "matching_listings": 1,
+      "sample_name": "JJ7602-100 トラヴィス・スコット / カクタスジャック × GTA VI × ナイキ エアフォース1 ロー '07 \"ホワイト\"",
+      "sample_url": "https://store.shopping.yahoo.co.jp/shkuze/jj7602-100.html",
+      "sample_image_url": "https://item-shopping.c.yimg.jp/i/j/shkuze_jj7602-100",
+      "status": "pending_review",
+      "note": "未確認の型番候補。商品種別・型番・サイズ・真贋を要確認。"
+    },
+    {
+      "sku": "JJ7604-001",
+      "brand": "Nike",
+      "first_seen": "2026-11-26T12:51:15+09:00",
+      "last_seen": "2026-11-26T12:51:15+09:00",
+      "matching_listings": 1,
+      "sample_name": "JJ7604-001 トラヴィス・スコット / カクタスジャック × GTA VI × ナイキ エアフォース1 ロー '07 RS \"ブラック\"",
+      "sample_url": "https://store.shopping.yahoo.co.jp/shkuze/jj7604-001.html",
+      "sample_image_url": "https://item-shopping.c.yimg.jp/i/j/shkuze_jj7604-001",
+      "status": "pending_review",
+      "note": "未確認の型番候補。商品種別・型番・サイズ・真贋を要確認。"
+    },
+    {
       "sku": "MK0275-008",
       "first_seen": "2026-11-14T11:09:47+09:00",
       "last_seen": "2026-11-14T11:09:47+09:00",
@@ -1115,6 +1199,30 @@
       "status": "pending_review",
       "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。",
       "brand": "Nike"
+    },
+    {
+      "sku": "408101-01",
+      "brand": "PUMA",
+      "first_seen": "2026-11-26T12:51:15+09:00",
+      "last_seen": "2026-11-26T12:51:15+09:00",
+      "matching_listings": 1,
+      "sample_name": "SALE15%OFF プーマ PUMA PUMA×パワーパフガールズ スピードキャット スニーカー スニーカー 靴 ローカット コラボ 運動 スポーツ 軽量 408101-01",
+      "sample_url": "https://store.shopping.yahoo.co.jp/doubleheart/408101-01.html",
+      "sample_image_url": "https://item-shopping.c.yimg.jp/i/j/doubleheart_408101-01",
+      "status": "pending_review",
+      "note": "未確認の型番候補。商品種別・型番・サイズ・真贋を要確認。"
+    },
+    {
+      "sku": "408102-01",
+      "brand": "PUMA",
+      "first_seen": "2026-11-26T12:51:15+09:00",
+      "last_seen": "2026-11-26T12:51:15+09:00",
+      "matching_listings": 1,
+      "sample_name": "SALE15%OFF プーマ PUMA PUMA×パワーパフガールズ スピードキャット ゴー スニーカー 靴 ローカット コラボ 運動 スポーツ 軽量 408102-01",
+      "sample_url": "https://store.shopping.yahoo.co.jp/doubleheart/408102-01.html",
+      "sample_image_url": "https://item-shopping.c.yimg.jp/i/j/doubleheart_408102-01",
+      "status": "pending_review",
+      "note": "未確認の型番候補。商品種別・型番・サイズ・真贋を要確認。"
     }
   ]
 }

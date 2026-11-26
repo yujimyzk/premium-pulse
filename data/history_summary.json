@@ -1,167 +1,27 @@
 {
-  "last_collection": "2026-11-25T13:38:52+09:00",
-  "observation_count": 1453,
-  "new_observations": 308,
-  "unique_urls": 359,
+  "last_collection": "2026-11-26T12:49:30+09:00",
+  "observation_count": 1756,
+  "new_observations": 303,
+  "unique_urls": 405,
   "observed_listing_changes": [
     {
-      "watch_sku": "CT0856-100",
-      "url": "https://store.shopping.yahoo.co.jp/rinkan/15379-260307-0291.html",
-      "from_jpy": 28160,
-      "to_jpy": 39710,
-      "change_percent": 41.02,
-      "from_date": "2026-11-19T11:51:50+09:00",
-      "to_date": "2026-11-25T13:38:52+09:00",
+      "watch_sku": "DM1602-125",
+      "url": "https://store.shopping.yahoo.co.jp/ssol-shopping/2335042936535.html",
+      "from_jpy": 14960,
+      "to_jpy": 10560,
+      "change_percent": -29.41,
+      "from_date": "2026-11-25T13:38:52+09:00",
+      "to_date": "2026-11-26T12:49:30+09:00",
       "note": "同一URLの出品希望価格の変動。成約や市場全体の変動ではありません。"
     },
     {
-      "watch_sku": "DN3400-001",
-      "url": "https://store.shopping.yahoo.co.jp/vectorpremium/037-902608310022.html",
-      "from_jpy": 28600,
-      "to_jpy": 20900,
-      "change_percent": -26.92,
-      "from_date": "2026-11-19T11:51:50+09:00",
-      "to_date": "2026-11-25T13:38:52+09:00",
-      "note": "同一URLの出品希望価格の変動。成約や市場全体の変動ではありません。"
-    },
-    {
-      "watch_sku": "DH0690-200",
-      "url": "https://store.shopping.yahoo.co.jp/rinkan/15379-260205-0032.html",
-      "from_jpy": 25630,
-      "to_jpy": 30360,
-      "change_percent": 18.45,
-      "from_date": "2026-11-19T11:51:50+09:00",
-      "to_date": "2026-11-25T13:38:52+09:00",
-      "note": "同一URLの出品希望価格の変動。成約や市場全体の変動ではありません。"
-    },
-    {
-      "watch_sku": "CT0856-100",
-      "url": "https://store.shopping.yahoo.co.jp/ssol-shopping/2347990258768.html",
-      "from_jpy": 61160,
-      "to_jpy": 50160,
-      "change_percent": -17.99,
-      "from_date": "2026-11-19T11:51:50+09:00",
-      "to_date": "2026-11-25T13:38:52+09:00",
-      "note": "同一URLの出品希望価格の変動。成約や市場全体の変動ではありません。"
-    },
-    {
-      "watch_sku": "IQ7604-101",
-      "url": "https://store.shopping.yahoo.co.jp/vectorpremium/037-902607150024.html",
-      "from_jpy": 77000,
-      "to_jpy": 66000,
-      "change_percent": -14.29,
-      "from_date": "2026-11-19T11:51:50+09:00",
-      "to_date": "2026-11-25T13:38:52+09:00",
-      "note": "同一URLの出品希望価格の変動。成約や市場全体の変動ではありません。"
-    },
-    {
-      "watch_sku": "CT0856-100",
-      "url": "https://store.shopping.yahoo.co.jp/ssol-shopping/2333767078431.html",
-      "from_jpy": 39160,
-      "to_jpy": 33660,
-      "change_percent": -14.04,
-      "from_date": "2026-11-19T11:51:50+09:00",
-      "to_date": "2026-11-25T13:38:52+09:00",
-      "note": "同一URLの出品希望価格の変動。成約や市場全体の変動ではありません。"
-    },
-    {
-      "watch_sku": "IM9113-300",
-      "url": "https://store.shopping.yahoo.co.jp/vectorpremium/034-902609210012.html",
-      "from_jpy": 33000,
-      "to_jpy": 28600,
-      "change_percent": -13.33,
-      "from_date": "2026-11-19T11:51:50+09:00",
-      "to_date": "2026-11-25T13:38:52+09:00",
-      "note": "同一URLの出品希望価格の変動。成約や市場全体の変動ではありません。"
-    },
-    {
-      "watch_sku": "IO9508-200",
-      "url": "https://store.shopping.yahoo.co.jp/vectorpremium/037-902607130019.html",
-      "from_jpy": 18700,
-      "to_jpy": 16500,
-      "change_percent": -11.76,
-      "from_date": "2026-11-19T11:51:50+09:00",
-      "to_date": "2026-11-25T13:38:52+09:00",
-      "note": "同一URLの出品希望価格の変動。成約や市場全体の変動ではありません。"
-    },
-    {
-      "watch_sku": "IM9113-300",
-      "url": "https://store.shopping.yahoo.co.jp/vectorpremium/165-402607240011.html",
-      "from_jpy": 26800,
-      "to_jpy": 23800,
-      "change_percent": -11.19,
-      "from_date": "2026-11-19T11:51:50+09:00",
-      "to_date": "2026-11-25T13:38:52+09:00",
-      "note": "同一URLの出品希望価格の変動。成約や市場全体の変動ではありません。"
-    },
-    {
-      "watch_sku": "CT0856-100",
-      "url": "https://store.shopping.yahoo.co.jp/thrift2nd/y154-813.html",
-      "from_jpy": 26330,
-      "to_jpy": 23700,
-      "change_percent": -9.99,
-      "from_date": "2026-11-19T11:51:50+09:00",
-      "to_date": "2026-11-25T13:38:52+09:00",
-      "note": "同一URLの出品希望価格の変動。成約や市場全体の変動ではありません。"
-    },
-    {
-      "watch_sku": "DN3400-001",
-      "url": "https://store.shopping.yahoo.co.jp/thrift2nd/y154-830.html",
-      "from_jpy": 18630,
-      "to_jpy": 16770,
-      "change_percent": -9.98,
-      "from_date": "2026-11-19T11:51:50+09:00",
-      "to_date": "2026-11-25T13:38:52+09:00",
-      "note": "同一URLの出品希望価格の変動。成約や市場全体の変動ではありません。"
-    },
-    {
-      "watch_sku": "DD1391-100",
-      "url": "https://store.shopping.yahoo.co.jp/thrift2nd/y154-737.html",
-      "from_jpy": 8550,
-      "to_jpy": 7700,
-      "change_percent": -9.94,
-      "from_date": "2026-11-19T11:51:50+09:00",
-      "to_date": "2026-11-25T13:38:52+09:00",
-      "note": "同一URLの出品希望価格の変動。成約や市場全体の変動ではありません。"
-    },
-    {
-      "watch_sku": "DD8386-001",
-      "url": "https://store.shopping.yahoo.co.jp/vectorpremium/037-902606220007.html",
-      "from_jpy": 35200,
-      "to_jpy": 31900,
-      "change_percent": -9.38,
-      "from_date": "2026-11-19T11:51:50+09:00",
-      "to_date": "2026-11-25T13:38:52+09:00",
-      "note": "同一URLの出品希望価格の変動。成約や市場全体の変動ではありません。"
-    },
-    {
-      "watch_sku": "HV1668-001",
-      "url": "https://store.shopping.yahoo.co.jp/kindal/8104000157411.html",
-      "from_jpy": 9570,
-      "to_jpy": 8690,
-      "change_percent": -9.2,
-      "from_date": "2026-11-19T11:51:50+09:00",
-      "to_date": "2026-11-25T13:38:52+09:00",
-      "note": "同一URLの出品希望価格の変動。成約や市場全体の変動ではありません。"
-    },
-    {
-      "watch_sku": "DM1602-101",
-      "url": "https://store.shopping.yahoo.co.jp/vectorpremium/213-902609060013.html",
-      "from_jpy": 13800,
-      "to_jpy": 12800,
-      "change_percent": -7.25,
-      "from_date": "2026-11-19T11:51:50+09:00",
-      "to_date": "2026-11-25T13:38:52+09:00",
-      "note": "同一URLの出品希望価格の変動。成約や市場全体の変動ではありません。"
-    },
-    {
-      "watch_sku": "IQ7604-101",
-      "url": "https://store.shopping.yahoo.co.jp/vectorpremium/034-902609130028.html",
-      "from_jpy": 75900,
-      "to_jpy": 71500,
-      "change_percent": -5.8,
-      "from_date": "2026-11-19T11:51:50+09:00",
-      "to_date": "2026-11-25T13:38:52+09:00",
+      "watch_sku": "HQ3073-100",
+      "url": "https://store.shopping.yahoo.co.jp/ssol-shopping/2319116716308.html",
+      "from_jpy": 12760,
+      "to_jpy": 10560,
+      "change_percent": -17.24,
+      "from_date": "2026-11-25T13:38:52+09:00",
+      "to_date": "2026-11-26T12:49:30+09:00",
       "note": "同一URLの出品希望価格の変動。成約や市場全体の変動ではありません。"
     },
     {
@@ -175,23 +35,13 @@
       "note": "同一URLの出品希望価格の変動。成約や市場全体の変動ではありません。"
     },
     {
-      "watch_sku": "DD1391-100",
-      "url": "https://store.shopping.yahoo.co.jp/vectorpremium/002-902611030044.html",
-      "from_jpy": 9200,
-      "to_jpy": 8800,
-      "change_percent": -4.35,
-      "from_date": "2026-11-19T11:51:50+09:00",
-      "to_date": "2026-11-25T13:38:52+09:00",
-      "note": "同一URLの出品希望価格の変動。成約や市場全体の変動ではありません。"
-    },
-    {
-      "watch_sku": "IQ7604-101",
-      "url": "https://store.shopping.yahoo.co.jp/vectorpremium/034-902608080013.html",
-      "from_jpy": 72600,
-      "to_jpy": 71500,
-      "change_percent": -1.52,
-      "from_date": "2026-11-19T11:51:50+09:00",
-      "to_date": "2026-11-25T13:38:52+09:00",
+      "watch_sku": "DM7866-200",
+      "url": "https://store.shopping.yahoo.co.jp/vectorpremium/002-902608220030.html",
+      "from_jpy": 49500,
+      "to_jpy": 48000,
+      "change_percent": -3.03,
+      "from_date": "2026-11-25T13:38:52+09:00",
+      "to_date": "2026-11-26T12:49:30+09:00",
       "note": "同一URLの出品希望価格の変動。成約や市場全体の変動ではありません。"
     }
   ],
