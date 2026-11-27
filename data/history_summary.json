@@ -1,27 +1,27 @@
 {
-  "last_collection": "2026-11-26T12:49:30+09:00",
-  "observation_count": 1756,
-  "new_observations": 303,
-  "unique_urls": 405,
+  "last_collection": "2026-11-27T12:50:33+09:00",
+  "observation_count": 2075,
+  "new_observations": 319,
+  "unique_urls": 464,
   "observed_listing_changes": [
     {
-      "watch_sku": "DM1602-125",
-      "url": "https://store.shopping.yahoo.co.jp/ssol-shopping/2335042936535.html",
-      "from_jpy": 14960,
-      "to_jpy": 10560,
-      "change_percent": -29.41,
-      "from_date": "2026-11-25T13:38:52+09:00",
-      "to_date": "2026-11-26T12:49:30+09:00",
+      "watch_sku": "CT0856-100",
+      "url": "https://store.shopping.yahoo.co.jp/vectorpremium/037-902510090022.html",
+      "from_jpy": 66000,
+      "to_jpy": 59400,
+      "change_percent": -10.0,
+      "from_date": "2026-11-26T12:49:30+09:00",
+      "to_date": "2026-11-27T12:50:33+09:00",
       "note": "同一URLの出品希望価格の変動。成約や市場全体の変動ではありません。"
     },
     {
-      "watch_sku": "HQ3073-100",
-      "url": "https://store.shopping.yahoo.co.jp/ssol-shopping/2319116716308.html",
-      "from_jpy": 12760,
-      "to_jpy": 10560,
-      "change_percent": -17.24,
-      "from_date": "2026-11-25T13:38:52+09:00",
-      "to_date": "2026-11-26T12:49:30+09:00",
+      "watch_sku": "DD8386-001",
+      "url": "https://store.shopping.yahoo.co.jp/kindal/8003001715975.html",
+      "from_jpy": 7260,
+      "to_jpy": 6600,
+      "change_percent": -9.09,
+      "from_date": "2026-11-26T12:49:30+09:00",
+      "to_date": "2026-11-27T12:50:33+09:00",
       "note": "同一URLの出品希望価格の変動。成約や市場全体の変動ではありません。"
     },
     {
@@ -32,16 +32,6 @@
       "change_percent": -5.31,
       "from_date": "2026-11-19T11:51:50+09:00",
       "to_date": "2026-11-25T13:38:52+09:00",
-      "note": "同一URLの出品希望価格の変動。成約や市場全体の変動ではありません。"
-    },
-    {
-      "watch_sku": "DM7866-200",
-      "url": "https://store.shopping.yahoo.co.jp/vectorpremium/002-902608220030.html",
-      "from_jpy": 49500,
-      "to_jpy": 48000,
-      "change_percent": -3.03,
-      "from_date": "2026-11-25T13:38:52+09:00",
-      "to_date": "2026-11-26T12:49:30+09:00",
       "note": "同一URLの出品希望価格の変動。成約や市場全体の変動ではありません。"
     }
   ],
