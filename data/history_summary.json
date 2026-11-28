@@ -1,29 +1,9 @@
 {
-  "last_collection": "2026-11-27T12:50:33+09:00",
-  "observation_count": 2075,
-  "new_observations": 319,
-  "unique_urls": 464,
+  "last_collection": "2026-11-28T12:36:01+09:00",
+  "observation_count": 2404,
+  "new_observations": 329,
+  "unique_urls": 532,
   "observed_listing_changes": [
-    {
-      "watch_sku": "CT0856-100",
-      "url": "https://store.shopping.yahoo.co.jp/vectorpremium/037-902510090022.html",
-      "from_jpy": 66000,
-      "to_jpy": 59400,
-      "change_percent": -10.0,
-      "from_date": "2026-11-26T12:49:30+09:00",
-      "to_date": "2026-11-27T12:50:33+09:00",
-      "note": "同一URLの出品希望価格の変動。成約や市場全体の変動ではありません。"
-    },
-    {
-      "watch_sku": "DD8386-001",
-      "url": "https://store.shopping.yahoo.co.jp/kindal/8003001715975.html",
-      "from_jpy": 7260,
-      "to_jpy": 6600,
-      "change_percent": -9.09,
-      "from_date": "2026-11-26T12:49:30+09:00",
-      "to_date": "2026-11-27T12:50:33+09:00",
-      "note": "同一URLの出品希望価格の変動。成約や市場全体の変動ではありません。"
-    },
     {
       "watch_sku": "DJ0950-119",
       "url": "https://store.shopping.yahoo.co.jp/vectorpremium/004-202205040090.html",

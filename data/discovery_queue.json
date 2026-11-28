@@ -1,6 +1,6 @@
 {
   "status": "pending_review",
-  "updated_at": "2026-11-27T12:52:15+09:00",
+  "updated_at": "2026-11-28T12:37:36+09:00",
   "candidates": [
     {
       "sku": "410661-01",
@@ -1331,6 +1331,114 @@
       "status": "pending_review",
       "note": "型番文字列の候補。商品が本物のスニーカーか、型番・モデルを要確認。",
       "brand": "Nike"
+    },
+    {
+      "sku": "374915-02",
+      "brand": "PUMA",
+      "first_seen": "2026-11-28T12:37:36+09:00",
+      "last_seen": "2026-11-28T12:37:36+09:00",
+      "matching_listings": 1,
+      "sample_name": "PUMA / プーマ 374915-02 SUEDE CLASSIC XXI スウェード クラシック スニーカー",
+      "sample_url": "https://store.shopping.yahoo.co.jp/kanful/g006331156.html",
+      "sample_image_url": "https://item-shopping.c.yimg.jp/i/j/kanful_g006331156",
+      "status": "pending_review",
+      "note": "未確認の型番候補。商品種別・型番・サイズ・真贋を要確認。"
+    },
+    {
+      "sku": "374915-07",
+      "brand": "PUMA",
+      "first_seen": "2026-11-28T12:37:36+09:00",
+      "last_seen": "2026-11-28T12:37:36+09:00",
+      "matching_listings": 1,
+      "sample_name": "PUMA / プーマ 374915-07 Suede Classic XXI スウェード クラシック スニーカー",
+      "sample_url": "https://store.shopping.yahoo.co.jp/kanful/g006334038.html",
+      "sample_image_url": "https://item-shopping.c.yimg.jp/i/j/kanful_g006334038",
+      "status": "pending_review",
+      "note": "未確認の型番候補。商品種別・型番・サイズ・真贋を要確認。"
+    },
+    {
+      "sku": "398846-09",
+      "brand": "PUMA",
+      "first_seen": "2026-11-28T12:37:36+09:00",
+      "last_seen": "2026-11-28T12:37:36+09:00",
+      "matching_listings": 1,
+      "sample_name": "【値下げ】PUMA スウェードスニーカー SPEEDCAT OG スピードキャット オージー 398846-09 ブラック・ライトピンク サイズ：24",
+      "sample_url": "https://store.shopping.yahoo.co.jp/kindal/8077000968700.html",
+      "sample_image_url": "https://item-shopping.c.yimg.jp/i/j/kindal_8077000968700",
+      "status": "pending_review",
+      "note": "未確認の型番候補。商品種別・型番・サイズ・真贋を要確認。"
+    },
+    {
+      "sku": "398846-91",
+      "brand": "PUMA",
+      "first_seen": "2026-11-28T12:37:36+09:00",
+      "last_seen": "2026-11-28T12:37:36+09:00",
+      "matching_listings": 1,
+      "sample_name": "プーマ スニーカー PUMA レディース &amp; メンズ スピードキャット OG Puma Black/Coffee Milk 限定 ( SPEEDCAT OG Limited ブラック 398846-91 )",
+      "sample_url": "https://store.shopping.yahoo.co.jp/icefield/pum-398846-91.html",
+      "sample_image_url": "https://item-shopping.c.yimg.jp/i/j/icefield_pum-398846-91",
+      "status": "pending_review",
+      "note": "未確認の型番候補。商品種別・型番・サイズ・真贋を要確認。"
+    },
+    {
+      "sku": "403651-01",
+      "brand": "PUMA",
+      "first_seen": "2026-11-28T12:37:36+09:00",
+      "last_seen": "2026-11-28T12:37:36+09:00",
+      "matching_listings": 1,
+      "sample_name": "プーマ スニーカー PUMA メンズ 男性用 リップンディップ スウェード XL Puma Jam/Warm White コラボ ( RIPNDIP SUEDE XL Limited 限定 403651-01 )",
+      "sample_url": "https://store.shopping.yahoo.co.jp/icefield/pum-403651-01.html",
+      "sample_image_url": "https://item-shopping.c.yimg.jp/i/j/icefield_pum-403651-01",
+      "status": "pending_review",
+      "note": "未確認の型番候補。商品種別・型番・サイズ・真贋を要確認。"
+    },
+    {
+      "sku": "404004-01",
+      "brand": "PUMA",
+      "first_seen": "2026-11-28T12:37:36+09:00",
+      "last_seen": "2026-11-28T12:37:36+09:00",
+      "matching_listings": 1,
+      "sample_name": "【限定別注モデル】 PUMA DELPHIN OG MIJ KL REW -Created by KICKS LAB.- プーマ デルフィン メイドインジャパン KL リワインド 404004-01",
+      "sample_url": "https://store.shopping.yahoo.co.jp/lowtex/404004-01.html",
+      "sample_image_url": "https://item-shopping.c.yimg.jp/i/j/lowtex_404004-01",
+      "status": "pending_review",
+      "note": "未確認の型番候補。商品種別・型番・サイズ・真贋を要確認。"
+    },
+    {
+      "sku": "404566-01",
+      "brand": "PUMA",
+      "first_seen": "2026-11-28T12:37:36+09:00",
+      "last_seen": "2026-11-28T12:37:36+09:00",
+      "matching_listings": 1,
+      "sample_name": "PUMA プーマ レディース スニーカー BELLA V BLUSH 404566-01 ベラV ブラッシュ バレエシューズ バレエコア 薄底スニーカー ローカット BLACK GRAY 女性用",
+      "sample_url": "https://store.shopping.yahoo.co.jp/a-dot/pm-40456601.html",
+      "sample_image_url": "https://item-shopping.c.yimg.jp/i/j/a-dot_pm-40456601",
+      "status": "pending_review",
+      "note": "未確認の型番候補。商品種別・型番・サイズ・真贋を要確認。"
+    },
+    {
+      "sku": "404566-03",
+      "brand": "PUMA",
+      "first_seen": "2026-11-28T12:37:36+09:00",
+      "last_seen": "2026-11-28T12:37:36+09:00",
+      "matching_listings": 1,
+      "sample_name": "PUMA プーマ レディース スニーカー BELLA V BLUSH 404566-03 シューズ ベラV ブラッシュ バレエシューズ バレエコア 薄底スニーカー ローカット IVORY WHITE",
+      "sample_url": "https://store.shopping.yahoo.co.jp/a-dot/pm-40456603.html",
+      "sample_image_url": "https://item-shopping.c.yimg.jp/i/j/a-dot_pm-40456603",
+      "status": "pending_review",
+      "note": "未確認の型番候補。商品種別・型番・サイズ・真贋を要確認。"
+    },
+    {
+      "sku": "407020-01",
+      "brand": "PUMA",
+      "first_seen": "2026-11-28T12:37:36+09:00",
+      "last_seen": "2026-11-28T12:37:36+09:00",
+      "matching_listings": 1,
+      "sample_name": "プーマ スニーカー PUMA レディース &amp; メンズ ポケモン スウェード ピカチュウ Energizing Yellow/Puma Black 限定 ( Pokemon SUEDE PIKACHU 407020-01 )",
+      "sample_url": "https://store.shopping.yahoo.co.jp/icefield/pum-407020-01.html",
+      "sample_image_url": "https://item-shopping.c.yimg.jp/i/j/icefield_pum-407020-01",
+      "status": "pending_review",
+      "note": "未確認の型番候補。商品種別・型番・サイズ・真贋を要確認。"
     },
     {
       "sku": "408101-01",
